@@ -57,37 +57,36 @@ set_convoys = 20
 	}
 }
 
+CUB = {
+	set_comsetic_tag = CUB_free_republic
+}
+
 set_politics = {
-	ruling_party = liberal
-	last_election = "1936.1.10"
+	ruling_party = authoritarian
+	last_election = "1911.1.10"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	liberal = 98
-	toilerist = 2
+	supremacist_nationalist = 15
+	imperial_aristocratic = 15
+	authoritarian = 25
+	conservative = 15
+	liberal = 10
+	progressive = 10
+	libertarian_socialist = 5
+	vanguardist = 3
+	toilerist = 1
+	vanguard_nationalist = 1
 }
 
 create_country_leader = {
-	name = "José Agripino Barnet"
-	desc = "POLITICS_JOSE_AGRIPINO_BARNET_DESC"
-	picture = "GFX_portrait_cuba_jose_barnet"
+	name = "John J. Pershing"
+	desc = "POLITICS_JOHN_J_PERSHING_DESC"
+	picture = "john_j_pershing.dds"
 	expire = "1965.1.1"
-	ideology = centrist_ideology
+	ideology = authoritarian_ideology
 	traits = {
 		#
-	}
-}
-
-1939.1.1 = {
-	create_country_leader = {
-		name = "Federico Laredo Brú"
-		desc = "POLITICS_FEDERICO_LAREDO_BRU_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-		expire = "1965.1.1"
-		ideology = progressive_ideology
-		traits = {
-			#
-		}
 	}
 }
