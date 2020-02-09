@@ -15,87 +15,39 @@ set_technology = {
 
 set_convoys = 5
 
-1939.1.1 = {
-
-	add_political_power = 1198
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	oob = "PHI_1939"
-	set_technology = {
-		gwtank = 1
-		basic_light_tank = 1
-		interwar_artillery = 1
-		interwar_antiair = 1
-		tech_recon = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		fuel_silos = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-}
 
 set_politics = {
-	ruling_party = liberal
+	ruling_party = authoritarian
 	last_election = "1935.9.15"
 	election_frequency = 72
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	liberal = 82
-	supremacist_nationalist = 9
-	toilerist = 9
+	supremacist_nationalist = 4
+	imperial_aristocratic = 5
+	authoritarian = 24
+	conservative = 11
+	liberal = 12
+	progressive = 14
+	libertarian_socialist = 7
+	vanguardist = 8
+	toilerist = 6
+	vanguard_nationalist = 9
 }
 
-create_country_leader = {
-	name = "Manuel Luis Quezón"
-	desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
-	picture = "gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon.dds"
-	expire = "1965.1.1"
-	ideology = right_libertarian
-	traits = {
-		#
+"PHI" = {
+	create_country_leader = {
+		name = "Austin M. Knight"
+		desc = "POLITICS_AUSTIN_M_KNIGHT_DESC"
+		picture = "Portrait_Austin_M_Knight.dds"
+		expire = "1965.1.1"
+		ideology = authoritarian_ideology
+		traits = {
+			#
+		}
 	}
+	
+	set_cosmetic_tag = PHI_usa
+	
 }
 
-create_country_leader = {
-	name = "Pedro P. Baguisa"
-	desc = "POLITICS_PEDRO_BAGUISA_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
-	expire = "1965.1.1"
-	ideology = vanguardist_ideology
-	traits = {
-		#
-	}
-}
