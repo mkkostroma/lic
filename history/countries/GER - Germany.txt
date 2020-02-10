@@ -282,7 +282,7 @@ create_import = {
 }
 
 set_politics = {
-	ruling_party = supremacist_nationalist
+	ruling_party = progressive
 	last_election = "1919.3.5"
 	election_frequency = 48
 	elections_allowed = yes
@@ -305,14 +305,11 @@ add_ideas = {
 	limited_conscription
 	partial_economic_mobilisation
 }
-add_ideas = GER_mefo_bills_1
-
-activate_mission = GER_mefo_bills_mission
 
 create_country_leader = {
 	name = "Adolf Hitler"
 	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "Portrait_Germany_Adolf_Hitler.dds"
+	picture = "Adolf_Hitler.dds"
 	expire = "1965.1.1"
 	ideology = vanguard_nationalist_ideology
 	traits = {
