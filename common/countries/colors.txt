@@ -479,6 +479,10 @@ CHP = {
 	color = rgb { 158 47 69  }
 	color_ui = rgb { 158 47 69  }
 }
+RUS = {
+	color = rgb { 111 160 83  }
+	color_ui = rgb { 111 160 83  }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
