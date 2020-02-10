@@ -76,26 +76,48 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	supremacist_nationalist = 2
+	supremacist_nationalist = 4
 	imperial_aristocratic = 4
-	authoritarian = 6
-	conservative = 4
-	liberal = 4
-	progressive = 3
-	libertarian_socialist = 24
-	vanguardist = 25
-	toilerist = 18
-	vanguard_nationalist = 10
+	authoritarian = 3
+	conservative = 19
+	liberal = 21
+	progressive = 5
+	libertarian_socialist = 19
+	vanguardist = 9
+	toilerist = 4
+	vanguard_nationalist = 12
 }
 
 
 
 create_country_leader = {
-	name = "Joseph Stalin"
-	desc = "POLITICS_JOSEPH_STALIN_DESC"
-	picture = "Portrait_Soviet_Joseph_Stalin.dds"
+	name = "Pavel Milyukov"
+	desc = "POLITICS_PAVEL_MILYUKOV_DESC"
+	picture = "Portrait_Pavel_Milyukov.dds"
 	expire = "1953.3.1"
-	ideology = toilerist_ideology
+	ideology = centrist_ideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Alexander Kerensky"
+	desc = "POLITICS_ALEXANDER_KERENSKY_DESC"
+	picture = "Portrait_Alexander_Kerensky.dds"
+	expire = "1953.3.1"
+	ideology = vanguardist_ideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Grigori Rasputin"
+	desc = "POLITICS_PAVEL_MILYUKOV_DESC"
+	picture = "Portrait_Grigori_Rasputin.dds"
+	expire = "1953.3.1"
+	ideology = vanguard_nationalist_ideology
 	traits = {
 		
 	}
