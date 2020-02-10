@@ -283,23 +283,24 @@ create_import = {
 
 set_politics = {
 	ruling_party = supremacist_nationalist
-	last_election = "1933.3.5"
+	last_election = "1919.3.5"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
-	liberal = 20
-	supremacist_nationalist = 60
-	toilerist = 20
+	supremacist_nationalist = 5
+	imperial_aristocratic = 10
+	authoritarian = 12
+	conservative = 15
+	liberal = 15
+	progressive = 15
+	libertarian_socialist = 15
+	vanguardist = 5
+	toilerist = 4
+	vanguard_nationalist = 6 
 }
 
-create_faction = Axis
-add_to_faction = GER
-
-
 add_ideas = {
-	sour_loser
-	general_staff
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
@@ -330,9 +331,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Wilhelm Pieck"
+	name = "Karl Radek"
 	desc = "POLITICS_WILHELM_PIECK_DESC"
-	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
+	picture = "karl_radek.dds"
 	expire = "1965.1.1"
 	ideology = toilerist_ideology
 	traits = {
@@ -340,9 +341,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Karl Radek"
+	name = "Ruth Fischer"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "hugo_hasse.dds"
+	picture = "ruth_fischer.dds"
 	expire = "1965.1.1"
 	ideology = libertarian_socialist_ideology
 	traits = {
@@ -352,9 +353,49 @@ create_country_leader = {
 create_country_leader = {
 	name = "Gustav Stresemann"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "hugo_hasse.dds"
+	picture = "gustav_stresemann.dds"
 	expire = "1965.1.1"
 	ideology = conservative_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Helene Lange"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "helene_lange.dds"
+	expire = "1965.1.1"
+	ideology = liberal_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ernest Augustus"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "ernest_augstus.dds"
+	expire = "1965.1.1"
+	ideology = imperial_aristocratic_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Oskar Hergt"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "oskar_hergt.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reinhold Wulle"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "reinhold_wulle.dds"
+	expire = "1965.1.1"
+	ideology = nationalist_supremacist_ideology
 	traits = {
 	}
 }
