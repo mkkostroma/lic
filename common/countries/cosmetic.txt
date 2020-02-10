@@ -221,3 +221,8 @@ HOL_benelux_unified = {
 	color = rgb { 255 128 0 }
 	color_ui = rgb { 255 128 0 }
 }
+
+FRA_French_Colony = {
+	color = rgb { 24 72 171 }
+	color_ui = rgb { 24 72 171 }
+}
