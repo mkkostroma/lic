@@ -539,3 +539,15 @@ D15 = {
 	color = rgb { 194 140 86 }
 	color_ui = rgb { 252 182 112 }
 }
+FAF = {
+	color = rgb { 24 72 171 }
+	color_ui = rgb { 24 72 171 }
+}
+FID = {
+	color = rgb { 24 72 171 }
+	color_ui = rgb { 24 72 171 }
+}
+MOR = {
+	color = rgb { 83 71 65 }
+	color_ui = rgb { 83 71 65 }
+}

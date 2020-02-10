@@ -70,7 +70,7 @@ create_country_leader = {
 	name = "Mohammed V"
 	desc = ""
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
-	ideology = authoritarian_ideology
+	ideology = imperial_aristocratic_ideology
 	traits = {
 		#
 	}
