@@ -1,8 +1,8 @@
 ﻿l_english:
 
- CHP_supremacist_imperial_aristocratic:0 "Salazarista Army"
- CHP_supremacist_imperial_aristocratic_DEF:0 "The Salazarista Army"
- CHP_supremacist_imperial_aristocratic_ADJ:0 "Salazarista"
+ CHP_supremacist_nationalist:0 "Salazarista Army"
+ CHP_supremacist_nationalist_DEF:0 "The Salazarista Army"
+ CHP_supremacist_nationalist_ADJ:0 "Salazarista"
  CHP_imperial_aristocratic:0 "Salazarista Army"
  CHP_imperial_aristocratic_DEF:0 "The Salazarista Army"
  CHP_imperial_aristocratic_ADJ:0 "Salazarista"
@@ -31,9 +31,9 @@
  CHP_vanguard_nationalist_DEF:0 "The Salazarista Army"
  CHP_vanguard_nationalist_ADJ:0 "Salazarista"
  
- CHP_MUoW_supremacist_imperial_aristocratic:0 "Mexican Union of Workers"
- CHP_MUoW_supremacist_imperial_aristocratic_DEF:0 "The Mexican Union of Workers"
- CHP_MUoW_supremacist_imperial_aristocratic_ADJ:0 "Mexican"
+ CHP_MUoW_supremacist_nationalist:0 "Mexican Union of Workers"
+ CHP_MUoW_supremacist_nationalist_DEF:0 "The Mexican Union of Workers"
+ CHP_MUoW_supremacist_nationalist_ADJ:0 "Mexican"
  CHP_MUoW_imperial_aristocratic:0 "Mexican Union of Workers"
  CHP_MUoW_imperial_aristocratic_DEF:0 "The Mexican Union of Workers"
  CHP_MUoW_imperial_aristocratic_ADJ:0 "Mexican"

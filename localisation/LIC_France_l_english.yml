@@ -1,9 +1,9 @@
 ﻿l_english:
 
  # COUNTRY NAMES
- FRA_supremacist_imperial_aristocratic:0 "National State of France"
- FRA_supremacist_imperial_aristocratic_DEF:0 "The National State of France"
- FRA_supremacist_imperial_aristocratic_ADJ:0 "French"
+ FRA_supremacist_nationalist:0 "National State of France"
+ FRA_supremacist_nationalist_DEF:0 "The National State of France"
+ FRA_supremacist_nationalist_ADJ:0 "French"
  FRA_imperial_aristocratic:0 "Second French Empire"
  FRA_imperial_aristocratic_DEF:0 "The Second French Empire"
  FRA_imperial_aristocratic_ADJ:0 "French"
@@ -32,9 +32,9 @@
  FRA_vanguard_nationalist_DEF:0 "The National Union of France"
  FRA_vanguard_nationalist_ADJ:0 "French"
 
- FAF_supremacist_imperial_aristocratic:0 "French African Administration"
- FAF_supremacist_imperial_aristocratic_DEF:0 "The French African Administration"
- FAF_supremacist_imperial_aristocratic_ADJ:0 "French African"
+ FAF_supremacist_nationalist:0 "French African Administration"
+ FAF_supremacist_nationalist_DEF:0 "The French African Administration"
+ FAF_supremacist_nationalist_ADJ:0 "French African"
  FAF_imperial_aristocratic:0 "French African Administration"
  FAF_imperial_aristocratic_DEF:0 "The French African Administration"
  FAF_imperial_aristocratic_ADJ:0 "French African"
@@ -63,9 +63,9 @@
  FAF_vanguard_nationalist_DEF:0 "The French African Administration"
  FAF_vanguard_nationalist_ADJ:0 "French African"
 
- FID_supremacist_imperial_aristocratic:0 "French Indochina"
- FID_supremacist_imperial_aristocratic_DEF:0 "The French Indochina"
- FID_supremacist_imperial_aristocratic_ADJ:0 "French Indochinese"
+ FID_supremacist_nationalist:0 "French Indochina"
+ FID_supremacist_nationalist_DEF:0 "The French Indochina"
+ FID_supremacist_nationalist_ADJ:0 "French Indochinese"
  FID_imperial_aristocratic:0 "French Indochina"
  FID_imperial_aristocratic_DEF:0 "The French Indochina"
  FID_imperial_aristocratic_ADJ:0 "French Indochinese"
@@ -94,9 +94,9 @@
  FID_vanguard_nationalist_DEF:0 "The French Indochina"
  FID_vanguard_nationalist_ADJ:0 "French Indochinese"
 
- MOR_supremacist_imperial_aristocratic:0 "Kingdom of Morocco"
- MOR_supremacist_imperial_aristocratic_DEF:0 "The Kingdom of Morocco"
- MOR_supremacist_imperial_aristocratic_ADJ:0 "Moroccan"
+ MOR_supremacist_nationalist:0 "Kingdom of Morocco"
+ MOR_supremacist_nationalist_DEF:0 "The Kingdom of Morocco"
+ MOR_supremacist_nationalist_ADJ:0 "Moroccan"
  MOR_imperial_aristocratic:0 "Kingdom of Morocco"
  MOR_imperial_aristocratic_DEF:0 "The Kingdom of Morocco"
  MOR_imperial_aristocratic_ADJ:0 "Moroccan"

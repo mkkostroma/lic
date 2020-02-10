@@ -1,8 +1,8 @@
 ﻿l_english:
 
- PHI_supremacist_imperial_aristocratic:0 "Filipino Republic"
- PHI_supremacist_imperial_aristocratic_DEF:0 "The Filipino Republic"
- PHI_supremacist_imperial_aristocratic_ADJ:0 "Filipino"
+ PHI_supremacist_nationalist:0 "Filipino Republic"
+ PHI_supremacist_nationalist_DEF:0 "The Filipino Republic"
+ PHI_supremacist_nationalist_ADJ:0 "Filipino"
  PHI_imperial_aristocratic:0 "Filipino Republic"
  PHI_imperial_aristocratic_DEF:0 "The Filipino Republic"
  PHI_imperial_aristocratic_ADJ:0 "Filipino"
@@ -31,9 +31,9 @@
  PHI_vanguard_nationalist_DEF:0 "The Filipino Republic"
  PHI_vanguard_nationalist_ADJ:0 "Filipino"
  
- PHI_usa_supremacist_imperial_aristocratic:0 "United States of America"
- PHI_usa_supremacist_imperial_aristocratic_DEF:0 "The United States of America"
- PHI_usa_supremacist_imperial_aristocratic_ADJ:0 "American"
+ PHI_usa_supremacist_nationalist:0 "United States of America"
+ PHI_usa_supremacist_nationalist_DEF:0 "The United States of America"
+ PHI_usa_supremacist_nationalist_ADJ:0 "American"
  PHI_usa_imperial_aristocratic:0 "United States of America"
  PHI_usa_imperial_aristocratic_DEF:0 "The United States of America"
  PHI_usa_imperial_aristocratic_ADJ:0 "American"

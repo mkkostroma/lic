@@ -1,8 +1,8 @@
 ﻿l_english:
 
- MEX_supremacist_imperial_aristocratic:0 "Central Government"
- MEX_supremacist_imperial_aristocratic_DEF:0 "The Central Government"
- MEX_supremacist_imperial_aristocratic_ADJ:0 "Central Mexican"
+ MEX_supremacist_nationalist:0 "Central Government"
+ MEX_supremacist_nationalist_DEF:0 "The Central Government"
+ MEX_supremacist_nationalist_ADJ:0 "Central Mexican"
  MEX_imperial_aristocratic:0 "Central Government"
  MEX_imperial_aristocratic_DEF:0 "The Central Government"
  MEX_imperial_aristocratic_ADJ:0 "Central Mexican"
