@@ -395,7 +395,17 @@ create_country_leader = {
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "reinhold_wulle.dds"
 	expire = "1965.1.1"
-	ideology = nationalist_supremacist_ideology
+	ideology = supremacist_nationalist_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Karl Liebknecht"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "karl_liebknecht.dds"
+	expire = "1965.1.1"
+	ideology = vanguardist_ideology
 	traits = {
 	}
 }
