@@ -313,18 +313,18 @@ create_country_leader = {
 	desc = "POLITICS_ADOLF_HITLER_DESC"
 	picture = "Portrait_Germany_Adolf_Hitler.dds"
 	expire = "1965.1.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = vanguard_nationalist_ideology
 	traits = {
 		dictator
 	}
 }
 
 create_country_leader = {
-	name = "Konrad Adenauer"
+	name = "Hugo Hasse"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "Portrait_Germany_Konrad_Adenauer.dds"
+	picture = "hugo_hasse.dds"
 	expire = "1965.1.1"
-	ideology = right_libertarian
+	ideology = progressive_ideology
 	traits = {
 	}
 }
@@ -336,8 +336,26 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = toilerist_ideology
 	traits = {
-		#stalins_puppet # This will now be added in on_actions if SOV releases the country as a puppet via action or war conference
-		exiled # He left in 1933 so he should still be exiled
+	}
+}
+
+create_country_leader = {
+	name = "Karl Radek"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "hugo_hasse.dds"
+	expire = "1965.1.1"
+	ideology = libertarian_socialist_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gustav Stresemann"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "hugo_hasse.dds"
+	expire = "1965.1.1"
+	ideology = conservative_ideology
+	traits = {
 	}
 }
 
