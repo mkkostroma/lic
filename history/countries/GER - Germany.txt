@@ -297,7 +297,7 @@ set_popularities = {
 	libertarian_socialist = 15
 	vanguardist = 5
 	toilerist = 4
-	vanguard_nationalist = 6 
+	vanguard_nationalist = 4 
 }
 
 add_ideas = {
