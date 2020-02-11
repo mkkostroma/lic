@@ -499,6 +499,14 @@ RIO = {
 	color = rgb { 167 216 226  }
 	color_ui = rgb { 167 216 226  }
 }
+JUA = {
+	color = rgb { 204 114 189  }
+	color_ui = rgb { 204 114 189  }
+}
+SON = {
+	color = rgb { 204 114 189  }
+	color_ui = rgb { 204 114 189  }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
