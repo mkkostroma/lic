@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = YUG
+		owner = SER
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -18,7 +18,7 @@ state={
 			3882 5
 		}
 		add_core_of = YUG
-		add_core_of = MAC
+		add_core_of = SER
 
 	}
 
