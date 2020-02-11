@@ -22,7 +22,7 @@ focus_tree = {
 	focus = {
 		id = MEX_a_midwinter_nights_dream
 		#icon = 
-		x = 0
+		x = 10
 		y = 0
 
 		cost = 10
@@ -53,6 +53,69 @@ focus_tree = {
 
 		cost = 10
 
+		prerequisite = {
+			focus = MEX_a_midwinter_nights_dream
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MEX_a_true_king
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+
+		prerequisite = {
+			focus = MEX_a_midwinter_nights_dream
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MEX_a_heir_to_montezuma
+		#icon = 
+		x = 5
+		y = 1
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+
+		prerequisite = {
+			focus = MEX_a_midwinter_nights_dream
+		}
 
 		available = {
 
