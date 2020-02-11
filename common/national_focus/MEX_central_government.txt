@@ -1,0 +1,74 @@
+focus_tree = {
+	id = central_government_focus_tree
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = MEX
+		}
+
+		
+	}
+	
+	default = no
+
+
+	############################
+	##### OOOOOF #####
+	############################
+
+	focus = {
+		id = MEX_a_midwinter_nights_dream
+		#icon = 
+		x = 0
+		y = 0
+
+		cost = 10
+
+		available = {
+			has_country_flag = a_midwinter_nights_dream
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+	focus = {
+		id = MEX_a_divine_presidency
+		#icon = 
+		x = -5
+		y = 1
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+}		

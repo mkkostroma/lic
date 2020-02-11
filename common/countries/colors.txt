@@ -487,6 +487,10 @@ YUC = {
 	color = rgb { 160 148 77  }
 	color_ui = rgb { 160 148 77  }
 }
+OAX = {
+	color = rgb { 108 117 193  }
+	color_ui = rgb { 160 148 77  }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
