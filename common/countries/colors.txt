@@ -483,6 +483,10 @@ RUS = {
 	color = rgb { 111 160 83  }
 	color_ui = rgb { 111 160 83  }
 }
+YUC = {
+	color = rgb { 160 148 77  }
+	color_ui = rgb { 160 148 77  }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

@@ -1,0 +1,71 @@
+﻿capital = 474
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_battery = 1
+		basic_secondary_battery = 1
+		coastal_defense_ships = 1
+	}
+}
+
+
+set_convoys = 45
+set_stability = 0.2
+set_war_support = 0.1
+
+
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1934.7.1"
+	election_frequency = 72
+	elections_allowed = no
+}
+set_popularities = {
+	supremacist_nationalist = 10
+	imperial_aristocratic = 10
+	authoritarian = 10
+	conservative = 10
+	liberal = 10
+	progressive = 10
+	libertarian_socialist = 10
+	vanguardist = 10
+	toilerist = 10
+	vanguard_nationalist = 10
+}
+
+create_country_leader = {
+	name = "Pascual Orozco"
+	desc = "POLITICS_PASCUAL_OROZCO_DESC"
+	picture = "Portrait_Pascual_Orozco.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_ideology
+	traits = {
+		#
+	}
+}

@@ -1,5 +1,5 @@
 bookmarks = {
-	bookmark = {	#Cold World
+	bookmark = {	#Liberty In Chains
 		name = "LIBERTY_IN_CHAINS"
 		desc = "LIBERTY_IN_CHAINS_DESC"
 		date = 1920.1.1.12
@@ -8,7 +8,7 @@ bookmarks = {
 		default = yes
 		
 		"USA"={
-			history = "USA_COLD_WORLD_DESC"
+			history = "USA_LIBERTY_IN_CHAINS_DESC"
 			ideology = vanguardist
 			ideas = {
 			    
@@ -18,21 +18,21 @@ bookmarks = {
 			}
 		}
 		"PRC"={
-			history = "PRC_COLD_WORLD_DESC"
+			history = "PRC_LIBERTY_IN_CHAINS_DESC"
 			ideology = vanguardist
 			ideas={
 
 			}
 		}
 		"GER"={
-			history = "GER_COLD_WORLD_DESC"
+			history = "GER_LIBERTY_IN_CHAINS_DESC"
 			ideology = vanguardist
 			ideas = {
                 
 			}
 		}
-		"SOV"={
-			history = "SOV_COLD_WORLD_DESC"
+		"RUS"={
+			history = "SOV_LIBERTY_IN_CHAINS_DESC"
 			ideology = vanguardist
 			ideas = {
 				
@@ -42,7 +42,7 @@ bookmarks = {
 			}
 		}
 		"FRA"={
-			history = "FRA_COLD_WORLD_DESC"
+			history = "FRA_LIBERTY_IN_CHAINS_DESC"
 			ideology = vanguardist
 			ideas = {
                
@@ -52,7 +52,7 @@ bookmarks = {
 			}
 		}
 		"RAJ"={
-			history = "RAJ_COLD_WORLD_DESC"
+			history = "RAJ_LIBERTY_IN_CHAINS_DESC"
 			ideology = vanguardist
 			ideas = {
 			  
@@ -62,7 +62,7 @@ bookmarks = {
 			}
 		}
 		"ENG"={
-			history = "ENG_COLD_WORLD_DESC"
+			history = "ENG_LIBERTY_IN_CHAINS_DESC"
 			ideology = vanguardist
 			ideas = {
 			   
@@ -72,7 +72,18 @@ bookmarks = {
 			}
 		}
 		"---"={
-			history = "OTHER_RED_WORLD_DESC"
+			history = "OTHER_LIBERTY_IN_CHAINS_DESC"
+		}
+		
+		"MEX"={
+			minor = yes
+			history = "MEX_LIBERTY_IN_CHAINS_DESC"
+			ideology = imperial_aristocratic
+			ideas = {
+			}
+			focuses = {
+				
+			}
 		}
 		
 		effect = {
