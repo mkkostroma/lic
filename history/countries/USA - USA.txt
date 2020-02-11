@@ -277,6 +277,39 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Bill Blizzard"
+	desc = "POLITICS_EARL_BROWDER_DESC"
+	picture = "Bill_Blizzard.dds"
+	expire = "1965.1.1"
+	ideology = progressive_ideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Butch Cassidy"
+	desc = "POLITICS_EARL_BROWDER_DESC"
+	picture = "Butch_Cassidy.dds"
+	expire = "1965.1.1"
+	ideology = progressive_ideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Harry Byrd"
+	desc = "POLITICS_EARL_BROWDER_DESC"
+	picture = "Harry_Byrd.dds"
+	expire = "1965.1.1"
+	ideology = vanguard_nationalist_ideology
+	traits = {
+		
+	}
+}
+
 create_corps_commander = {
 	name = "George S. Patton"
 	picture = "Portrait_USA_George_S_Patton.dds"
