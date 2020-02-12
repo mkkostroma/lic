@@ -15,27 +15,32 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = authoritarian
-	last_election = "1930.11.9"
+	ruling_party = imperial_aristocratic
+	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
-
 set_popularities = {
-	authoritarian = 48
-	supremacist_nationalist = 50
-	liberal = 1
-	toilerist = 1
+	supremacist_nationalist = 6
+	imperial_aristocratic = 56
+	authoritarian = 1
+	conservative = 23
+	liberal = 10
+	progressive = 4
+	libertarian_socialist = 0
+	vanguardist = 0
+	toilerist = 0
+	vanguard_nationalist = 0
 }
 
 set_stability = 0.50
 
 create_country_leader = {
-	name = "Kurt Schuschnigg"
+	name = "H.I.M Franz II"
 	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
-	picture = "Portrait_Austria_Kurt_Schuschnigg.dds"
+	picture = "Portrait_AUS_Franz_Ferdinand.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_ideology
+	ideology = imperial_aristocratic_ideology
 	traits = {
 		#
 	}

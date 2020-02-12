@@ -125,61 +125,22 @@ if = {
 }
 
 set_politics = {
-	ruling_party = authoritarian
-	last_election = "1935.3.31"
+	ruling_party = conservative
+	last_election = "1932.11.8"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	liberal = 25
-	supremacist_nationalist = 31
-	authoritarian = 44
-}
-
-#Start Horty as neutral if DOD
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	create_country_leader = {
-		name = "Miklós Horthy"
-		desc = "POLITICS_MIKLOS_HORTHY_DESC"
-		picture = "Portrait_Hungary_Miklos_Horthy.dds"
-		expire = "1965.1.1"
-		ideology = authoritarian_ideology
-		traits = {
-			fascist_sympathies
-			anti_communist
-		}
-		id = 500 #Horthy Neutral
-	}
-	else = {
-		create_country_leader = {
-			name = "Miklós Horthy"
-			desc = "POLITICS_MIKLOS_HORTHY_DESC"
-			picture = "Portrait_Hungary_Miklos_Horthy.dds"
-			expire = "1965.1.1"
-			ideology = authoritarian_ideology
-		}
-		create_country_leader = {
-			name = "Miklós Horthy"
-			desc = "POLITICS_MIKLOS_HORTHY_DESC"
-			picture = "Portrait_Hungary_Miklos_Horthy.dds"
-			expire = "1965.1.1"
-			ideology = supremacist_nationalist_ideology
-		}
-	}
-}
-
-create_country_leader = {
-	name = "Mátyás Rákosi"
-	desc = "POLITICS_MATYAS_RAKOSKI_DESC"
-	picture = "Portrait_Hungary_Matyas_Rakoski.dds"
-	expire = "1965.1.1"
-	ideology = toilerist_ideology
-	traits = {
-		#
-	}
+	supremacist_nationalist = 2
+	imperial_aristocratic = 0
+	authoritarian = 4
+	conservative = 40
+	liberal = 20
+	progressive = 26
+	libertarian_socialist = 8
+	vanguardist = 0
+	toilerist = 0
+	vanguard_nationalist = 0
 }
 
 create_country_leader = {
@@ -187,7 +148,7 @@ create_country_leader = {
 	desc = "POLITICS_ARPAD_SZAKASITS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = progressive_ideology
+	ideology = reactionary
 	traits = {
 		#
 	}
