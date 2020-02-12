@@ -37,3 +37,9 @@
  #National Spirits
  north_gov_bastion_of_mexican_democracy:0 "Bastion of Mexican Democracy"
  north_gov_bastion_of_mexican_democracy_desc:0 "The Northern Government currently is the only force defending the ideals of democracy, other regimes while they may present such ideals, show no commitment."
+ 
+ north_gov_poor_industry:0 "Poor Industry"
+ north_gov_poor_industry_desc:0 "The land under the control of the Northern Government has horrid industry and has become a massive issue for the small regime."
+ 
+ north_gov_american_refugees:0 "American Refugees"
+ north_gov_american_refugees_desc:0 "With the American fall to socialism, Americans have flooded in to escape the red menace, despite Mexico being entrenched in civil war they understand that war is better than socialism."

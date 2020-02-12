@@ -16,8 +16,47 @@ ideas = {
 				political_power_factor = 0.25
 				stability_factor = 0.15
 				drift_defence_factor = -0.15
-				consumer_goods_factor = 0.15
+				consumer_goods_factor = 0.10
 				war_support_factor = 0.10
+				army_core_defence_factor = 0.1
+				army_morale_factor = 0.1
+				offence = -0.25
+			}
+		}
+		
+		north_gov_poor_industry = { 
+			
+			#picture = 
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_buildings_factor = 0.15
+				industrial_capacity_factory = 0.15
+				production_factory_max_efficiency_factor = 0.15
+			}
+		}
+		
+		north_gov_american_refugees = { 
+			
+			#picture = 
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = prc_low_popular_support2
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				decryption_factor = -0.2
+				stability_factor = -0.05
+				drift_defence_factor = -0.10
 			}
 		}
 		

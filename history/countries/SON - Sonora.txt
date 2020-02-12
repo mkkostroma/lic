@@ -40,6 +40,11 @@ set_convoys = 45
 set_stability = 0.2
 set_war_support = 0.1
 
+add_ideas = {
+	north_gov_poor_industry
+	north_gov_bastion_of_mexican_democracy
+	north_gov_american_refugees
+}
 
 set_politics = {
 	ruling_party = liberal
