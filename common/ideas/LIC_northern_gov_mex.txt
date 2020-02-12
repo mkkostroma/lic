@@ -1,0 +1,26 @@
+ideas = {
+
+	country = {
+		
+		north_gov_bastion_of_mexican_democracy = { 
+			
+			#picture = 
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_political_support
+			
+			modifier = {
+				political_power_factor = 0.25
+				stability_factor = 0.15
+				drift_defence_factor = -0.15
+				consumer_goods_factor = 0.15
+				war_support_factor = 0.10
+			}
+		}
+		
+	}
+	
+}
