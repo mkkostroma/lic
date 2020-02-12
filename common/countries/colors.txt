@@ -504,8 +504,8 @@ JUA = {
 	color_ui = rgb { 204 114 189  }
 }
 SON = {
-	color = rgb { 204 114 189  }
-	color_ui = rgb { 204 114 189  }
+	color = rgb { 204 255 0  }
+	color_ui = rgb { 204 255 0  }
 }
 D01 = {
 	color = rgb { 200 100 31 }
