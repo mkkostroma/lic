@@ -579,3 +579,7 @@ MOR = {
 	color = rgb { 83 71 65 }
 	color_ui = rgb { 83 71 65 }
 }
+BOS = {
+	color = rgb { 145 104 0 }
+	color_ui = rgb { 145 104 0 }
+}
