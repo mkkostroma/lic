@@ -195,5 +195,35 @@ focus_tree = {
 			
 		}
 	}
+	
+	focus = {
+		id = MEX_healthcare_for_all
+		#icon = 
+		x = -4
+		y = 3
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+
+		prerequisite = {
+			focus = MEX_a_speech_from_god
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
 
 }		
