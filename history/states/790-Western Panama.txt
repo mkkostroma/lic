@@ -1,0 +1,27 @@
+state={
+	id=790
+	name="STATE_790" # Western Panama
+	manpower = 233729
+	
+	state_category = rural
+
+	history={
+		
+		owner = PAN
+		buildings = {
+			infrastructure = 3
+			4611 = {
+				naval_base = 1
+			}			
+		}
+		add_core_of = PAN
+		victory_points = {
+			4611 10
+		}
+
+	}
+
+	provinces={
+		1633 4611 4624 
+	}
+}

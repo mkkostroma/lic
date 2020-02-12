@@ -302,7 +302,7 @@
  STATE_301:0 "Paraguay"
  STATE_302:0 "La Paz"
  STATE_303:0 "Lima"
- STATE_304:1 "Panamá"
+ STATE_304:1 "Eastern Panamá"
  STATE_305:0 "Ecuador"
  STATE_306:0 "Cundinamarca"
  STATE_307:0 "Miranda"
@@ -788,3 +788,4 @@
  STATE_787:0 "Northern Kashmir"
  STATE_788:0 "Eupen-Malmedy"
  STATE_789:0 "Verdun-Nancy"
+ STATE_790:0 "Western Panama"
