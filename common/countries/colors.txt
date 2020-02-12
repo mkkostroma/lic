@@ -38,8 +38,8 @@ POL = {
 	color_ui = rgb { 255 120 138 }
 }
 AUS = {
-	color = rgb { 194 198 215 }
-	color_ui = rgb { 255 255 255 }
+	color = rgb { 174 129 179 }
+	color_ui = rgb { 174 129 179 }
 }
 LIT = {
 	color = rgb { 219 219 119 }
@@ -66,8 +66,8 @@ ROM = {
 	color_ui = rgb { 255 255 120 }
 }
 YUG = {
-	color = rgb { 72 73 126 }
-	color_ui = rgb { 94 95 164 }
+	color = rgb { 70 120 79 }
+	color_ui = rgb { 70 120 79 }
 }
 SWI = {
 	color = rgb { 224 5 5 }
@@ -110,8 +110,8 @@ IRE = {
 	color_ui = rgb { 104 207 117 }
 }
 HUN = {
-	color = rgb { 249 126 98 }
-	color_ui = rgb { 255 164 127 }
+	color = rgb { 152 85 92 }
+	color_ui = rgb { 152 85 92 }
 }
 AFG = {
 	color = rgb { 64 160 167 }
@@ -359,8 +359,8 @@ SYR = {
 }
 
 SER = {
-	color = rgb { 160 110 110 }
-	color_ui = rgb { 160 110 110 }
+	color = rgb { 0 56 147 }
+	color_ui = rgb { 0 56 147 }
 }
 
 ICE = {
