@@ -133,5 +133,67 @@ focus_tree = {
 			
 		}
 	}
+	
+	####Divine Presidency
+
+	focus = {
+		id = MEX_a_speech_from_god
+		#icon = 
+		x = -5
+		y = 2
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+
+		prerequisite = {
+			focus = MEX_a_divine_presidency
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MEX_spread_the_wealth
+		#icon = 
+		x = -6
+		y = 3
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+
+		prerequisite = {
+			focus = MEX_a_speech_from_god
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
 
 }		
