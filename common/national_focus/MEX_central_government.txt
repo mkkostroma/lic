@@ -14,6 +14,7 @@ focus_tree = {
 	
 	default = no
 
+	continuous_focus_position = { x = 1500 y = 100000 }
 
 	############################
 	##### OOOOOF #####
@@ -225,5 +226,258 @@ focus_tree = {
 			
 		}
 	}
+	
+	focus = {
+		id = MEX_a_new_founding_father
+		#icon = 
+		x = -6
+		y = 4
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+
+		prerequisite = {
+			focus = MEX_spread_the_wealth
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MEX_rally_the_people
+		#icon = 
+		x = -4
+		y = 4
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+
+		prerequisite = {
+			focus = MEX_healthcare_for_all
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MEX_attraction_of_santa_anna
+		#icon = 
+		x = -5
+		y = 5
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+		
+		prerequisite = {
+			focus = MEX_rally_the_people
+		}
+
+		prerequisite = {
+			focus = MEX_a_new_founding_father
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MEX_security_for_farmers
+		#icon = 
+		x = -7
+		y = 6
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+		
+		prerequisite = {
+			focus = MEX_attraction_of_santa_anna
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MEX_promise_of_luxury
+		#icon = 
+		x = -5
+		y = 6
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+		
+		prerequisite = {
+			focus = MEX_attraction_of_santa_anna
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MEX_respect_for_the_army
+		#icon = 
+		x = -3
+		y = 6
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+		
+		prerequisite = {
+			focus = MEX_attraction_of_santa_anna
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MEX_i_love_the_people
+		#icon = 
+		x = -6
+		y = 7
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+		
+		prerequisite = {
+			focus = MEX_promise_of_luxury
+		}
+		
+		prerequisite = {
+			focus = MEX_security_for_farmers
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MEX_i_love_mexico
+		#icon = 
+		x = -4
+		y = 7
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+		
+		prerequisite = {
+			focus = MEX_promise_of_luxury
+		}
+		
+		prerequisite = {
+			focus = MEX_respect_for_the_army
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
 
 }		
