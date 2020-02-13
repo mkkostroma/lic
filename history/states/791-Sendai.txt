@@ -1,12 +1,10 @@
 
 state={
-	id=533
-	name="STATE_533" # Tohoku
+	id=791
+	name="STATE_791" # Sendai
 	manpower = 3287500
 	state_category = large_city
-	resources={
-		steel=27 # was: 35
-	}
+	
 
 	history={
 		owner = JAP
@@ -17,9 +15,8 @@ state={
 			industrial_complex = 2
 			fuel_silo = 1
 			infrastructure = 3
-			air_base = 6
 			9859 = {
-				naval_base = 6
+				
 
 			}
 		}
@@ -35,6 +32,6 @@ state={
 	}
 
 	provinces={
-		 1063 1165 3848 6870 6873 6994 9807 9859 9865 11847 12056 
+		4067 7169 4153 1024 4122 4118
 	}
 }
