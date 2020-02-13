@@ -23,7 +23,7 @@ focus_tree = {
 	focus = {
 		id = MEX_a_midwinter_nights_dream
 		#icon = 
-		x = 10
+		x = 12
 		y = 0
 
 		cost = 10
@@ -48,7 +48,7 @@ focus_tree = {
 	focus = {
 		id = MEX_a_divine_presidency
 		#icon = 
-		x = -5
+		x = -7
 		y = 1
 		relative_position_id = MEX_a_midwinter_nights_dream
 
@@ -140,7 +140,7 @@ focus_tree = {
 	focus = {
 		id = MEX_a_speech_from_god
 		#icon = 
-		x = -5
+		x = -7
 		y = 2
 		relative_position_id = MEX_a_midwinter_nights_dream
 
@@ -170,7 +170,7 @@ focus_tree = {
 	focus = {
 		id = MEX_spread_the_wealth
 		#icon = 
-		x = -6
+		x = -8
 		y = 3
 		relative_position_id = MEX_a_midwinter_nights_dream
 
@@ -200,7 +200,7 @@ focus_tree = {
 	focus = {
 		id = MEX_healthcare_for_all
 		#icon = 
-		x = -4
+		x = -6
 		y = 3
 		relative_position_id = MEX_a_midwinter_nights_dream
 
@@ -230,7 +230,7 @@ focus_tree = {
 	focus = {
 		id = MEX_a_new_founding_father
 		#icon = 
-		x = -6
+		x = -8
 		y = 4
 		relative_position_id = MEX_a_midwinter_nights_dream
 
@@ -260,7 +260,7 @@ focus_tree = {
 	focus = {
 		id = MEX_rally_the_people
 		#icon = 
-		x = -4
+		x = -6
 		y = 4
 		relative_position_id = MEX_a_midwinter_nights_dream
 
@@ -290,7 +290,7 @@ focus_tree = {
 	focus = {
 		id = MEX_attraction_of_santa_anna
 		#icon = 
-		x = -5
+		x = -7
 		y = 5
 		relative_position_id = MEX_a_midwinter_nights_dream
 
@@ -324,7 +324,7 @@ focus_tree = {
 	focus = {
 		id = MEX_security_for_farmers
 		#icon = 
-		x = -7
+		x = -9
 		y = 6
 		relative_position_id = MEX_a_midwinter_nights_dream
 
@@ -354,7 +354,7 @@ focus_tree = {
 	focus = {
 		id = MEX_promise_of_luxury
 		#icon = 
-		x = -5
+		x = -7
 		y = 6
 		relative_position_id = MEX_a_midwinter_nights_dream
 
@@ -384,7 +384,7 @@ focus_tree = {
 	focus = {
 		id = MEX_respect_for_the_army
 		#icon = 
-		x = -3
+		x = -5
 		y = 6
 		relative_position_id = MEX_a_midwinter_nights_dream
 
@@ -414,7 +414,7 @@ focus_tree = {
 	focus = {
 		id = MEX_i_love_the_people
 		#icon = 
-		x = -6
+		x = -8
 		y = 7
 		relative_position_id = MEX_a_midwinter_nights_dream
 
@@ -448,7 +448,7 @@ focus_tree = {
 	focus = {
 		id = MEX_i_love_mexico
 		#icon = 
-		x = -4
+		x = -6
 		y = 7
 		relative_position_id = MEX_a_midwinter_nights_dream
 
@@ -460,6 +460,501 @@ focus_tree = {
 		
 		prerequisite = {
 			focus = MEX_respect_for_the_army
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MEX_create_sacred_texts
+		#icon = 
+		x = -8
+		y = 8
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+		
+		prerequisite = {
+			focus = MEX_i_love_mexico
+			focus = MEX_i_love_the_people
+		}
+		
+		mutually_exclusive = {
+			focus = MEX_there_is_one_book
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MEX_there_is_one_book
+		#icon = 
+		x = -6
+		y = 8
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+		
+		prerequisite = {
+			focus = MEX_i_love_mexico
+			focus = MEX_i_love_the_people
+		}
+		
+		mutually_exclusive = {
+			focus = MEX_create_sacred_texts
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MEX_mexican_dollar
+		#icon = 
+		x = -7
+		y = 9
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+		
+		prerequisite = {
+			focus = MEX_create_sacred_texts
+			focus = MEX_there_is_one_book
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MEX_christian_state_religion
+		#icon = 
+		x = -7
+		y = 10
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+		
+		prerequisite = {
+			focus = MEX_mexican_dollar
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MEX_statues_in_every_town
+		#icon = 
+		x = -7
+		y = 11
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+		
+		prerequisite = {
+			focus = MEX_christian_state_religion
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MEX_statues_in_every_town
+		#icon = 
+		x = -7
+		y = 11
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+		
+		prerequisite = {
+			focus = MEX_christian_state_religion
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MEX_paintings_in_every_building
+		#icon = 
+		x = -7
+		y = 12
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+		
+		prerequisite = {
+			focus = MEX_statues_in_every_town
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MEX_a_new_anthem
+		#icon = 
+		x = -8
+		y = 13
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+		
+		prerequisite = {
+			focus = MEX_paintings_in_every_building
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MEX_school_indoctrination
+		#icon = 
+		x = -6
+		y = 13
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+		
+		prerequisite = {
+			focus = MEX_paintings_in_every_building
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MEX_pray_to_casso
+		#icon = 
+		x = -9
+		y = 9
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+		
+		prerequisite = {
+			focus = MEX_create_sacred_texts
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MEX_arrest_catholic_priests
+		#icon = 
+		x = -9
+		y = 10
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+		
+		prerequisite = {
+			focus = MEX_pray_to_casso
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MEX_cassoian_curia
+		#icon = 
+		x = -11
+		y = 10
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+		
+		prerequisite = {
+			focus = MEX_pray_to_casso
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MEX_national_prayer
+		#icon = 
+		x = -5
+		y = 9
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+		
+		prerequisite = {
+			focus = MEX_there_is_one_book
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MEX_work_with_priests
+		#icon = 
+		x = -5
+		y = 10
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+		
+		prerequisite = {
+			focus = MEX_national_prayer
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MEX_enforce_catholic_teachings
+		#icon = 
+		x = -3
+		y = 10
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+		
+		prerequisite = {
+			focus = MEX_national_prayer
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MEX_holy_republic_of_mexico
+		#icon = 
+		x = -7
+		y = 14
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+		
+		prerequisite = {
+			focus = MEX_a_new_anthem
+		}
+		
+		prerequisite = {
+			focus = MEX_school_indoctrination
 		}
 
 		available = {
