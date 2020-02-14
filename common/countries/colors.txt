@@ -591,3 +591,7 @@ SHN = {
 	color = rgb { 13 92 10 }
 	color_ui = rgb { 13 92 10 }
 }
+HEB = {
+	color = rgb { 64 147 201 }
+	color_ui = rgb { 64 147 201 }
+}
