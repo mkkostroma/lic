@@ -587,3 +587,7 @@ BOS = {
 	color = rgb { 145 104 0 }
 	color_ui = rgb { 145 104 0 }
 }
+SHN = {
+	color = rgb { 13 92 10 }
+	color_ui = rgb { 13 92 10 }
+}
