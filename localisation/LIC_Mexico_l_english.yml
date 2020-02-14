@@ -64,3 +64,25 @@
  
  #parties 
  
+ MEX_supremacist_nationalist_party:0 "Sinarquista"
+ MEX_supremacist_nationalist_party_long:0 "Sinarquista-Capítulo Central/Synarchist-Central Chapter"
+ MEX_imperial_aristocratic_party:0 "Casso Clique"
+ MEX_imperial_aristocratic_party_long:0 "Casso Clique"
+ MEX_authoritarian_party:0 "Ejército de Veracruz"
+ MEX_authoritarian_party_long:0 "Camarilla del ejército de Veracruz - Veracruz Army Clique"
+ MEX_conservative_party:0 "LA-T"
+ MEX_conservative_party_long:0 "Liga anticasso-Ala Tradicionalista/Anticasso League-Traditionalist Wing"
+ MEX_liberal_party:0 "LA-C"
+ MEX_liberal_party_long:0 "Liga anticasso-Ala Centralista/Anticasso League-Centralist Wing"
+ MEX_progressive_party:0 "LA-R"
+ MEX_progressive_party_long:0 "Liga anticasso-Ala Reformista/Anticasso League-Reformist Wing"
+ MEX_libertarian_socialist_party:0 "TIMM"
+ MEX_libertarian_socialist_party_long:0 "Trabajadoras Industriales del Mundo en Mexico - Industrial Workers of The World In Mexico"
+ MEX_vanguardist_party:0 "EÁLT-RC"
+ MEX_vanguardist_party_long:0 "El Águila de La Trabajadora-Rama de Colibrí/The Eagle of The Worker-Hummingbird Branch"
+ MEX_toilerist_party:0 "EÁLT-RB"
+ MEX_toilerist_party_long:0 "El Águila de La Trabajadora-Rama de Buitre/The Eagle of The Worker-Vulture Branch"
+ MEX_vanguard_nationalist_party:0 "FNSN"
+ MEX_vanguard_nationalist_party_long:0 "Frente Nacional Socialista Negro - National Socialist Black Front"
+ 
+ 
