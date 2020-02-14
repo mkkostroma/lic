@@ -595,3 +595,7 @@ HEB = {
 	color = rgb { 64 147 201 }
 	color_ui = rgb { 64 147 201 }
 }
+SIH = {
+	color = rgb { 242 143 221 }
+	color_ui = rgb { 242 143 221 }
+}

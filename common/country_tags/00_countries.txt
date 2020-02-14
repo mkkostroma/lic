@@ -195,3 +195,4 @@ SON = "countries/Sonora.txt"
 HAW = "countries/Hawaii.txt"
 SHN = "countries/Shandong.txt"
 HEB = "countries/Hebei.txt"
+SIH = "countries/Sichuan.txt
