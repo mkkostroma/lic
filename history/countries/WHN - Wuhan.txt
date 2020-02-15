@@ -1,0 +1,41 @@
+﻿capital = 620
+
+
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	basic_light_tank = 1
+}
+
+
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	supremacist_nationalist = 34
+	imperial_aristocratic = 2
+	authoritarian = 5
+	conservative = 9
+	liberal = 4
+	progressive = 13
+	libertarian_socialist = 13
+	vanguardist = 10
+	toilerist = 1
+	vanguard_nationalist = 9
+}
+
+create_country_leader = {
+	name = "Chiang Kai-shek"
+	desc = "POLITICS_Chiang_Kai_shek_DESC"
+	picture = "Chiang_Kai_Shek.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_ideology
+	traits = {
+		#
+	}
+}
+
