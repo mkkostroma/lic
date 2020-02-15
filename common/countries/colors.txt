@@ -603,3 +603,7 @@ LNG = {
 	color = rgb { 153 93 9 }
 	color_ui = rgb { 153 93 9 }
 }
+FJG = {
+	color = rgb { 196 10 10 }
+	color_ui = rgb { 196 10 10 }
+}
