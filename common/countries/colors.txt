@@ -599,3 +599,7 @@ SIH = {
 	color = rgb { 131 8 150 }
 	color_ui = rgb { 131 8 150 }
 }
+LNG = {
+	color = rgb { 153 93 9 }
+	color_ui = rgb { 153 93 9 }
+}
