@@ -761,7 +761,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = MEX_pray_to_casso
+		id = MEX_pray_to_coss
 		#icon = 
 		x = -9
 		y = 9
@@ -800,7 +800,7 @@ focus_tree = {
 		cost = 10
 		
 		prerequisite = {
-			focus = MEX_pray_to_casso
+			focus = MEX_pray_to_coss
 		}
 
 		available = {
@@ -821,7 +821,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = MEX_cassoian_curia
+		id = MEX_cossian_curia
 		#icon = 
 		x = -11
 		y = 10
@@ -830,7 +830,7 @@ focus_tree = {
 		cost = 10
 		
 		prerequisite = {
-			focus = MEX_pray_to_casso
+			focus = MEX_pray_to_coss
 		}
 
 		available = {
@@ -973,6 +973,104 @@ focus_tree = {
 			
 		}
 	}
+	
+	#True King
+	
+	focus = {
+		id = MEX_vet_the_clique_for_disloyal
+		#icon = 
+		x = -1
+		y = 2
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+
+		prerequisite = {
+			focus = MEX_a_true_king
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MEX_purge_the_veracruz_army_clique
+		#icon = 
+		x = -1
+		y = 2
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+
+		prerequisite = {
+			focus = MEX_a_true_king
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MEX_mexican_monarchism
+		#icon = 
+		x = 0
+		y = 3
+		relative_position_id = MEX_a_midwinter_nights_dream
+
+		cost = 10
+
+		prerequisite = {
+			focus = MEX_vet_the_clique_for_disloyal
+		}
+		
+		prerequisite = {
+			focus = MEX_purge_the_veracruz_army_clique
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	
 	
 
 }		
