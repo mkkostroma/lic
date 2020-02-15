@@ -607,3 +607,11 @@ FJG = {
 	color = rgb { 196 10 10 }
 	color_ui = rgb { 196 10 10 }
 }
+WHN = {
+	color = rgb { 64 56 56 }
+	color_ui = rgb { 64 56 56 }
+}
+NJG = {
+	color = rgb { 13 25 158 }
+	color_ui = rgb { 13 25 158 }
+}

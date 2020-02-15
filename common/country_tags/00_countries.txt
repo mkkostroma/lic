@@ -197,4 +197,6 @@ SHN = "countries/Shandong.txt"
 HEB = "countries/Hebei.txt"
 SIH = "countries/Sichuan.txt"
 LNG = "countries/Liangshan.txt"
-FJG = "countries/Fujian.txt
+FJG = "countries/Fujian.txt"
+WHN = "countries/Whuan.txt"
+NJG = "countries/Nanjing.txt"
