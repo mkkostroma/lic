@@ -1,0 +1,37 @@
+
+state={
+	id=792
+	name="Yellow River" # Yellow River
+	manpower = 2000000
+	state_category = Rural
+	
+
+	history={
+		owner = SHN
+		add_core_of = SHN
+		buildings = {
+		
+			arms_factory = 1
+			industrial_complex = 2
+			fuel_silo = 1
+			infrastructure = 3
+			9859 = {
+				
+
+			}
+		}
+		
+		victory_points = {
+			6994 5
+		}
+		
+		victory_points = {
+			7169 15
+		}
+
+	}
+
+	provinces={
+		4144 7074 4114 1139 4606 7129 4058 1169 7092 1188 12062
+	}
+}
