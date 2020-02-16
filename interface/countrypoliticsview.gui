@@ -27,7 +27,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "political_title"
-			position = { x = 45 y = 8 }
+			position = { x = 15 y = 8 }
 			textureFile = ""
 			font = "hoi_36header"
 			borderSize = {x = 0 y = 0}
@@ -510,7 +510,7 @@ guiTypes = {
 		iconType = {
 			name = "rules"
 			spriteType = "GFX_rules_sum_icon"
-			position = { x = 460 y = 7 }
+			position = { x = 420 y = 252 }
 		}
 
 		buttonType = {

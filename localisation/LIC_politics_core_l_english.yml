@@ -30,3 +30,5 @@
  supremacist_nationalist:0 "Supremacist Nationalist"
  supremacist_nationalist_noun:0 "Supremacist Nationalist"
  supremacist_nationalist_desc:0 "Nationalist"
+ 
+ LIC_BOX_NAME:0 "[?ROOT.GetName]"
