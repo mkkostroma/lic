@@ -327,8 +327,17 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes ##suspended through duration of war, which is handled via event
 }
-set_popularities = {	liberal = 97	supremacist_nationalist = 2
-	toilerist = 1
+set_popularities = {
+	supremacist_nationalist = 7
+	imperial_aristocratic = 11
+	authoritarian = 22
+	conservative = 14
+	liberal = 13
+	progressive = 15
+	libertarian_socialist = 5
+	vanguardist = 5
+	toilerist = 4
+	vanguard_nationalist = 4 
 }
 
 
@@ -347,6 +356,16 @@ add_to_faction = MAL
 #give_guarantee = CZE
 
 # Order matters - here Chamberlain becomes starting leader
+
+create_country_leader = {
+	name = "Arthur Balfour"
+	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
+	picture = "Arthur_Balfour.dds"
+	expire = "1965.1.1"
+	ideology = centrist_ideology
+	traits = {
+	}
+}
 
 create_country_leader = {
 	name = "Winston Churchill"
