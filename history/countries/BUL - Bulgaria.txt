@@ -76,17 +76,24 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = authoritarian
+	ruling_party = liberal
 	last_election = "1931.6.21"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	liberal = 5
-	supremacist_nationalist = 35
-	authoritarian = 60
-}
+	supremacist_nationalist = 2
+	imperial_aristocratic = 8
+	authoritarian = 10
+	conservative = 11
+	liberal = 26
+	progressive = 11
+	libertarian_socialist = 10
+	vanguardist = 5
+	toilerist = 15
+	vanguard_nationalist = 2
+    }
 
 
 1939.1.1 = {
