@@ -322,7 +322,7 @@ create_country_leader = {
 }
 
 set_politics = {
-	ruling_party = liberal
+	ruling_party = conservative
 	last_election = "1919.11.14"
 	election_frequency = 48
 	elections_allowed = yes ##suspended through duration of war, which is handled via event
@@ -362,7 +362,7 @@ create_country_leader = {
 	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
 	picture = "Arthur_Balfour.dds"
 	expire = "1965.1.1"
-	ideology = centrist_ideology
+	ideology = conservative_ideology
 	traits = {
 	}
 }
