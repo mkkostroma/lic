@@ -1,7 +1,5 @@
 ﻿capital = 43
 
-oob = "HUN_1936"
-
 set_research_slots = 3
 set_stability = 0.7
 set_war_support = 0.6
@@ -42,7 +40,7 @@ create_country_leader = {
 	desc = "Zoltan_Tildy_DESC"
 	picture = "Zoltan_Tildy.dds"
 	expire = "1965.1.1"
-	ideology = reactionary_ideology
+	ideology = reactionary
 	traits = {
 		#
 	}
