@@ -126,119 +126,30 @@ if = {
 
 set_politics = {
 	ruling_party = conservative
-	last_election = "1932.11.8"
+	last_election = "1920.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	supremacist_nationalist = 2
-	imperial_aristocratic = 0
+	imperial_aristocratic = 20
 	authoritarian = 4
-	conservative = 40
+	conservative = 20
 	liberal = 20
-	progressive = 26
+	progressive = 18
 	libertarian_socialist = 8
-	vanguardist = 0
-	toilerist = 0
-	vanguard_nationalist = 0
+	vanguardist = 1
+	toilerist = 2
+	vanguard_nationalist = 5
 }
 
 create_country_leader = {
-	name = "Árpád Szakasits"
-	desc = "POLITICS_ARPAD_SZAKASITS_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	name = "Zoltán Tildy"
+	desc = "Zoltan_Tildy_DESC"
+	picture = "Zoltan_Tildy.dds"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = conservative_ideology
 	traits = {
 		#
 	}
-}
-
-1939.1.1 = {
-	if = {
-		limit = {
-			has_dlc = "Death or Dishonor"
-		}
-		#Remove neutral Horty add fascist
-		retire_country_leader = yes
-		create_country_leader = {
-			name = "Miklós Horthy"
-			desc = "POLITICS_MIKLOS_HORTHY_DESC"
-			picture = "Portrait_Hungary_Miklos_Horthy.dds"
-			expire = "1965.1.1"
-			ideology = supremacist_nationalist_ideology
-			traits = {
-				anti_communist
-			}
-			id = 503 #Horty fascist
-		}
-	}
-
-	set_politics = {
-		ruling_party = supremacist_nationalist
-		last_election = "1939.5.29"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		liberal = 27
-		supremacist_nationalist = 70
-		toilerist = 3
-	}
-}
-
-
-create_corps_commander = {
-	name = "Géza Lakatos"
-	gfx = GFX_Portrait_hungary_geza_lakatos
-	traits = {  }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Iván Hindy"
-	gfx = GFX_Portrait_hungary_ivan_hindy
-	traits = {  trickster }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Károly Beregfy"
-	gfx = GFX_Portrait_hungary_karoly_beregfy
-	traits = { }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Lajos Veress"
-	gfx = GFX_Portrait_hungary_lajos_veress
-	traits = { armor_officer }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_field_marshal = {
-	name = "Ferenc Feketehalmy-Czeydner"
-	gfx = GFX_Portrait_hungary_ferenc_feketehalmy_czeydner
-	traits = { }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 2
 }
