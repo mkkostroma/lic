@@ -1,4 +1,4 @@
-﻿capital = 554
+﻿capital = 545
 
 # Starting tech
 set_technology = {
@@ -56,11 +56,17 @@ set_convoys = 5
 }
 
 
-set_politics = {
-	ruling_party = liberal
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
+set_popularities = {
+	supremacist_nationalist = 7
+	imperial_aristocratic = 11
+	authoritarian = 22
+	conservative = 14
+	liberal = 13
+	progressive = 15
+	libertarian_socialist = 5
+	vanguardist = 5
+	toilerist = 4
+	vanguard_nationalist = 4 
 }
 set_popularities = {
 	liberal = 40

@@ -362,7 +362,7 @@ create_country_leader = {
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "Helene_Lange.dds"
 	expire = "1965.1.1"
-	ideology = liberal_ideology
+	ideology = centrist_ideology
 	traits = {
 	}
 }
@@ -370,7 +370,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Ernest Augustus"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "Ernest_Augstus.dds"
+	picture = "Ernest_Augustus.dds"
 	expire = "1965.1.1"
 	ideology = imperial_aristocratic_ideology
 	traits = {

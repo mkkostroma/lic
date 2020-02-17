@@ -1,0 +1,35 @@
+﻿###########################
+# Serbian Events
+###########################
+
+add_namespace = serbia
+
+# The End of Parliament
+country_event = {
+	id = serbia.1
+	title = serbia.1.t
+	desc = serbia.1.d
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	
+	option = { # This is a good thing, yes?
+		name = serbia.1.o1
+		
+		create_country_leader = {
+			name = "Peter I"
+			desc = ""
+			picture = "Peter_Obrenovic.dds"
+			expire = "1965.1.1"
+			ideology = imperial_aristocratic_ideology
+		}
+		
+	set_politics = {
+		ruling_party = imperial_aristocratic
+	}
+
+		
+		
+	}
+
+}

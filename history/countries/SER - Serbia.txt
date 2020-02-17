@@ -105,26 +105,24 @@ if = {
 set_convoys = 0
 
 set_politics = {
-	ruling_party = authoritarian
-	last_election = "1936.1.1"
+	ruling_party = progressive
+	last_election = "1919.1.1"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	liberal = 20
-	supremacist_nationalist = 30
-	toilerist = 20
-	authoritarian = 30
+	supremacist_nationalist = 7
+	imperial_aristocratic = 11
+	authoritarian = 22
+	conservative = 14
+	liberal = 13
+	progressive = 15
+	libertarian_socialist = 5
+	vanguardist = 5
+	toilerist = 4
+	vanguard_nationalist = 4 
 }
 
-1939.1.1 = {
-	set_politics = {
-		ruling_party = authoritarian
-		last_election = "1939.1.1"
-		election_frequency = 36
-		elections_allowed = yes
-	}
-}
 set_stability = 0.6
 
 create_country_leader = {
@@ -139,11 +137,22 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Milan Nedic"
+	name = "Peter I"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	picture = "Peter_Obrenovic.dds"
 	expire = "1965.1.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = progressive_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Peter I"
+	desc = ""
+	picture = "Peter_Obrenovic.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_ideology
 	traits = {
 		#
 	}
