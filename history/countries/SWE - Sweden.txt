@@ -1,20 +1,7 @@
 ﻿capital = 141	
 
-oob = "SWE_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "SWE_1936_naval_mtg"
-	else = {
-		set_naval_oob = "SWE_1936_naval_legacy"
-	}
-}
-
 set_research_slots = 3
 
-add_ideas = {
-	en_svensk_tiger
-	authoritarian_idea
-}
 set_stability = 0.9
 set_war_support = 0.1
 
@@ -65,108 +52,23 @@ if = {
 	}
 }
 
-1939.1.1 = {
-
-	add_political_power = 1198
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	oob = "SWE_1939"
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "SWE_1939_naval_mtg"
-		else = {
-			set_naval_oob = "SWE_1939_naval_legacy"
-		}
-	}
-
-	set_technology = {
-		early_bomber = 1
-		tactical_bomber1 = 1
-		improved_light_tank = 1 
-		basic_medium_tank = 1 
-		gw_artillery = 1
-		interwar_artillery = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		submarine_operations = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		fuel_silos = 1
-		oil_processing = 1
-		improved_oil_processing = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-	if = {
-		limit = { not = { has_dlc = "Man the Guns" } }
-		set_technology = {
-			basic_submarine = 1
-		}
-	}
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		set_technology = {
-			basic_ship_hull_cruiser = 1
-		}
-	}
-}
-
 set_politics = {
-	ruling_party = liberal
+	ruling_party = conservative
 	last_election = "1932.9.18"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	liberal = 75
-	authoritarian = 14
-	toilerist = 8
-	supremacist_nationalist = 3
-}
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = liberal
-		last_election = "1936.9.20"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		liberal = 85
-		authoritarian = 10
-		toilerist = 4
-		supremacist_nationalist = 1
-	}
+	supremacist_nationalist = 2
+	imperial_aristocratic = 20
+	authoritarian = 4
+	conservative = 20
+	liberal = 20
+	progressive = 18
+	libertarian_socialist = 8
+	vanguardist = 1
+	toilerist = 2
+	vanguard_nationalist = 5
 }
 
 set_convoys = 25
@@ -176,11 +78,11 @@ set_stability = 0.9
 
 
 create_country_leader = {
-	name = "Per Albin Hansson"
+	name = "Gustaf V"
 	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
-	picture = "Portrait_Sweden_Per_Albin_Hansson.dds"
+	picture = "Gustaf_Adolf.dds"
 	expire = "1965.1.1"
-	ideology = progressive_ideology
+	ideology = reactionary
 	traits = {
 		#
 	}
