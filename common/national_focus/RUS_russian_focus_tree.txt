@@ -1,0 +1,333 @@
+focus_tree = {
+	id = russia_focus_tree
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = RUS
+		}
+
+		
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 1500 y = 100000 }
+	
+	focus = {
+		id = RUS_address_the_duma
+		#icon = 
+		x = 7
+		y = 0
+
+		cost = 10
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = RUS_dismissed_parliamentarian
+		#icon = 
+		x = -4
+		y = 1
+		relative_position_id = RUS_address_the_duma
+		
+		prerequisite = {
+			focus = RUS_address_the_duma
+		}
+		mutually_exclusive = {
+			focus = RUS_the_withered_floor
+		}
+		cost = 10
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = RUS_anti_radical_crack_down
+		#icon = 
+		x = -5
+		y = 2
+		relative_position_id = RUS_address_the_duma
+		
+		prerequisite = {
+			focus = RUS_dismissed_parliamentarian
+		}
+		cost = 10
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = RUS_restrict_the_svobokorpus #Russia's version of the Freikorps
+		#icon = 
+		x = -3
+		y = 2
+		relative_position_id = RUS_address_the_duma
+		
+		prerequisite = {
+			focus = RUS_dismissed_parliamentarian
+		}
+		cost = 10
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = RUS_secularize_the_constitution
+		#icon = 
+		x = -5
+		y = 3
+		relative_position_id = RUS_address_the_duma
+		
+		prerequisite = {
+			focus = RUS_anti_radical_crack_down
+		}
+		cost = 10
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = RUS_form_the_red_blue_white_league
+		#icon = 
+		x = -3
+		y = 3
+		relative_position_id = RUS_address_the_duma
+		
+		prerequisite = {
+			focus = RUS_restrict_the_svobokorpus
+		}
+		cost = 10
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = RUS_coalition_of_the_centre
+		#icon = 
+		x = -4
+		y = 4
+		relative_position_id = RUS_address_the_duma
+		
+		prerequisite = {
+			focus = RUS_secularize_the_constitution
+		}
+		prerequisite = {
+			focus = RUS_form_the_red_blue_white_league
+		}
+		cost = 10
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	#The Withered Floor
+	
+	focus = {
+		id = RUS_the_withered_floor
+		#icon = 
+		x = 4
+		y = 1
+		relative_position_id = RUS_address_the_duma
+		
+		prerequisite = {
+			focus = RUS_address_the_duma
+		}
+		mutually_exclusive = {
+			focus = RUS_dismissed_parliamentarian
+		}
+		cost = 10
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = RUS_a_new_prime_minister
+		#icon = 
+		x = 4
+		y = 2
+		relative_position_id = RUS_address_the_duma
+		
+		prerequisite = {
+			focus = RUS_the_withered_floor
+		}
+		cost = 10
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = RUS_approach_kerensky
+		#icon = 
+		x = 3
+		y = 3
+		relative_position_id = RUS_address_the_duma
+		
+		prerequisite = {
+			focus = RUS_a_new_prime_minister
+		}
+		mutually_exclusive = {
+			focus = RUS_approach_rasputin
+		}
+		cost = 10
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = RUS_approach_rasputin
+		#icon = 
+		x = 5
+		y = 3
+		relative_position_id = RUS_address_the_duma
+		
+		prerequisite = {
+			focus = RUS_a_new_prime_minister
+		}
+		mutually_exclusive = {
+			focus = RUS_approach_kerensky
+		}
+		cost = 10
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = RUS_march_on_the_white_palace
+		#icon = 
+		x = 4
+		y = 4
+		relative_position_id = RUS_address_the_duma
+		
+		prerequisite = {
+			focus = RUS_approach_kerensky
+			focus = RUS_approach_rasputin
+		}
+		cost = 10
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+}
