@@ -276,6 +276,8 @@ focus_tree = {
 		}
 	}
 	
+	
+	
 	focus = {
 		id = RUS_approach_rasputin
 		#icon = 
@@ -314,6 +316,60 @@ focus_tree = {
 		prerequisite = {
 			focus = RUS_approach_kerensky
 			focus = RUS_approach_rasputin
+		}
+		cost = 10
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	#Rasputin Path
+	
+	focus = {
+		id = RUS_a_traditional_junta
+		#icon = 
+		x = 6
+		y = 4
+		relative_position_id = RUS_address_the_duma
+		
+		prerequisite = {
+			focus = RUS_approach_rasputin
+		}
+		cost = 10
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	#Kerensky Path
+	
+	focus = {
+		id = RUS_a_red_junta
+		#icon = 
+		x = 2
+		y = 4
+		relative_position_id = RUS_address_the_duma
+		
+		prerequisite = {
+			focus = RUS_approach_kerensky
 		}
 		cost = 10
 		
