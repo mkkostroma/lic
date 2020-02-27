@@ -1,0 +1,724 @@
+
+dss/history/states/100-Iceland.txt
+dss/history/states/10-Poland.txt
+dss/history/states/1-France.txt
+dss/history/countries/ZIM - Zimbabwe.txt
+dss/history/countries/ZAM - Zambia.txt
+dss/history/countries/YUN - Yunnan.txt
+dss/history/countries/YUG - Yugoslavia.txt
+dss/history/countries/YUC - Yucatan.txt
+dss/history/countries/YUA - Yuanxi.txt
+dss/history/countries/YEM - Yeman.txt
+dss/history/countries/YAM - Yamalia.txt
+dss/history/countries/XSM - Xibei San Ma.txt
+dss/history/countries/WLS - Wales.txt
+dss/history/countries/WGR - West Germany.txt
+dss/history/countries/WES - Western Sahara.txt
+dss/history/countries/VOL - Upper Volta.txt
+dss/history/countries/VNT - Venice.txt
+dss/history/countries/VIN - Vietnam.txt
+dss/history/countries/VEN - Venezula.txt
+dss/history/countries/UZB - Uzbekistan.txt
+dss/history/countries/USB - USB.txt
+dss/history/countries/USA - USA.txt
+dss/history/countries/URG - Uruguay.txt
+dss/history/countries/UKR - Ukraine.txt
+dss/history/countries/UGA - Uganda.txt
+dss/history/countries/UAE - United Arab Emirates.txt
+dss/history/countries/TZN - Tanzania.txt
+dss/history/countries/TYU - Tyumen.txt
+dss/history/countries/TUR - Turkey.txt
+dss/history/countries/TUN - Tunisia.txt
+dss/history/countries/TRS - Transoxiana.txt
+dss/history/countries/TRP - Tripoli.txt
+dss/history/countries/TRI - Trinidad and Tobago.txt
+dss/history/countries/TOG - Togo.txt
+dss/history/countries/TMS - Turkmenistan.txt
+dss/history/countries/TLE - Tlemcen.txt
+dss/history/countries/TIB - Tibet.txt
+dss/history/countries/TAR - Tartarstan.txt
+dss/history/countries/TAN - Tannu Tuva.txt
+dss/history/countries/TAJ - Tajikistan.txt
+dss/history/countries/SYR - Syria.txt
+dss/history/countries/SWI - Switzerland.txt
+dss/history/countries/SWE - Sweden.txt
+dss/history/countries/SUR - Suriname.txt
+dss/history/countries/SUD - Sudan.txt
+dss/history/countries/SRL - Sri Lanka.txt
+dss/history/countries/SPR - Spain.txt
+dss/history/countries/SOV - Soviet union.txt
+dss/history/countries/SON - Sonora.txt
+dss/history/countries/SOM - Somalia.txt
+dss/history/countries/SMO - Smolensk.txt
+dss/history/countries/SLV - Slovenia.txt
+dss/history/countries/SLO - Slovakia.txt
+dss/history/countries/SIK - Sinkiang.txt
+dss/history/countries/SIE - Sierra Leone.txt
+dss/history/countries/SIB - Sibir.txt
+dss/history/countries/SIA - Siam.txt
+dss/history/countries/SHX - Shanxi.txt
+dss/history/countries/SER - Serbia.txt
+dss/history/countries/SEN - Senegal.txt
+dss/history/countries/SCO - Scotland.txt
+dss/history/countries/SAX - Saxony.txt
+dss/history/countries/SAU - Saudi Arabia.txt
+dss/history/countries/SAH - Sahara.txt
+dss/history/countries/SAF - South Africa.txt
+dss/history/countries/RWA - Rwanda.txt
+dss/history/countries/RUS - Russia.txt
+dss/history/countries/RUM - Rum.txt
+dss/history/countries/ROM - Romania.txt
+dss/history/countries/RIO - Rio Grande.txt
+dss/history/countries/RHN - Rhineland.txt
+dss/history/countries/RCG - Republic of Congo.txt
+dss/history/countries/RAJ - British Raj.txt
+dss/history/countries/QAT - Qatar.txt
+dss/history/countries/PUE - Puerto Rico.txt
+dss/history/countries/PRU - Peru.txt
+dss/history/countries/PRM - Perm.txt
+dss/history/countries/PRC - ComChina.txt
+dss/history/countries/POR - Portugal.txt
+dss/history/countries/POL - Poland.txt
+dss/history/countries/PNG - Papua New Guinea.txt
+dss/history/countries/PHI - Philippines.txt
+dss/history/countries/PER - Persia.txt
+dss/history/countries/PAR - Paraguay.txt
+dss/history/countries/PAN - Panama.txt
+dss/history/countries/PAL - Palestine.txt
+dss/history/countries/PAK - Pakistan.txt
+dss/history/countries/OMK - Omsk.txt
+dss/history/countries/OMA - Oman.txt
+dss/history/countries/OCT - Occitania.txt
+dss/history/countries/OAX - Oaxaca.txt
+dss/history/countries/NZL - New Zealand.txt
+dss/history/countries/NOV - Novgorod.txt
+dss/history/countries/NOR - Norway.txt
+dss/history/countries/NMB - Namibia.txt
+dss/history/countries/NIR - Northern Ireland.txt
+dss/history/countries/NIC - Nicaragua.txt
+dss/history/countries/NGR - Niger.txt
+dss/history/countries/NGA - Nigeria.txt
+dss/history/countries/NEP - Nepal.txt
+dss/history/countries/NAV - Navarra.txt
+dss/history/countries/MZB - Mozambique.txt
+dss/history/countries/MUS - Muscovy.txt
+dss/history/countries/MUN - Munster.txt
+dss/history/countries/MRT - Mauritania.txt
+dss/history/countries/MOR - Morocco.txt
+dss/history/countries/MON - Mongolia.txt
+dss/history/countries/MOL - Moldova.txt
+dss/history/countries/MNT - Montenegro.txt
+dss/history/countries/MLW - Malawi.txt
+dss/history/countries/MLT - Malta.txt
+dss/history/countries/MLI - Mali.txt
+dss/history/countries/MLD - Maldives.txt
+dss/history/countries/MEX - Mexico.txt
+dss/history/countries/MEN - Mengkukuo.txt
+dss/history/countries/MAY - Maya.txt
+dss/history/countries/MAN - Manchukou.txt
+dss/history/countries/MAL - Malaysia.txt
+dss/history/countries/MAD - Madagascar.txt
+dss/history/countries/MAC - Macedonia.txt
+dss/history/countries/LUX - Luxemburg.txt
+dss/history/countries/LIT - Lithuania.txt
+dss/history/countries/LIB - Liberia.txt
+dss/history/countries/LEB - Lebanon.txt
+dss/history/countries/LBA - Libya.txt
+dss/history/countries/LAT - Latvia.txt
+dss/history/countries/LAO - Laos.txt
+dss/history/countries/KYR - Kyrgyzstan.txt
+dss/history/countries/KUW - Kuwait.txt
+dss/history/countries/KUR - Kurdistan.txt
+dss/history/countries/KOR - Korea.txt
+dss/history/countries/KHA - Khakassia.txt
+dss/history/countries/KEN - Kenya.txt
+dss/history/countries/KAZ - Kazakhstan.txt
+dss/history/countries/KAL - Kalmykia.txt
+dss/history/countries/JUA - Juarez.txt
+dss/history/countries/JOR - Jordan.txt
+dss/history/countries/JAP - Japan.txt
+dss/history/countries/JAM - Jamaica.txt
+dss/history/countries/JAL - Jalisco.txt
+dss/history/countries/IVO - Ivory Coast.txt
+dss/history/countries/ITA - Italy.txt
+dss/history/countries/ISR - Israel.txt
+dss/history/countries/IRQ - Iraq.txt
+dss/history/countries/IRE - Ireland.txt
+dss/history/countries/INS - Indonesia.txt
+dss/history/countries/ICE - Iceland.txt
+dss/history/countries/ICA - Inca.txt
+dss/history/countries/HUN - Hungary.txt
+dss/history/countries/HON - Honduras.txt
+dss/history/countries/HOL - Holland.txt
+dss/history/countries/HAW - Hawaii.txt
+dss/history/countries/HAI - Haiti.txt
+dss/history/countries/GYA - Guyana.txt
+dss/history/countries/GXC - Guangxi.txt
+dss/history/countries/GUA - Guatemla.txt
+dss/history/countries/GRE - Greece.txt
+dss/history/countries/GOR - Gorki.txt
+dss/history/countries/GNB - Guinea-Bissau.txt
+dss/history/countries/GNA - Guinea.txt
+dss/history/countries/GLK - Golden Khanate.txt
+dss/history/countries/GHA - Ghana.txt
+dss/history/countries/GER - Germany.txt
+dss/history/countries/GEO - Georgia.txt
+dss/history/countries/GDL - Guadeloupe.txt
+dss/history/countries/GAM - The Gambia.txt
+dss/history/countries/GAB - Gabon.txt
+dss/history/countries/FRK - Frankfurt.txt
+dss/history/countries/FRA - France.txt
+dss/history/countries/FIN - Finland.txt
+dss/history/countries/FIJ - Fiji.txt
+dss/history/countries/FID - French Indochina.txt
+dss/history/countries/FAF - French Africa.txt
+dss/history/countries/ETH - Ethiopia.txt
+dss/history/countries/EST - Estonia.txt
+dss/history/countries/ERI - Eritrea.txt
+dss/history/countries/EQG - Equatorial Guinea.txt
+dss/history/countries/ENG - Britain.txt
+dss/history/countries/ELS - El Salvador.txt
+dss/history/countries/EGY - Egypt.txt
+dss/history/countries/ECU - Ecuador.txt
+dss/history/countries/DOM - Dominican Republic.txt
+dss/history/countries/DJI - Djibouti.txt
+dss/history/countries/DEN - Denmark.txt
+dss/history/countries/DEL - Delhi.txt
+dss/history/countries/DDR - East Germany.txt
+dss/history/countries/DAH - Dahomey.txt
+dss/history/countries/DAG - Dagestan.txt
+dss/history/countries/CZE - Czechoslovakia.txt
+dss/history/countries/CYP - Cyprus.txt
+dss/history/countries/CUB - Cuba.txt
+dss/history/countries/CSK - Cossackia.txt
+dss/history/countries/CSA - CSA.txt
+dss/history/countries/CRO - Croatia.txt
+dss/history/countries/CRI - Crimea.txt
+dss/history/countries/CRC - Curacao.txt
+dss/history/countries/CRA - Cyrenaica.txt
+dss/history/countries/COS - Costa Rica.txt
+dss/history/countries/COL - Colombia.txt
+dss/history/countries/COG - Congo.txt
+dss/history/countries/CMR - Cameroon.txt
+dss/history/countries/CIR - Circassia.txt
+dss/history/countries/CHP - Chiapas.txt
+dss/history/countries/CHL - Chile.txt
+dss/history/countries/CHI - China.txt
+dss/history/countries/CHA - Chad.txt
+dss/history/countries/CAY - Cayenne.txt
+dss/history/countries/CAR - Central African Republic.txt
+dss/history/countries/CAN - Canada.txt
+dss/history/countries/CAM - Cambodia.txt
+dss/history/countries/BUL - Bulgaria.txt
+dss/history/countries/BSM - Basmachi.txt
+dss/history/countries/BSH -Bashkortostan.txt
+dss/history/countries/BRT - Brittany.txt
+dss/history/countries/BRM - Burma.txt
+dss/history/countries/BRG - Brandenburg.txt
+dss/history/countries/BRD - Burundi.txt
+dss/history/countries/BRA - Brazil.txt
+dss/history/countries/BOT - Botswana.txt
+dss/history/countries/BOS - Bosnia.txt
+dss/history/countries/BOL - Bolivia.txt
+dss/history/countries/BLZ - Belize.txt
+dss/history/countries/BLR - Belarus.txt
+dss/history/countries/BHU - Bhutan.txt
+dss/history/countries/BEL - Belgium.txt
+dss/history/countries/BAV - Bavaria.txt
+dss/history/countries/BAS - British Antilles.txt
+dss/history/countries/BAN - Bangladesh.txt
+dss/history/countries/BAH - Bahamas.txt
+dss/history/countries/AZR - Azerbaijan.txt
+dss/history/countries/AUS - Austria.txt
+dss/history/countries/AST - Australia.txt
+dss/history/countries/ARM - Armenia.txt
+dss/history/countries/ARG - Argentina.txt
+dss/history/countries/ANG - Angola.txt
+dss/history/countries/ALT - Altai.txt
+dss/history/countries/ALG - Algeria.txt
+dss/history/countries/ALB - Albania.txt
+dss/history/countries/ALA - Andalusia.txt
+dss/history/countries/AFG - Afghanistan.txt
+dss/gfx/leaders/POL/Portrait_POL_Ziemowit.dds
+dss/gfx/leaders/MAY/Portrait_MAY_Hunac_Ceel.dds
+dss/gfx/leaders/ICA/Portrait_ICA_Pachacutec.dds
+dss/gfx/leaders/EGY/Portrait_EGY_Zahi.dds
+dss/gfx/leaders/DEL/Portrait_DEL_Muhammad_Lodi.dds
+dss/gfx/leaders/CHI/Portrait_CHI_Yijun.dds
+dss/gfx/leaders/ALA/Portrait_ALA_Azhar.dds
+dss/gfx/flags/YUA.tga
+dss/gfx/flags/YAM.tga
+dss/gfx/flags/VOL.tga
+dss/gfx/flags/VNT.tga
+dss/gfx/flags/UZB.tga
+dss/gfx/flags/UKR.tga
+dss/gfx/flags/TYU.tga
+dss/gfx/flags/TUR.tga
+dss/gfx/flags/TUN.tga
+dss/gfx/flags/TRS.tga
+dss/gfx/flags/TRP.tga
+dss/gfx/flags/TLE.tga
+dss/gfx/flags/TAR.tga
+dss/gfx/flags/SWE.tga
+dss/gfx/flags/SMO.tga
+dss/gfx/flags/small/YUA.tga
+dss/gfx/flags/small/YAM.tga
+dss/gfx/flags/small/VOL.tga
+dss/gfx/flags/small/VNT.tga
+dss/gfx/flags/small/UZB.tga
+dss/gfx/flags/small/UKR.tga
+dss/gfx/flags/small/TYU.tga
+dss/gfx/flags/small/TUR.tga
+dss/gfx/flags/small/TUN.tga
+dss/gfx/flags/small/TRS.tga
+dss/gfx/flags/small/TRP.tga
+dss/gfx/flags/small/TLE.tga
+dss/gfx/flags/small/TAR.tga
+dss/gfx/flags/small/SWE.tga
+dss/gfx/flags/small/SMO.tga
+dss/gfx/flags/small/SIK.tga
+dss/gfx/flags/small/SIB.tga
+dss/gfx/flags/small/SER.tga
+dss/gfx/flags/small/SAX.tga
+dss/gfx/flags/small/SAH.tga
+dss/gfx/flags/small/RUM.tga
+dss/gfx/flags/small/ROM.tga
+dss/gfx/flags/small/RHN.tga
+dss/gfx/flags/small/PRM.tga
+dss/gfx/flags/small/POL.tga
+dss/gfx/flags/small/OMK.tga
+dss/gfx/flags/small/NOV.tga
+dss/gfx/flags/small/NOR.tga
+dss/gfx/flags/small/NAV.tga
+dss/gfx/flags/small/MUS.tga
+dss/gfx/flags/small/MUN.tga
+dss/gfx/flags/small/MRT.tga
+dss/gfx/flags/small/MOR.tga
+dss/gfx/flags/small/MLI.tga
+dss/gfx/flags/small/MAY.tga
+dss/gfx/flags/small/LIB.tga
+dss/gfx/flags/small/KUR.tga
+dss/gfx/flags/small/KHA.tga
+dss/gfx/flags/small/KAL.tga
+dss/gfx/flags/small/IVO.tga
+dss/gfx/flags/small/ITA.tga
+dss/gfx/flags/small/IRE.tga
+dss/gfx/flags/small/ICA.tga
+dss/gfx/flags/small/HUN.tga
+dss/gfx/flags/small/HOL.tga
+dss/gfx/flags/small/HAN.tga
+dss/gfx/flags/small/GRE.tga
+dss/gfx/flags/small/GOR.tga
+dss/gfx/flags/small/GLK.tga
+dss/gfx/flags/small/GHA.tga
+dss/gfx/flags/small/GEO.tga
+dss/gfx/flags/small/FRK.tga
+dss/gfx/flags/small/FRA.tga
+dss/gfx/flags/small/EST.tga
+dss/gfx/flags/small/ENG.tga
+dss/gfx/flags/small/EGY.tga
+dss/gfx/flags/small/DEN.tga
+dss/gfx/flags/small/DEL.tga
+dss/gfx/flags/small/DAH.tga
+dss/gfx/flags/small/DAG.tga
+dss/gfx/flags/small/CZE.tga
+dss/gfx/flags/small/CSK.tga
+dss/gfx/flags/small/CRI.tga
+dss/gfx/flags/small/CRA.tga
+dss/gfx/flags/small/CIR.tga
+dss/gfx/flags/small/CHI.tga
+dss/gfx/flags/small/BUL.tga
+dss/gfx/flags/small/BSM.tga
+dss/gfx/flags/small/BRG.tga
+dss/gfx/flags/small/BAV.tga
+dss/gfx/flags/small/ARM.tga
+dss/gfx/flags/small/ALT.tga
+dss/gfx/flags/small/ALA.tga
+dss/gfx/flags/SIK.tga
+dss/gfx/flags/SIB.tga
+dss/gfx/flags/SER.tga
+dss/gfx/flags/SAX.tga
+dss/gfx/flags/SAH.tga
+dss/gfx/flags/RUM.tga
+dss/gfx/flags/ROM.tga
+dss/gfx/flags/RHN.tga
+dss/gfx/flags/PRM.tga
+dss/gfx/flags/POL.tga
+dss/gfx/flags/OMK.tga
+dss/gfx/flags/NOV.tga
+dss/gfx/flags/NOR.tga
+dss/gfx/flags/NAV.tga
+dss/gfx/flags/MUS.tga
+dss/gfx/flags/MUN.tga
+dss/gfx/flags/MRT.tga
+dss/gfx/flags/MOR.tga
+dss/gfx/flags/MLI.tga
+dss/gfx/flags/medium/YUA.tga
+dss/gfx/flags/medium/YAM.tga
+dss/gfx/flags/medium/VOL.tga
+dss/gfx/flags/medium/VNT.tga
+dss/gfx/flags/medium/UZB.tga
+dss/gfx/flags/medium/UKR.tga
+dss/gfx/flags/medium/TYU.tga
+dss/gfx/flags/medium/TUR.tga
+dss/gfx/flags/medium/TUN.tga
+dss/gfx/flags/medium/TRS.tga
+dss/gfx/flags/medium/TRP.tga
+dss/gfx/flags/medium/TLE.tga
+dss/gfx/flags/medium/TAR.tga
+dss/gfx/flags/medium/SWE.tga
+dss/gfx/flags/medium/SMO.tga
+dss/gfx/flags/medium/SIK.tga
+dss/gfx/flags/medium/SIB.tga
+dss/gfx/flags/medium/SER.tga
+dss/gfx/flags/medium/SAX.tga
+dss/gfx/flags/medium/SAH.tga
+dss/gfx/flags/medium/RUM.tga
+dss/gfx/flags/medium/ROM.tga
+dss/gfx/flags/medium/RHN.tga
+dss/gfx/flags/medium/PRM.tga
+dss/gfx/flags/medium/POL.tga
+dss/gfx/flags/medium/OMK.tga
+dss/gfx/flags/medium/NOV.tga
+dss/gfx/flags/medium/NOR.tga
+dss/gfx/flags/medium/NAV.tga
+dss/gfx/flags/medium/MUS.tga
+dss/gfx/flags/medium/MUN.tga
+dss/gfx/flags/medium/MRT.tga
+dss/gfx/flags/medium/MOR.tga
+dss/gfx/flags/medium/MLI.tga
+dss/gfx/flags/medium/MAY.tga
+dss/gfx/flags/medium/LIB.tga
+dss/gfx/flags/medium/KUR.tga
+dss/gfx/flags/medium/KHA.tga
+dss/gfx/flags/medium/KAL.tga
+dss/gfx/flags/medium/IVO.tga
+dss/gfx/flags/medium/ITA.tga
+dss/gfx/flags/medium/IRE.tga
+dss/gfx/flags/medium/ICA.tga
+dss/gfx/flags/medium/HUN.tga
+dss/gfx/flags/medium/HOL.tga
+dss/gfx/flags/medium/HAN.tga
+dss/gfx/flags/medium/GRE.tga
+dss/gfx/flags/medium/GOR.tga
+dss/gfx/flags/medium/GLK.tga
+dss/gfx/flags/medium/GHA.tga
+dss/gfx/flags/medium/GEO.tga
+dss/gfx/flags/medium/FRK.tga
+dss/gfx/flags/medium/FRA.tga
+dss/gfx/flags/medium/EST.tga
+dss/gfx/flags/medium/ENG.tga
+dss/gfx/flags/medium/EGY.tga
+dss/gfx/flags/medium/DEN.tga
+dss/gfx/flags/medium/DEL.tga
+dss/gfx/flags/medium/DAH.tga
+dss/gfx/flags/medium/DAG.tga
+dss/gfx/flags/medium/CZE.tga
+dss/gfx/flags/medium/CSK.tga
+dss/gfx/flags/medium/CRI.tga
+dss/gfx/flags/medium/CRA.tga
+dss/gfx/flags/medium/CIR.tga
+dss/gfx/flags/medium/CHI.tga
+dss/gfx/flags/medium/BUL.tga
+dss/gfx/flags/medium/BSM.tga
+dss/gfx/flags/medium/BSH.tga
+dss/gfx/flags/medium/BRG.tga
+dss/gfx/flags/medium/BAV.tga
+dss/gfx/flags/medium/ARM.tga
+dss/gfx/flags/medium/ALT.tga
+dss/gfx/flags/medium/ALA.tga
+dss/gfx/flags/MAY.tga
+dss/gfx/flags/LIB.tga
+dss/gfx/flags/KUR.tga
+dss/gfx/flags/KHA.tga
+dss/gfx/flags/KAL.tga
+dss/gfx/flags/IVO.tga
+dss/gfx/flags/ITA.tga
+dss/gfx/flags/IRE.tga
+dss/gfx/flags/ICA.tga
+dss/gfx/flags/HUN.tga
+dss/gfx/flags/HOL.tga
+dss/gfx/flags/HAN.tga
+dss/gfx/flags/GRE.tga
+dss/gfx/flags/GOR.tga
+dss/gfx/flags/GLK.tga
+dss/gfx/flags/GHA.tga
+dss/gfx/flags/GEO.tga
+dss/gfx/flags/FRK.tga
+dss/gfx/flags/FRA.tga
+dss/gfx/flags/EST.tga
+dss/gfx/flags/ENG.tga
+dss/gfx/flags/EGY.tga
+dss/gfx/flags/DEN.tga
+dss/gfx/flags/DEL.tga
+dss/gfx/flags/DAH.tga
+dss/gfx/flags/DAG.tga
+dss/gfx/flags/CZE.tga
+dss/gfx/flags/CSK.tga
+dss/gfx/flags/CRI.tga
+dss/gfx/flags/CRA.tga
+dss/gfx/flags/CIR.tga
+dss/gfx/flags/CHI.tga
+dss/gfx/flags/BUL.tga
+dss/gfx/flags/BSM.tga
+dss/gfx/flags/BSH.tga
+dss/gfx/flags/BRG.tga
+dss/gfx/flags/BAV.tga
+dss/gfx/flags/ARM.tga
+dss/gfx/flags/ALT.tga
+dss/gfx/flags/ALA.tga
+dss/gfx/DSS_Portrait_TEMPLATE.psd
+dss/descriptor.mod
+dss/common/scripted_triggers/WTT_china_political_struggle_triggers.txt
+dss/common/on_actions/04_mtg_on_actions.txt
+dss/common/on_actions/03_wtt_on_actions.txt
+dss/common/on_actions/02_dod_on_actions.txt
+dss/common/on_actions/01_tfv_on_actions.txt
+dss/common/on_actions/00_on_actions.txt
+dss/common/ideologies/00_ideologies.txt
+dss/common/country_tags/zz_dynamic_countries.txt
+dss/common/country_tags/00_countries.txt
+dss/common/countries/Zimbabwe.txt
+dss/common/countries/Zambia.txt
+dss/common/countries/Yunnan.txt
+dss/common/countries/Yugoslavia.txt
+dss/common/countries/Yuanxi.txt
+dss/common/countries/Yeman.txt
+dss/common/countries/Yamalia.txt
+dss/common/countries/Xibei San Ma.txt
+dss/common/countries/Western Sahara.txt
+dss/common/countries/West Germany.txt
+dss/common/countries/Wales.txt
+dss/common/countries/Vietnam.txt
+dss/common/countries/Venice.txt
+dss/common/countries/Venezula.txt
+dss/common/countries/Uzbekistan.txt
+dss/common/countries/USB.txt
+dss/common/countries/USA.txt
+dss/common/countries/Uruguay.txt
+dss/common/countries/Upper Volta.txt
+dss/common/countries/United Kingdom.txt
+dss/common/countries/United Arab Emirates.txt
+dss/common/countries/Ukraine.txt
+dss/common/countries/Uganda.txt
+dss/common/countries/Tyumen.txt
+dss/common/countries/Turkmenistan.txt
+dss/common/countries/Turkey.txt
+dss/common/countries/Tunisia.txt
+dss/common/countries/Tripoli.txt
+dss/common/countries/Trinidad and Tobago.txt
+dss/common/countries/Transoxiana.txt
+dss/common/countries/Togo.txt
+dss/common/countries/Tlemcen.txt
+dss/common/countries/Tibet.txt
+dss/common/countries/Tartarstan.txt
+dss/common/countries/Tanzania.txt
+dss/common/countries/Tannu Tuva.txt
+dss/common/countries/Tajikistan.txt
+dss/common/countries/Syria.txt
+dss/common/countries/Switzerland.txt
+dss/common/countries/Sweden.txt
+dss/common/countries/Suriname.txt
+dss/common/countries/Sudan.txt
+dss/common/countries/Sri Lanka.txt
+dss/common/countries/Spain.txt
+dss/common/countries/Soviet Union.txt
+dss/common/countries/South Africa.txt
+dss/common/countries/Somalia.txt
+dss/common/countries/Smolensk.txt
+dss/common/countries/Slovenia.txt
+dss/common/countries/Slovakia.txt
+dss/common/countries/Sinkiang.txt
+dss/common/countries/Sierra Leone.txt
+dss/common/countries/Sibir.txt
+dss/common/countries/Siam.txt
+dss/common/countries/Shanxi.txt
+dss/common/countries/Serbia.txt
+dss/common/countries/Senegal.txt
+dss/common/countries/Scotland.txt
+dss/common/countries/Saxony.txt
+dss/common/countries/Saudi Arabia.txt
+dss/common/countries/Sahara.txt
+dss/common/countries/Rwanda.txt
+dss/common/countries/Rum.txt
+dss/common/countries/Romania.txt
+dss/common/countries/Republic of Congo.txt
+dss/common/countries/Qatar.txt
+dss/common/countries/Puerto Rico.txt
+dss/common/countries/Portugal.txt
+dss/common/countries/Poland.txt
+dss/common/countries/Philippines.txt
+dss/common/countries/Peru.txt
+dss/common/countries/Persia.txt
+dss/common/countries/Perm.txt
+dss/common/countries/Paraguay.txt
+dss/common/countries/Papua New Guinea.txt
+dss/common/countries/Panama.txt
+dss/common/countries/Palestine.txt
+dss/common/countries/Pakistan.txt
+dss/common/countries/Omsk.txt
+dss/common/countries/Oman.txt
+dss/common/countries/Occitania.txt
+dss/common/countries/Novgorod.txt
+dss/common/countries/Norway.txt
+dss/common/countries/Northern Ireland.txt
+dss/common/countries/Nigeria.txt
+dss/common/countries/Niger.txt
+dss/common/countries/Nicaragua.txt
+dss/common/countries/New Zealand.txt
+dss/common/countries/Nepal.txt
+dss/common/countries/Navarra.txt
+dss/common/countries/Namibia.txt
+dss/common/countries/Muscovy.txt
+dss/common/countries/Munster.txt
+dss/common/countries/Mozambique.txt
+dss/common/countries/Morocco.txt
+dss/common/countries/Montenegro.txt
+dss/common/countries/Mongolia.txt
+dss/common/countries/Moldova.txt
+dss/common/countries/Mexico.txt
+dss/common/countries/Mengkukuo.txt
+dss/common/countries/Maya.txt
+dss/common/countries/Mauritania.txt
+dss/common/countries/Manchukou.txt
+dss/common/countries/Malta.txt
+dss/common/countries/Mali.txt
+dss/common/countries/Maldives.txt
+dss/common/countries/Malaysia.txt
+dss/common/countries/Malawi.txt
+dss/common/countries/Madagascar.txt
+dss/common/countries/Macedonia.txt
+dss/common/countries/Luxemburg.txt
+dss/common/countries/Lithuania.txt
+dss/common/countries/Libya.txt
+dss/common/countries/Liberia.txt
+dss/common/countries/Lebanon.txt
+dss/common/countries/Latvia.txt
+dss/common/countries/Laos.txt
+dss/common/countries/Kyrgyzstan.txt
+dss/common/countries/Kuwait.txt
+dss/common/countries/Kurdistan.txt
+dss/common/countries/Korea.txt
+dss/common/countries/Khakassia.txt
+dss/common/countries/Kenya.txt
+dss/common/countries/Kazakhstan.txt
+dss/common/countries/Kalymkia.txt
+dss/common/countries/Jordan.txt
+dss/common/countries/Japan.txt
+dss/common/countries/Jamaica.txt
+dss/common/countries/Ivory Coast.txt
+dss/common/countries/Italy.txt
+dss/common/countries/Israel.txt
+dss/common/countries/Ireland.txt
+dss/common/countries/Iraq.txt
+dss/common/countries/Indonesia.txt
+dss/common/countries/Inca.txt
+dss/common/countries/Iceland.txt
+dss/common/countries/Hungary.txt
+dss/common/countries/Honduras.txt
+dss/common/countries/Holland.txt
+dss/common/countries/Haiti.txt
+dss/common/countries/Guyana.txt
+dss/common/countries/Guinea.txt
+dss/common/countries/Guinea-Bissau.txt
+dss/common/countries/Guatemla.txt
+dss/common/countries/Guangxi.txt
+dss/common/countries/Guadeloupe.txt
+dss/common/countries/Greece.txt
+dss/common/countries/Gorki.txt
+dss/common/countries/Golden Khanate.txt
+dss/common/countries/Ghana.txt
+dss/common/countries/Germany.txt
+dss/common/countries/Georgia.txt
+dss/common/countries/Gambia.txt
+dss/common/countries/Gabon.txt
+dss/common/countries/Frankfurt.txt
+dss/common/countries/France.txt
+dss/common/countries/Finland.txt
+dss/common/countries/Fiji.txt
+dss/common/countries/Ethiopia.txt
+dss/common/countries/Estonia.txt
+dss/common/countries/Eritrea.txt
+dss/common/countries/Equatorial Guinea.txt
+dss/common/countries/El Salvador.txt
+dss/common/countries/Egypt.txt
+dss/common/countries/Ecuador.txt
+dss/common/countries/East Germany.txt
+dss/common/countries/Dominican Republic.txt
+dss/common/countries/Djibouti.txt
+dss/common/countries/Denmark.txt
+dss/common/countries/Delhi.txt
+dss/common/countries/Dahomey.txt
+dss/common/countries/Dagestan.txt
+dss/common/countries/D15.txt
+dss/common/countries/D14.txt
+dss/common/countries/D13.txt
+dss/common/countries/D12.txt
+dss/common/countries/D11.txt
+dss/common/countries/D10.txt
+dss/common/countries/D09.txt
+dss/common/countries/D08.txt
+dss/common/countries/D07.txt
+dss/common/countries/D06.txt
+dss/common/countries/D05.txt
+dss/common/countries/D04.txt
+dss/common/countries/D03.txt
+dss/common/countries/D02.txt
+dss/common/countries/D01.txt
+dss/common/countries/Czechoslovakia.txt
+dss/common/countries/Cyrenaica.txt
+dss/common/countries/Cyprus.txt
+dss/common/countries/Curacao.txt
+dss/common/countries/Cuba.txt
+dss/common/countries/CSA.txt
+dss/common/countries/Croatia.txt
+dss/common/countries/Crimea.txt
+dss/common/countries/Costa Rica.txt
+dss/common/countries/Cossackia.txt
+dss/common/countries/cosmetic.txt
+dss/common/countries/Congo.txt
+dss/common/countries/ComChina.txt
+dss/common/countries/colors.txt
+dss/common/countries/Colombia.txt
+dss/common/countries/Circassia.txt
+dss/common/countries/China.txt
+dss/common/countries/Chile.txt
+dss/common/countries/Chad.txt
+dss/common/countries/Central African Republic.txt
+dss/common/countries/Cayenne.txt
+dss/common/countries/Canada.txt
+dss/common/countries/Cameroon.txt
+dss/common/countries/Cambodia.txt
+dss/common/countries/Burundi.txt
+dss/common/countries/Burma.txt
+dss/common/countries/Bulgaria.txt
+dss/common/countries/Brittany.txt
+dss/common/countries/British Raj.txt
+dss/common/countries/British Antilles.txt
+dss/common/countries/Brazil.txt
+dss/common/countries/Brandenburg.txt
+dss/common/countries/Botswana.txt
+dss/common/countries/Bosnia.txt
+dss/common/countries/Bolivia.txt
+dss/common/countries/Bhutan.txt
+dss/common/countries/Belize.txt
+dss/common/countries/Belgium.txt
+dss/common/countries/Belarus.txt
+dss/common/countries/Bavaria.txt
+dss/common/countries/Basmachi.txt
+dss/common/countries/Bashkortostan.txt
+dss/common/countries/Bangladesh.txt
+dss/common/countries/Bahamas.txt
+dss/common/countries/Azerbaijan.txt
+dss/common/countries/Austria.txt
+dss/common/countries/Australia.txt
+dss/common/countries/Armenia.txt
+dss/common/countries/Argentina.txt
+dss/common/countries/Angola.txt
+dss/common/countries/Andalusia.txt
+dss/common/countries/Altai.txt
+dss/common/countries/Algeria.txt
+dss/common/countries/Albania.txt
+dss/common/countries/Afghanistan.txt
+dss/common/bookmarks/the_gathering_storm.txt
+dss/common/bookmarks/blitzkrieg.txt

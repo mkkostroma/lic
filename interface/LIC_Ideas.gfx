@@ -1,0 +1,24 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_idea_traits_strip"
+		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
+		noOfFrames = 14		
+	}
+
+	### FRANCE ###
+
+	spriteType = {
+		name = "GFX_idea_FRA_Great_War_Legacy"
+		texturefile = "gfx/interface/ideas/FRA_Great_War_Legacy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_FRA_Political_Crisis"
+		texturefile = "gfx/interface/ideas/FRA_Political_Crisis.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_FRA_Street_Fighting"
+		texturefile = "gfx/interface/ideas/FRA_Street_Fighting.dds"
+	}

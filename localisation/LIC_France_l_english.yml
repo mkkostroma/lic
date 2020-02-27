@@ -146,3 +146,8 @@
  FRA_imperial_aristocratic_party_long:0 "Action Française"
  FRA_supremacist_nationalist_party:0 "Croix-de-Feu"
  FRA_supremacist_nationalist_party_long:0 "Croix-de-Feu"
+
+ #IDEAS
+ FRA_Great_War_Legacy:0 "Legacy of the Great War"
+ FRA_Political_Crisis:0 "Political Crisis"
+ FRA_Street_Fighting:0 "Fighting in the Streets"
