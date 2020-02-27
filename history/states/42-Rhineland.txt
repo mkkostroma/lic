@@ -15,7 +15,6 @@ state={
 		victory_points = { 11435 1 }
 		#victory_points = { 3423 3 }
 		#victory_points = { 9575 3 }
-		victory_points = { 11531 5 }
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 3
@@ -26,7 +25,7 @@ state={
 	}
 
 	provinces={
-		563 3423 3558 9575 11435 11470 11494 11531 11547 
+		563 3423 3558 9575 11435 11470 11494 11547 11560
 	}
 	
 	

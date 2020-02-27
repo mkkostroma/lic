@@ -5,9 +5,6 @@ state={
 	state_category = city
 
 	history={
-		victory_points = {
-			6626 1 
-		}
 		owner = AUS
 		add_core_of = ITA
 		add_core_of = YUG
@@ -24,8 +21,8 @@ state={
 	}
 
 	provinces={
-		599 6626 11595 11735 
+		599 11595 11735 
 	}
-	manpower=1063159
+	manpower=164751
 	buildings_max_level_factor=1.000
 }

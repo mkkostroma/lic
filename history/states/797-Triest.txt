@@ -1,0 +1,26 @@
+
+state={
+	id=797
+	name="Triest"
+	manpower = 239558
+	
+	state_category = metropolis
+	
+	
+
+	history={
+		victory_points = {
+			6626 1  
+		}
+		owner = AUS
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = AUS
+	    add_claim_by = ITA
+	}
+
+	provinces={
+		6626
+	}
+}

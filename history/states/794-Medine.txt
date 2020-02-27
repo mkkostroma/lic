@@ -1,0 +1,26 @@
+
+state={
+	id=794
+	name="Medine"
+	manpower = 382500
+	
+	state_category = desert
+	
+	
+
+	history={
+		victory_points = {
+			12758 3
+		}
+		owner = SAU
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = SAU
+	    add_claim_by = 
+	}
+
+	provinces={
+		12758 7934 10835 10748 4981 5037 2090 5006 10786
+	}
+}

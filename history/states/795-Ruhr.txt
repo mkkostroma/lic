@@ -1,0 +1,26 @@
+
+state={
+	id=795
+	name="Ruhr"
+	manpower = 3000000
+	
+	state_category = metropolis
+	
+	
+
+	history={
+		victory_points = {
+			6469 10 
+		}
+		owner = GER
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = GER
+	    add_claim_by = 
+	}
+
+	provinces={
+		529 3512 6469 6570 9482 
+	}
+}
