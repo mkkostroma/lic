@@ -233,11 +233,11 @@ ideologies = {
 		
 	}
 	
-	libertarian_socialist = {
+	libertarian = {
 		
 		types = {
 		
-			libertarian_socialist_ideology = {
+			libertarian_ideology = {
 			}
 			
 		}

@@ -125,7 +125,7 @@ FAF = {
 	conservative = 0
 	liberal = 0
 	progressive = 0
-	libertarian_socialist = 0
+	libertarian = 0
 	vanguardist = 0
 	toilerist = 0
     }
@@ -146,7 +146,7 @@ FID = {
 	conservative = 0
 	liberal = 0
 	progressive = 0
-	libertarian_socialist = 0
+	libertarian = 0
 	vanguardist = 0
 	toilerist = 0
     }
@@ -167,7 +167,7 @@ MOR = {
 	conservative = 0
 	liberal = 0
 	progressive = 0
-	libertarian_socialist = 0
+	libertarian = 0
 	vanguardist = 0
 	toilerist = 0
     }
@@ -194,7 +194,7 @@ set_popularities = {
 	conservative = 25
 	liberal = 8
 	progressive = 0
-	libertarian_socialist = 20
+	libertarian = 20
 	vanguardist = 2
 	toilerist = 5
 }
@@ -214,7 +214,7 @@ create_country_leader = {
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
 	picture = "Portrait_FRA_Jouhaux.dds"
 	expire = "1965.1.1"
-	ideology = libertarian_socialist_ideology
+	ideology = libertarian_ideology
 	traits = {	
 	}
 }
