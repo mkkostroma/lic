@@ -3,9 +3,9 @@
  WHN_supremacist_nationalist:0 "Wuhan Clique"
  WHN_supremacist_nationalist_DEF:0 "The Wuhan Clique"
  WHN_supremacist_nationalist_ADJ:0 "Wuhan"
- WHN_imperial_aristocratic:0 "Wuhan Clique"
- WHN_imperial_aristocratic_DEF:0 "The Wuhan Clique"
- WHN_imperial_aristocratic_ADJ:0 "Wuhan"
+ WHN_despotist:0 "Wuhan Clique"
+ WHN_despotist_DEF:0 "The Wuhan Clique"
+ WHN_despotist_ADJ:0 "Wuhan"
  WHN_authoritarian:0 "Wuhan Clique"
  WHN_authoritarian_DEF:0 "The Wuhan Clique"
  WHN_authoritarian_ADJ:0 "Wuhan"
@@ -27,9 +27,9 @@
  WHN_toilerist:0 "Wuhan Clique"
  WHN_toilerist_DEF:0 "The Wuhan Clique"
  WHN_toilerist_ADJ:0 "Wuhan"
- WHN_vanguard_nationalist:0 "Wuhan Clique"
- WHN_vanguard_nationalist_DEF:0 "The Wuhan Clique"
- WHN_vanguard_nationalist_ADJ:0 "Wuhan"
+ WHN_:0 "Wuhan Clique"
+ WHN__DEF:0 "The Wuhan Clique"
+ WHN__ADJ:0 "Wuhan"
  
  #parties 
  

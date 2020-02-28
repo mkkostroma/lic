@@ -3,9 +3,9 @@
  FIN_supremacist_nationalist:0 "Kingdom of Finland"
  FIN_supremacist_nationalist_DEF:0 "The Kingdom of Finland"
  FIN_supremacist_nationalist_ADJ:0 "Finnish"
- FIN_imperial_aristocratic:0 "Kingdom of Finland"
- FIN_imperial_aristocratic_DEF:0 "The Kingdom of Finland"
- FIN_imperial_aristocratic_ADJ:0 "Finnish"
+ FIN_despotist:0 "Kingdom of Finland"
+ FIN_despotist_DEF:0 "The Kingdom of Finland"
+ FIN_despotist_ADJ:0 "Finnish"
  FIN_authoritarian:0 "Kingdom of Finland"
  FIN_authoritarian_DEF:0 "The Kingdom of Finland"
  FIN_authoritarian_ADJ:0 "Finnish"
@@ -27,9 +27,9 @@
  FIN_toilerist:0 "Kingdom of Finland"
  FIN_toilerist_DEF:0 "The Kingdom of Finland"
  FIN_toilerist_ADJ:0 "Finnish"
- FIN_vanguard_nationalist:0 "Kingdom of Finland"
- FIN_vanguard_nationalist_DEF:0 "The Kingdom of Finland"
- FIN_vanguard_nationalist_ADJ:0 "Finnish"
+ FIN_:0 "Kingdom of Finland"
+ FIN__DEF:0 "The Kingdom of Finland"
+ FIN__ADJ:0 "Finnish"
  
  #parties 
  

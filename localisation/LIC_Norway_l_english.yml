@@ -3,9 +3,9 @@
  NOR_supremacist_nationalist:0 "Kingdom of Norway"
  NOR_supremacist_nationalist_DEF:0 "The Kingdom of Norway"
  NOR_supremacist_nationalist_ADJ:0 "Norwegian"
- NOR_imperial_aristocratic:0 "Kingdom of Norway"
- NOR_imperial_aristocratic_DEF:0 "The Kingdom of Norway"
- NOR_imperial_aristocratic_ADJ:0 "Norwegian"
+ NOR_despotist:0 "Kingdom of Norway"
+ NOR_despotist_DEF:0 "The Kingdom of Norway"
+ NOR_despotist_ADJ:0 "Norwegian"
  NOR_authoritarian:0 "Kingdom of Norway"
  NOR_authoritarian_DEF:0 "The Kingdom of Norway"
  NOR_authoritarian_ADJ:0 "Norwegian"
@@ -27,9 +27,9 @@
  NOR_toilerist:0 "Kingdom of Norway"
  NOR_toilerist_DEF:0 "The Kingdom of Norway"
  NOR_toilerist_ADJ:0 "Norwegian"
- NOR_vanguard_nationalist:0 "Kingdom of Norway"
- NOR_vanguard_nationalist_DEF:0 "The Kingdom of Norway"
- NOR_vanguard_nationalist_ADJ:0 "Norwegian"
+ NOR_:0 "Kingdom of Norway"
+ NOR__DEF:0 "The Kingdom of Norway"
+ NOR__ADJ:0 "Norwegian"
  
  #parties 
  

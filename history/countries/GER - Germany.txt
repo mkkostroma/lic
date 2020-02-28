@@ -289,32 +289,20 @@ set_politics = {
 }
 set_popularities = {
 	supremacist_nationalist = 5
-	imperial_aristocratic = 10
+	despotist = 10
 	authoritarian = 12
 	conservative = 15
 	liberal = 15
 	progressive = 15
 	libertarian_socialist = 15
 	vanguardist = 5
-	toilerist = 4
-	vanguard_nationalist = 4 
+	toilerist = 8
 }
 
 add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
-}
-
-create_country_leader = {
-	name = "Adolf Hitler"
-	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "Adolf_Hitler.dds"
-	expire = "1965.1.1"
-	ideology = vanguard_nationalist_ideology
-	traits = {
-		dictator
-	}
 }
 
 create_country_leader = {
@@ -372,7 +360,7 @@ create_country_leader = {
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "Ernest_Augustus.dds"
 	expire = "1965.1.1"
-	ideology = imperial_aristocratic_ideology
+	ideology = despotist_ideology
 	traits = {
 	}
 }

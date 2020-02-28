@@ -3,9 +3,9 @@
  SIH_supremacist_nationalist:0 "Sichuan Clique"
  SIH_supremacist_nationalist_DEF:0 "The Sichuan Clique"
  SIH_supremacist_nationalist_ADJ:0 "Sichuan"
- SIH_imperial_aristocratic:0 "Sichuan Clique"
- SIH_imperial_aristocratic_DEF:0 "The Sichuan Clique"
- SIH_imperial_aristocratic_ADJ:0 "Sichuan"
+ SIH_despotist:0 "Sichuan Clique"
+ SIH_despotist_DEF:0 "The Sichuan Clique"
+ SIH_despotist_ADJ:0 "Sichuan"
  SIH_authoritarian:0 "Sichuan Clique"
  SIH_authoritarian_DEF:0 "The Sichuan Clique"
  SIH_authoritarian_ADJ:0 "Sichuan"
@@ -27,9 +27,9 @@
  SIH_toilerist:0 "Sichuan Clique"
  SIH_toilerist_DEF:0 "The Sichuan Clique"
  SIH_toilerist_ADJ:0 "Sichuan"
- SIH_vanguard_nationalist:0 "Sichuan Clique"
- SIH_vanguard_nationalist_DEF:0 "The Sichuan Clique"
- SIH_vanguard_nationalist_ADJ:0 "Sichuan"
+ SIH_:0 "Sichuan Clique"
+ SIH__DEF:0 "The Sichuan Clique"
+ SIH__ADJ:0 "Sichuan"
  
  #parties 
  

@@ -54,7 +54,7 @@ set_politics = {
 }
 set_popularities = {
 	supremacist_nationalist = 10
-	imperial_aristocratic = 10
+	despotist = 10
 	authoritarian = 10
 	conservative = 10
 	liberal = 10
@@ -62,7 +62,7 @@ set_popularities = {
 	libertarian_socialist = 10
 	vanguardist = 10
 	toilerist = 10
-	vanguard_nationalist = 10
+	 = 10
 }
 
 create_country_leader = {

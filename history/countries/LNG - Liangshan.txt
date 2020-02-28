@@ -49,15 +49,14 @@ set_politics = {
 
 set_popularities = {
 	supremacist_nationalist = 34
-	imperial_aristocratic = 2
+	despotist = 2
 	authoritarian = 5
 	conservative = 9
 	liberal = 4
 	progressive = 13
 	libertarian_socialist = 13
 	vanguardist = 10
-	toilerist = 1
-	vanguard_nationalist = 9
+	toilerist = 10
 }
 create_country_leader = {
 	name = "Liu Xiang"

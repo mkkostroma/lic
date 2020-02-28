@@ -15,14 +15,14 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = imperial_aristocratic
+	ruling_party = despotist
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	supremacist_nationalist = 6
-	imperial_aristocratic = 56
+	despotist = 56
 	authoritarian = 1
 	conservative = 23
 	liberal = 10
@@ -30,7 +30,6 @@ set_popularities = {
 	libertarian_socialist = 0
 	vanguardist = 0
 	toilerist = 0
-	vanguard_nationalist = 0
 }
 
 set_stability = 0.50
@@ -40,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
 	picture = "Portrait_AUS_Franz_Ferdinand.dds"
 	expire = "1965.1.1"
-	ideology = imperial_aristocratic_ideology
+	ideology = despotist_ideology
 	traits = {
 		#
 	}

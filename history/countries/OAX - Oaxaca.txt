@@ -41,14 +41,14 @@ set_war_support = 0.1
 
 
 set_politics = {
-	ruling_party = vanguard_nationalist
+	ruling_party = toilerist
 	last_election = "1934.7.1"
 	election_frequency = 72
 	elections_allowed = no
 }
 set_popularities = {
 	supremacist_nationalist = 10
-	imperial_aristocratic = 10
+	despotist = 10
 	authoritarian = 10
 	conservative = 10
 	liberal = 10
@@ -56,7 +56,6 @@ set_popularities = {
 	libertarian_socialist = 10
 	vanguardist = 10
 	toilerist = 10
-	vanguard_nationalist = 10
 }
 
 create_country_leader = {
@@ -64,7 +63,7 @@ create_country_leader = {
 	desc = "POLITICS_FRANCISCO_VILLA_DESC"
 	picture = "Portrait_Francisco_Villa.dds"
 	expire = "1965.1.1"
-	ideology = vanguard_nationalist_ideology
+	ideology = toilerist_ideology
 	traits = {
 		#
 	}

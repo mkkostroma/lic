@@ -3,9 +3,9 @@
  SHN_supremacist_nationalist:0 "Shandong Clique"
  SHN_supremacist_nationalist_DEF:0 "The Shandong Clique"
  SHN_supremacist_nationalist_ADJ:0 "Shandong"
- SHN_imperial_aristocratic:0 "Shandong Clique"
- SHN_imperial_aristocratic_DEF:0 "The Shandong Clique"
- SHN_imperial_aristocratic_ADJ:0 "Shandong"
+ SHN_despotist:0 "Shandong Clique"
+ SHN_despotist_DEF:0 "The Shandong Clique"
+ SHN_despotist_ADJ:0 "Shandong"
  SHN_authoritarian:0 "Shandong Clique"
  SHN_authoritarian_DEF:0 "The Shandong Clique"
  SHN_authoritarian_ADJ:0 "Shandong"
@@ -27,9 +27,9 @@
  SHN_toilerist:0 "Shandong Clique"
  SHN_toilerist_DEF:0 "The Shandong Clique"
  SHN_toilerist_ADJ:0 "Shandong"
- SHN_vanguard_nationalist:0 "Shandong Clique"
- SHN_vanguard_nationalist_DEF:0 "The Shandong Clique"
- SHN_vanguard_nationalist_ADJ:0 "Shandong"
+ SHN_:0 "Shandong Clique"
+ SHN__DEF:0 "The Shandong Clique"
+ SHN__ADJ:0 "Shandong"
  
  #parties 
  

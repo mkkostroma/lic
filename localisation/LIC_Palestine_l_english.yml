@@ -1,11 +1,11 @@
 ﻿l_english:
 
- PAL_supremacist_imperial_aristocratic:0 "Republic of Palestine"
- PAL_supremacist_imperial_aristocratic_DEF:0 "The Republic of Palestine"
- PAL_supremacist_imperial_aristocratic_ADJ:0 "Palestinian"
- PAL_imperial_aristocratic:0 "Republic of Palestine"
- PAL_imperial_aristocratic_DEF:0 "The Republic of Palestine"
- PAL_imperial_aristocratic_ADJ:0 "Palestinian"
+ PAL_supremacist_despotist:0 "Republic of Palestine"
+ PAL_supremacist_despotist_DEF:0 "The Republic of Palestine"
+ PAL_supremacist_despotist_ADJ:0 "Palestinian"
+ PAL_despotist:0 "Republic of Palestine"
+ PAL_despotist_DEF:0 "The Republic of Palestine"
+ PAL_despotist_ADJ:0 "Palestinian"
  PAL_authoritarian:0 "Republic of Palestine"
  PAL_authoritarian_DEF:0 "The Republic of Palestine"
  PAL_authoritarian_ADJ:0 "Palestinian"
@@ -27,9 +27,9 @@
  PAL_toilerist:0 "Republic of Palestine"
  PAL_toilerist_DEF:0 "The Republic of Palestine"
  PAL_toilerist_ADJ:0 "Palestinian"
- PAL_vanguard_nationalist:0 "Republic of Palestine"
- PAL_vanguard_nationalist_DEF:0 "The Republic of Palestine"
- PAL_vanguard_nationalist_ADJ:0 "Palestinian"
+ PAL_:0 "Republic of Palestine"
+ PAL__DEF:0 "The Republic of Palestine"
+ PAL__ADJ:0 "Palestinian"
  
  #parties 
  

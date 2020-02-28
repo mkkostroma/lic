@@ -3,9 +3,9 @@
  POR_supremacist_nationalist:0 "Kingdom of Portugal"
  POR_supremacist_nationalist_DEF:0 "The Kingdom of Portugal"
  POR_supremacist_nationalist_ADJ:0 "Portugese"
- POR_imperial_aristocratic:0 "Kingdom of Portugal"
- POR_imperial_aristocratic_DEF:0 "The Kingdom of Portugal"
- POR_imperial_aristocratic_ADJ:0 "Portugese"
+ POR_despotist:0 "Kingdom of Portugal"
+ POR_despotist_DEF:0 "The Kingdom of Portugal"
+ POR_despotist_ADJ:0 "Portugese"
  POR_authoritarian:0 "Kingdom of Portugal"
  POR_authoritarian_DEF:0 "The Kingdom of Portugal"
  POR_authoritarian_ADJ:0 "Portugese"
@@ -27,9 +27,9 @@
  POR_toilerist:0 "Kingdom of Portugal"
  POR_toilerist_DEF:0 "The Kingdom of Portugal"
  POR_toilerist_ADJ:0 "Portugese"
- POR_vanguard_nationalist:0 "Kingdom of Portugal"
- POR_vanguard_nationalist_DEF:0 "The Kingdom of Portugal"
- POR_vanguard_nationalist_ADJ:0 "Portugese"
+ POR_:0 "Kingdom of Portugal"
+ POR__DEF:0 "The Kingdom of Portugal"
+ POR__ADJ:0 "Portugese"
  
  #parties 
  

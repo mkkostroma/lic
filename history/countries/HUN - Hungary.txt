@@ -24,15 +24,14 @@ set_politics = {
 }
 set_popularities = {
 	supremacist_nationalist = 2
-	imperial_aristocratic = 20
+	despotist = 20
 	authoritarian = 4
 	conservative = 20
 	liberal = 20
 	progressive = 18
 	libertarian_socialist = 8
 	vanguardist = 1
-	toilerist = 2
-	vanguard_nationalist = 5
+	toilerist = 7
 }
 
 create_country_leader = {

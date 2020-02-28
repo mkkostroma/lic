@@ -21,11 +21,11 @@ country_event = {
 			desc = ""
 			picture = "Peter_Obrenovic.dds"
 			expire = "1965.1.1"
-			ideology = imperial_aristocratic_ideology
+			ideology = despotist_ideology
 		}
 		
 	set_politics = {
-		ruling_party = imperial_aristocratic
+		ruling_party = despotist
 	}
 
 		

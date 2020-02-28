@@ -77,15 +77,14 @@ set_politics = {
 }
 set_popularities = {
 	supremacist_nationalist = 4
-	imperial_aristocratic = 4
+	despotist = 4
 	authoritarian = 3
 	conservative = 19
 	liberal = 21
 	progressive = 5
 	libertarian_socialist = 19
 	vanguardist = 9
-	toilerist = 4
-	vanguard_nationalist = 12
+	toilerist = 16
 }
 
 
@@ -117,7 +116,7 @@ create_country_leader = {
 	desc = "POLITICS_PAVEL_MILYUKOV_DESC"
 	picture = "Portrait_Grigori_Rasputin.dds"
 	expire = "1953.3.1"
-	ideology = vanguard_nationalist_ideology
+	ideology = _ideology
 	traits = {
 		
 	}

@@ -3,9 +3,9 @@
  FJG_supremacist_nationalist:0 "Fujian Government"
  FJG_supremacist_nationalist_DEF:0 "The Fujian Government"
  FJG_supremacist_nationalist_ADJ:0 "Fujian"
- FJG_imperial_aristocratic:0 "Fujian Government"
- FJG_imperial_aristocratic_DEF:0 "The Fujian Government"
- FJG_imperial_aristocratic_ADJ:0 "Fujian"
+ FJG_despotist:0 "Fujian Government"
+ FJG_despotist_DEF:0 "The Fujian Government"
+ FJG_despotist_ADJ:0 "Fujian"
  FJG_authoritarian:0 "Fujian Government"
  FJG_authoritarian_DEF:0 "The Fujian Government"
  FJG_authoritarian_ADJ:0 "Fujian"
@@ -27,9 +27,9 @@
  FJG_toilerist:0 "Fujian Government"
  FJG_toilerist_DEF:0 "The Fujian Government"
  FJG_toilerist_ADJ:0 "Fujian"
- FJG_vanguard_nationalist:0 "Fujian Government"
- FJG_vanguard_nationalist_DEF:0 "The Fujian Government"
- FJG_vanguard_nationalist_ADJ:0 "Fujian"
+ FJG_:0 "Fujian Government"
+ FJG__DEF:0 "The Fujian Government"
+ FJG__ADJ:0 "Fujian"
  
  #parties 
  

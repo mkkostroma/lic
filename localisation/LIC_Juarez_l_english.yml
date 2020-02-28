@@ -3,9 +3,9 @@
  JUA_supremacist_nationalist:0 "Juarez Clique"
  JUA_supremacist_nationalist_DEF:0 "The Juarez Clique"
  JUA_supremacist_nationalist_ADJ:0 "Juarense"
- JUA_imperial_aristocratic:0 "Juarez Clique"
- JUA_imperial_aristocratic_DEF:0 "The Juarez Clique"
- JUA_imperial_aristocratic_ADJ:0 "Juarense"
+ JUA_despotist:0 "Juarez Clique"
+ JUA_despotist_DEF:0 "The Juarez Clique"
+ JUA_despotist_ADJ:0 "Juarense"
  JUA_authoritarian:0 "Juarez Clique"
  JUA_authoritarian_DEF:0 "The Juarez Clique"
  JUA_authoritarian_ADJ:0 "Juarense"
@@ -27,9 +27,9 @@
  JUA_toilerist:0 "Juarez Clique"
  JUA_toilerist_DEF:0 "The Juarez Clique"
  JUA_toilerist_ADJ:0 "Juarense"
- JUA_vanguard_nationalist:0 "Juarez Clique"
- JUA_vanguard_nationalist_DEF:0 "The Juarez Clique"
- JUA_vanguard_nationalist_ADJ:0 "Juarense"
+ JUA_:0 "Juarez Clique"
+ JUA__DEF:0 "The Juarez Clique"
+ JUA__ADJ:0 "Juarense"
  
  
  

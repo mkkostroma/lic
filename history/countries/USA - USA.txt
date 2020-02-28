@@ -89,7 +89,7 @@ set_politics = {
 }
 set_popularities = {
 	supremacist_nationalist = 2
-	imperial_aristocratic = 4
+	despotist = 4
 	authoritarian = 6
 	conservative = 4
 	liberal = 4
@@ -97,7 +97,7 @@ set_popularities = {
 	libertarian_socialist = 24
 	vanguardist = 25
 	toilerist = 18
-	vanguard_nationalist = 10
+	 = 10
 }
 
 create_country_leader = {
@@ -149,7 +149,7 @@ create_country_leader = {
 	desc = "POLITICS_EARL_BROWDER_DESC"
 	picture = "Harry_Byrd.dds"
 	expire = "1965.1.1"
-	ideology = vanguard_nationalist_ideology
+	ideology = _ideology
 	traits = {
 		
 	}

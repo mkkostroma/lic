@@ -120,7 +120,7 @@ FAF = {
 
     set_popularities = {
 	supremacist_nationalist = 0
-	imperial_aristocratic = 0
+	despotist = 0
 	authoritarian = 100
 	conservative = 0
 	liberal = 0
@@ -128,7 +128,6 @@ FAF = {
 	libertarian_socialist = 0
 	vanguardist = 0
 	toilerist = 0
-	vanguard_nationalist = 0
     }
 }
 
@@ -142,7 +141,7 @@ FID = {
 
     set_popularities = {
 	supremacist_nationalist = 0
-	imperial_aristocratic = 0
+	despotist = 0
 	authoritarian = 100
 	conservative = 0
 	liberal = 0
@@ -150,13 +149,12 @@ FID = {
 	libertarian_socialist = 0
 	vanguardist = 0
 	toilerist = 0
-	vanguard_nationalist = 0
     }
 }
 
 MOR = {
     set_politics = {
-        ruling_party = imperial_aristocratic
+        ruling_party = despotist
         last_election = "1936.1.1"
         election_frequency = 48
         elections_allowed = no
@@ -164,7 +162,7 @@ MOR = {
 
     set_popularities = {
 	supremacist_nationalist = 0
-	imperial_aristocratic = 100
+	despotist = 100
 	authoritarian = 0
 	conservative = 0
 	liberal = 0
@@ -172,7 +170,6 @@ MOR = {
 	libertarian_socialist = 0
 	vanguardist = 0
 	toilerist = 0
-	vanguard_nationalist = 0
     }
 
 	set_cosmetic_tag = FRA_French_Colony
@@ -192,15 +189,14 @@ set_politics = {
 }
 set_popularities = {
 	supremacist_nationalist = 15
-	imperial_aristocratic = 9
+	despotist = 9
 	authoritarian = 16
 	conservative = 25
 	liberal = 8
 	progressive = 0
 	libertarian_socialist = 20
 	vanguardist = 2
-	toilerist = 0
-	vanguard_nationalist = 5
+	toilerist = 5
 }
 
 create_country_leader = {

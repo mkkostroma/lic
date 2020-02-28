@@ -39,11 +39,11 @@ ideologies = {
 	}
 
 
-	imperial_aristocratic = {
+	despotist = {
 		
 		types = {
 		
-			imperial_aristocratic_ideology = {
+			despotist_ideology = {
 			}
 			
 			
@@ -58,7 +58,7 @@ ideologies = {
 			"FACTION_NAME_NATIONALIST_6"
 		}
 		
-		color = { 83 49 121 }
+		color = { 184 188 182 }
 		
 		war_impact_on_world_tension = 1
 		faction_impact_on_world_tension = 1
@@ -96,7 +96,7 @@ ideologies = {
 			"FACTION_NAME_MONARCHIST_6"
 		}
 		
-		color = { 184 188 182  }
+		color = { 83 49 121 }
 		
 		war_impact_on_world_tension = 1
 		faction_impact_on_world_tension = 1
@@ -347,11 +347,11 @@ ideologies = {
 		
 	}
 	
-	vanguard_nationalist = {
+	 = {
 		
 		types = {
 			
-			vanguard_nationalist_ideology = {
+			_ideology = {
 			}
 			
 			
@@ -385,3 +385,4 @@ ideologies = {
 		
 	}
 }
+

@@ -41,7 +41,7 @@ set_convoys = 5
 
 
 set_politics = {
-	ruling_party = imperial_aristocratic
+	ruling_party = despotist
 	last_election = "1935.6.9"
 	election_frequency = 12
 	elections_allowed = no # none after offset 1
@@ -49,22 +49,21 @@ set_politics = {
 
 set_popularities = {
 	supremacist_nationalist = 34
-	imperial_aristocratic = 2
+	despotist = 2
 	authoritarian = 5
 	conservative = 9
 	liberal = 4
 	progressive = 13
 	libertarian_socialist = 13
 	vanguardist = 10
-	toilerist = 1
-	vanguard_nationalist = 9
+	toilerist = 10
 }
 create_country_leader = {
 	name = "Yuan Shikai"
 	desc = "YUAN_SHIKAI_DESC"
 	picture = "Yuan_Shikai.dds"
 	expire = "1965.1.1"
-	ideology = imperial_aristocratic_ideology
+	ideology = despotist_ideology
 	traits = {
 		#
 	}

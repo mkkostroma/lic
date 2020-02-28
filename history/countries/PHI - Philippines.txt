@@ -24,15 +24,14 @@ set_politics = {
 }
 set_popularities = {
 	supremacist_nationalist = 4
-	imperial_aristocratic = 5
+	despotist = 5
 	authoritarian = 24
 	conservative = 11
 	liberal = 12
 	progressive = 14
 	libertarian_socialist = 7
 	vanguardist = 8
-	toilerist = 6
-	vanguard_nationalist = 9
+	toilerist = 15
 }
 
 "PHI" = {

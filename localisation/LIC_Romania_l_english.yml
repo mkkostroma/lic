@@ -3,9 +3,9 @@
  ROM_supremacist_nationalist:0 "Kingdom of Romania"
  ROM_supremacist_nationalist_DEF:0 "The Kingdom of Romania"
  ROM_supremacist_nationalist_ADJ:0 "Romanian"
- ROM_imperial_aristocratic:0 "Kingdom of Romania"
- ROM_imperial_aristocratic_DEF:0 "The Kingdom of Romania"
- ROM_imperial_aristocratic_ADJ:0 "Romanian"
+ ROM_despotist:0 "Kingdom of Romania"
+ ROM_despotist_DEF:0 "The Kingdom of Romania"
+ ROM_despotist_ADJ:0 "Romanian"
  ROM_authoritarian:0 "Kingdom of Romania"
  ROM_authoritarian_DEF:0 "The Kingdom of Romania"
  ROM_authoritarian_ADJ:0 "Romanian"
@@ -27,9 +27,9 @@
  ROM_toilerist:0 "Kingdom of Romania"
  ROM_toilerist_DEF:0 "The Kingdom of Romania"
  ROM_toilerist_ADJ:0 "Romanian"
- ROM_vanguard_nationalist:0 "Kingdom of Romania"
- ROM_vanguard_nationalist_DEF:0 "The Kingdom of Romania"
- ROM_vanguard_nationalist_ADJ:0 "Romanian"
+ ROM_:0 "Kingdom of Romania"
+ ROM__DEF:0 "The Kingdom of Romania"
+ ROM__ADJ:0 "Romanian"
  
  #parties 
  

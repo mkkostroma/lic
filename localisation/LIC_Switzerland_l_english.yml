@@ -3,9 +3,9 @@
  SWI_supremacist_nationalist:0 "Swiss Federation"
  SWI_supremacist_nationalist_DEF:0 "The Swiss Federation"
  SWI_supremacist_nationalist_ADJ:0 "Swiss"
- SWI_imperial_aristocratic:0 "Swiss Federation"
- SWI_imperial_aristocratic_DEF:0 "The Swiss Federation"
- SWI_imperial_aristocratic_ADJ:0 "Swiss"
+ SWI_despotist:0 "Swiss Federation"
+ SWI_despotist_DEF:0 "The Swiss Federation"
+ SWI_despotist_ADJ:0 "Swiss"
  SWI_authoritarian:0 "Swiss Federation"
  SWI_authoritarian_DEF:0 "The Swiss Federation"
  SWI_authoritarian_ADJ:0 "Swiss"
@@ -27,9 +27,9 @@
  SWI_toilerist:0 "Swiss Federation"
  SWI_toilerist_DEF:0 "The Swiss Federation"
  SWI_toilerist_ADJ:0 "Swiss"
- SWI_vanguard_nationalist:0 "Swiss Federation"
- SWI_vanguard_nationalist_DEF:0 "The Swiss Federation"
- SWI_vanguard_nationalist_ADJ:0 "Swiss"
+ SWI_:0 "Swiss Federation"
+ SWI__DEF:0 "The Swiss Federation"
+ SWI__ADJ:0 "Swiss"
  
  #parties 
  

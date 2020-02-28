@@ -3,9 +3,9 @@
  NJG_supremacist_nationalist:0 "Nanjing Government"
  NJG_supremacist_nationalist_DEF:0 "The Nanjing Government"
  NJG_supremacist_nationalist_ADJ:0 "Nanjing"
- NJG_imperial_aristocratic:0 "Nanjing Government"
- NJG_imperial_aristocratic_DEF:0 "The Nanjing Government"
- NJG_imperial_aristocratic_ADJ:0 "Nanjing"
+ NJG_despotist:0 "Nanjing Government"
+ NJG_despotist_DEF:0 "The Nanjing Government"
+ NJG_despotist_ADJ:0 "Nanjing"
  NJG_authoritarian:0 "Nanjing Government"
  NJG_authoritarian_DEF:0 "The Nanjing Government"
  NJG_authoritarian_ADJ:0 "Nanjing"
@@ -27,9 +27,9 @@
  NJG_toilerist:0 "Nanjing Government"
  NJG_toilerist_DEF:0 "The Nanjing Government"
  NJG_toilerist_ADJ:0 "Nanjing"
- NJG_vanguard_nationalist:0 "Nanjing Government"
- NJG_vanguard_nationalist_DEF:0 "The Nanjing Government"
- NJG_vanguard_nationalist_ADJ:0 "Nanjing"
+ NJG_:0 "Nanjing Government"
+ NJG__DEF:0 "The Nanjing Government"
+ NJG__ADJ:0 "Nanjing"
  
  #parties 
  

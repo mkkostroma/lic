@@ -50,7 +50,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = imperial_aristocratic
+	ruling_party = despotist
 	last_election = "1910.2.16"
 	election_frequency = 36
 	elections_allowed = yes
@@ -58,7 +58,7 @@ set_politics = {
 
 set_popularities = {
 	supremacist_nationalist = 2
-	imperial_aristocratic = 18
+	despotist = 18
 	authoritarian = 6
 	conservative = 20
 	liberal = 20
@@ -66,7 +66,7 @@ set_popularities = {
 	libertarian_socialist = 8
 	vanguardist = 1
 	toilerist = 2
-	vanguard_nationalist = 5
+	 = 5
 	}
 
 set_convoys = 150
@@ -78,7 +78,7 @@ create_country_leader = {
 	desc = "POLITICS_MANUEL_AZANA_DESC"
 	picture = "Alfonso_Fernando.dds"
 	expire = "1965.1.1"
-	ideology = imperial_aristocratic_ideology
+	ideology = despotist_ideology
 	traits = {
 		#
 	}

@@ -42,22 +42,21 @@ set_war_support = 0.1
 
 
 set_politics = {
-	ruling_party = imperial_aristocratic
+	ruling_party = despotist
 	last_election = "1934.7.1"
 	election_frequency = 72
 	elections_allowed = no
 }
 set_popularities = {
 	supremacist_nationalist = 10
-	imperial_aristocratic = 10
+	despotist = 10
 	authoritarian = 10
 	conservative = 10
 	liberal = 10
 	progressive = 10
 	libertarian_socialist = 10
 	vanguardist = 10
-	toilerist = 10
-	vanguard_nationalist = 10
+	toilerist = 20
 }
 
 create_country_leader = {
@@ -65,7 +64,7 @@ create_country_leader = {
 	desc = "POLITICS_VICTORIANO_HUERTA_DESC"
 	picture = "Portrait_Victoriano_Huerta.dds"
 	expire = "1965.1.1"
-	ideology = imperial_aristocratic_ideology
+	ideology = despotist_ideology
 	traits = {
 		#
 	}

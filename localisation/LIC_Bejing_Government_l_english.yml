@@ -3,9 +3,9 @@
  CHI_supremacist_nationalist:0 "Beijing Government"
  CHI_supremacist_nationalist_DEF:0 "The Beijing Government"
  CHI_supremacist_nationalist_ADJ:0 "China"
- CHI_imperial_aristocratic:0 "Beijing Government"
- CHI_imperial_aristocratic_DEF:0 "The Beijing Government"
- CHI_imperial_aristocratic_ADJ:0 "China"
+ CHI_despotist:0 "Beijing Government"
+ CHI_despotist_DEF:0 "The Beijing Government"
+ CHI_despotist_ADJ:0 "China"
  CHI_authoritarian:0 "Beijing Government"
  CHI_authoritarian_DEF:0 "The Beijing Government"
  CHI_authoritarian_ADJ:0 "China"
@@ -27,9 +27,9 @@
  CHI_toilerist:0 "Beijing Government"
  CHI_toilerist_DEF:0 "The Beijing Government"
  CHI_toilerist_ADJ:0 "China"
- CHI_vanguard_nationalist:0 "Beijing Government"
- CHI_vanguard_nationalist_DEF:0 "The Beijing Government"
- CHI_vanguard_nationalist_ADJ:0 "China"
+ CHI_:0 "Beijing Government"
+ CHI__DEF:0 "The Beijing Government"
+ CHI__ADJ:0 "China"
  
  #parties 
  

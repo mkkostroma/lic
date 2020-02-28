@@ -170,15 +170,14 @@ set_politics = {
 }
 set_popularities = {
 	supremacist_nationalist = 7
-	imperial_aristocratic = 11
+	despotist = 11
 	authoritarian = 22
 	conservative = 14
 	liberal = 13
 	progressive = 15
 	libertarian_socialist = 5
 	vanguardist = 5
-	toilerist = 4
-	vanguard_nationalist = 4 
+	toilerist = 8
 }
 
 

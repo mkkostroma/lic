@@ -3,9 +3,9 @@
  POL_supremacist_nationalist:0 "Republic of Poland"
  POL_supremacist_nationalist_DEF:0 "The Republic of Poland"
  POL_supremacist_nationalist_ADJ:0 "Polish"
- POL_imperial_aristocratic:0 "Republic of Poland"
- POL_imperial_aristocratic_DEF:0 "The Republic of Poland"
- POL_imperial_aristocratic_ADJ:0 "Polish"
+ POL_despotist:0 "Republic of Poland"
+ POL_despotist_DEF:0 "The Republic of Poland"
+ POL_despotist_ADJ:0 "Polish"
  POL_authoritarian:0 "Republic of Poland"
  POL_authoritarian_DEF:0 "The Republic of Poland"
  POL_authoritarian_ADJ:0 "Polish"
@@ -27,9 +27,9 @@
  POL_toilerist:0 "Republic of Poland"
  POL_toilerist_DEF:0 "The Republic of Poland"
  POL_toilerist_ADJ:0 "Polish"
- POL_vanguard_nationalist:0 "Republic of Poland"
- POL_vanguard_nationalist_DEF:0 "The Republic of Poland"
- POL_vanguard_nationalist_ADJ:0 "Polish"
+ POL_:0 "Republic of Poland"
+ POL__DEF:0 "The Republic of Poland"
+ POL__ADJ:0 "Polish"
  
  #parties 
  

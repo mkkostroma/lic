@@ -3,9 +3,9 @@
  ALB_supremacist_nationalist:0 "Albania"
  ALB_supremacist_nationalist_DEF:0 "The Kingdom of Albania"
  ALB_supremacist_nationalist_ADJ:0 "Albanian"
- ALB_imperial_aristocratic:0 "Albania"
- ALB_imperial_aristocratic_DEF:0 "The Kingdom of Albania"
- ALB_imperial_aristocratic_ADJ:0 "Albanian"
+ ALB_despotist:0 "Albania"
+ ALB_despotist_DEF:0 "The Kingdom of Albania"
+ ALB_despotist_ADJ:0 "Albanian"
  ALB_authoritarian:0 "Albania"
  ALB_authoritarian_DEF:0 "The Kingdom of Albania"
  ALB_authoritarian_ADJ:0 "Albanian"
@@ -27,9 +27,9 @@
  ALB_toilerist:0 "Albania"
  ALB_toilerist_DEF:0 "The Kingdom of Albania"
  ALB_toilerist_ADJ:0 "Albanian"
- ALB_vanguard_nationalist:0 "Albania"
- ALB_vanguard_nationalist_DEF:0 "The Kingdom of Albania"
- ALB_vanguard_nationalist_ADJ:0 "Albanian"
+ ALB_:0 "Albania"
+ ALB__DEF:0 "The Kingdom of Albania"
+ ALB__ADJ:0 "Albanian"
  
  #parties 
  

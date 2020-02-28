@@ -78,7 +78,7 @@ bookmarks = {
 		"MEX"={
 			minor = yes
 			history = "MEX_LIBERTY_IN_CHAINS_DESC"
-			ideology = imperial_aristocratic
+			ideology = despotist
 			ideas = {
 			}
 			focuses = {
