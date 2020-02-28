@@ -1,0 +1,671 @@
+focus_tree = {
+	id = france_focus_tree
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+
+		
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 1500 y = 100000 }
+	
+	focus = {
+		id = FRA_Clemenceau_Government 
+		icon = GFX_goal_Focus_FRA_Clem_Government
+		x = 7
+		y = 0
+
+		cost = 8
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = FRA_End_Rationing
+		icon = GFX_goal_Generic_Canned_Fish
+		x = 5
+		y = 1
+
+		cost = 8
+		
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = FRA_Clemenceau_Government
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+
+	focus = {
+		id = FRA_Demobilization
+		icon = GFX_goal_Generic_Memories_of_the_War
+		x = 7
+		y = 1
+
+		cost = 8
+		
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = FRA_Clemenceau_Government
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = FRA_Demobilization_idea
+				days = 180
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_Wartime_Censorship_Debate
+		icon = GFX_goal_Focus_Generic_Press_Liberalization
+		x = 9
+		y = 1
+
+		cost = 8
+		
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = FRA_Clemenceau_Government
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = FRA_Concede_to_Unions
+		icon = GFX_goal_Generic_Fabianist
+		x = 6
+		y = 2
+
+		cost = 8
+
+		available = {
+			FRA = {
+				has_idea = FRA_General_Strike
+			}
+		}
+		
+		mutually_exclusive = {
+			focus = FRA_Break_the_Unions
+		}
+
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = FRA_End_Rationing
+		}
+
+		prerequisite = {
+			focus = FRA_Demobilization
+		}
+
+		prerequisite = {
+			focus = FRA_Wartime_Censorship_Debate
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = -0.1
+
+			add_political_power = -200
+
+			swap_ideas = {
+				remove_idea = FRA_General_Strike
+				add_idea = FRA_General_Strike2
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_Break_the_Unions
+		icon = GFX_goal_Generic_German_Soldiers2
+		x = 8
+		y = 2
+
+		cost = 8
+
+		available = {
+			FRA = {
+				has_idea = FRA_General_Strike
+			}
+		}
+		
+		mutually_exclusive = {
+			focus = FRA_Concede_to_Unions
+		}
+
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = FRA_End_Rationing
+		}
+
+		prerequisite = {
+			focus = FRA_Demobilization
+		}
+
+		prerequisite = {
+			focus = FRA_Wartime_Censorship_Debate
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = -0.2
+
+			add_political_power = -150
+
+			swap_ideas = {
+				remove_idea = FRA_General_Strike
+				add_idea = FRA_General_Strike3
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_Matignon_Agreements_focus
+		icon = GFX_goal_Generic_Pass_Legislation
+		x = 6
+		y = 3
+
+		cost = 8
+
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = FRA_Concede_to_Unions
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+			swap_ideas = {
+				remove_idea = FRA_General_Strike2
+				add_idea = FRA_CGT_Agreement
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_Pardon_Mutineers
+		icon = GFX_goal_Generic_Bell_Tolls
+		x = 4
+		y = 3
+
+		cost = 8
+
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = FRA_Concede_to_Unions
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = FRA_Push_for_Peace
+		icon = GFX_goal_Generic_Rearmament
+		x = 6
+		y = 4
+
+		cost = 8
+
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = FRA_Matignon_Agreements_focus
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = FRA_Street_Fighting
+				add_idea = FRA_Street_Fighting2
+			}			
+		}
+	}
+
+	focus = {
+		id = FRA_Denounce_Revolutionaries
+		icon = GFX_goal_Generic_Liberatian_Socialism
+		x = 4
+		y = 4
+
+		cost = 8
+
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = FRA_Pardon_Mutineers
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_popularity = {
+				ideology = vanguardist
+				popularity = -0.1
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_Bread_and_Peace
+		icon = GFX_goal_Generic_Bread_and_Peace
+		x = 2
+		y = 4
+
+		cost = 8
+
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = FRA_Pardon_Mutineers
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = 0.1
+
+			add_war_support = -0.1
+		}
+	}
+
+	focus = {
+		id = FRA_Purge_Military
+		icon = GFX_goal_Focus_Examine_Foreign_Small_Arms
+		x = 5
+		y = 5
+
+		cost = 8
+
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = FRA_Push_for_Peace
+		}
+
+		prerequisite = {
+			focus = FRA_Denounce_Revolutionaries
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+		}
+	}
+
+	focus = {
+		id = FRA_Ban_Far_Right
+		icon = GFX_goal_Generic_Tear_Paper
+		x = 3
+		y = 5
+
+		cost = 8
+
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = FRA_Bread_and_Peace
+		}
+
+		prerequisite = {
+			focus = FRA_Denounce_Revolutionaries
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_popularity = {
+				ideology = supremacist_nationalist
+				popularity = -1.0
+			}		
+		}
+	}
+
+	focus = {
+		id = FRA_United_Front
+		icon = GFX_goal_Generic_Industrial_Social_Democracy
+		x = 4
+		y = 6
+
+		cost = 8
+
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = FRA_Ban_Far_Right
+		}
+
+		prerequisite = {
+			focus = FRA_Purge_Military
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = FRA_Political_Crisis
+				add_idea = FRA_Political_Crisis2
+			}			
+		}
+	}
+
+	focus = {
+		id = FRA_Infiltrate_the_Unions
+		icon = GFX_goal_Generic_Spy_Sabotage
+		x = 8
+		y = 3
+
+		cost = 8
+
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = FRA_Break_the_Unions
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+			swap_ideas = {
+				remove_idea = FRA_General_Strike3
+				add_idea = FRA_General_Strike4
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_Ally_the_Leagues
+		icon = GFX_goal_Generic_Ultranationalism2
+		x = 10
+		y = 3
+
+		cost = 8
+
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = FRA_Break_the_Unions
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_popularity = {
+				ideology = supremacist_nationalist
+				popularity = 0.1
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_Ban_the_CGT
+		icon = GFX_goal_Generic_Enough
+		x = 8
+		y = 4
+
+		cost = 8
+
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = FRA_Infiltrate_the_Unions
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			remove_ideas = FRA_General_Strike4
+		}
+	}
+
+	focus = {
+		id = FRA_Everything_goes_Bad
+		icon = GFX_goal_Focus_Mobile_Warfare_Doctrine
+		x = 10
+		y = 4
+
+		cost = 8
+
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = FRA_Ally_the_Leagues
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = -0.2
+		}
+	}
+
+	focus = {
+		id = FRA_Oh_Shit
+		icon = GFX_goal_Focus_Spy_Infiltration
+		x = 12
+		y = 4
+
+		cost = 8
+
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = FRA_Ally_the_Leagues
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = -150
+		}
+	}
+
+	focus = {
+		id = FRA_Redeploy_Troops
+		icon = GFX_goal_Generic_French_Helmet
+		x = 9
+		y = 5
+
+		cost = 8
+
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = FRA_Ban_the_CGT
+		}
+
+		prerequisite = {
+			focus = FRA_Everything_goes_Bad
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = FRA_Street_Fighting
+				add_idea = FRA_Street_Fighting3
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_Crush_Communes
+		icon = GFX_goal_Generic_Tank_through_Wall
+		x = 11
+		y = 5
+
+		cost = 8
+
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = FRA_Oh_Shit
+		}
+
+		prerequisite = {
+			focus = FRA_Everything_goes_Bad
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = FRA_Political_Crisis
+				add_idea = FRA_Political_Crisis3
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_Crush_Socialists
+		icon = GFX_goal_Generic_Paternal_Autocracy
+		x = 10
+		y = 6
+
+		cost = 8
+
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = FRA_Redeploy_Troops
+		}
+
+		prerequisite = {
+			focus = FRA_Crush_Communes
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}

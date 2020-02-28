@@ -68,5 +68,215 @@ ideas = {
 				weekly_manpower = -100
 			}
 		}
+
+		FRA_Street_Fighting3 = {
+			
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = FRA_Political_Crisis
+			
+			modifier = {
+				stability_factor = -0.2
+				stability_weekly = -0.1
+			}
+		}
+
+		FRA_Demobilization_idea = {
+			
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_morale_bonus
+			
+			modifier = {
+				weekly_manpower = 100
+			}
+		}
+
+		FRA_General_Strike = {
+			
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_morale_bonus
+			
+			modifier = {
+				production_speed_buildings_factor = -0.2
+				consumer_goods_factor = 0.5
+			}
+		}
+
+		FRA_General_Strike2 = {
+			
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_morale_bonus
+			
+			modifier = {
+				production_speed_buildings_factor = -0.1
+				consumer_goods_factor = 0.3
+			}
+		}
+
+		FRA_General_Strike3 = {
+			
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_morale_bonus
+			
+			modifier = {
+				production_speed_buildings_factor = -0.3
+				consumer_goods_factor = 0.6
+			}
+		}
+
+		FRA_General_Strike4 = {
+			
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_morale_bonus
+			
+			modifier = {
+				production_speed_buildings_factor = -0.1
+				consumer_goods_factor = 0.1
+			}
+		}
+
+		FRA_CGT_Agreement = {
+			
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_morale_bonus
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+				political_power_gain = 0.5
+			}
+		}
+
+		FRA_Street_Fighting2 = {
+			
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = FRA_Political_Crisis
+			
+			modifier = {
+				stability_factor = -0.05
+				weekly_manpower = -50
+			}
+		}
+
+		FRA_Political_Crisis2 = {
+			
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = FRA_Political_Crisis
+			
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.3
+			}
+		}
+
+		FRA_Political_Crisis3 = {
+			
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = FRA_Political_Crisis
+			
+			modifier = {
+				stability_factor = -0.50
+				libertarian_socialist_drift = 0.1
+				vanguardist_drift = 0.1
+			}
+		}
 	}
 }
