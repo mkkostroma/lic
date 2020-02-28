@@ -94,7 +94,7 @@ set_popularities = {
 	conservative = 4
 	liberal = 4
 	progressive = 3
-	libertarian_socialist = 24
+	libertarian = 24
 	vanguardist = 25
 	toilerist = 18
 	 = 10
@@ -116,7 +116,7 @@ create_country_leader = {
 	desc = "POLITICS_EARL_BROWDER_DESC"
 	picture = "mary_harris.dds"
 	expire = "1965.1.1"
-	ideology = libertarian_socialist_ideology
+	ideology = libertarian_ideology
 	traits = {
 		
 	}

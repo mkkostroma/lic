@@ -294,7 +294,7 @@ set_popularities = {
 	conservative = 15
 	liberal = 15
 	progressive = 15
-	libertarian_socialist = 15
+	libertarian = 15
 	vanguardist = 5
 	toilerist = 8
 }
@@ -330,7 +330,7 @@ create_country_leader = {
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "ruth_fischer.dds"
 	expire = "1965.1.1"
-	ideology = libertarian_socialist_ideology
+	ideology = libertarian_ideology
 	traits = {
 	}
 }

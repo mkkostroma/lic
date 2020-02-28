@@ -28,7 +28,7 @@ set_popularities = {
 	conservative = 10
 	liberal = 10
 	progressive = 10
-	libertarian_socialist = 15
+	libertarian = 15
 	vanguardist = 10
 	toilerist = 20
 }
