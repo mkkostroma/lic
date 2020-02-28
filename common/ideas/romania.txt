@@ -18,8 +18,8 @@ ideas = {
 			}
 			
 			modifier = {
-				supremacist_nationalist_drift = 0.1
-				supremacist_nationalist_acceptance = 100
+				ultranationalist_drift = 0.1
+				ultranationalist_acceptance = 100
 			}
 		}
 	
@@ -35,7 +35,7 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = supremacist_nationalist
+					has_government = ultranationalist
 				}
 			}
 			

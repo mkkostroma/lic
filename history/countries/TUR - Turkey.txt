@@ -220,7 +220,7 @@ create_country_leader = {
 	desc = "POLITICS_OGUZ_REMZI_ARIK_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
 	expire = "1965.1.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		#
 	}

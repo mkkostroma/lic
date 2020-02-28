@@ -105,7 +105,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = supremacist_nationalist
+				has_government = ultranationalist
 			}
 
 			removal_cost = -1
@@ -114,7 +114,7 @@ ideas = {
 
 			
 			modifier = {
-				supremacist_nationalist_drift = 0.1
+				ultranationalist_drift = 0.1
 			}
 		}
 		MTG_TEST_NAVAL_IDEA = { #MTG_TODO_GABRIEL: remove before shipping
@@ -162,16 +162,16 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = supremacist_nationalist
+				has_government = ultranationalist
 			}
 
 			removal_cost = -1
 
-			picture = generic_supremacist_nationalist_drift_bonus
+			picture = generic_ultranationalist_drift_bonus
 			
 			modifier = {
-				supremacist_nationalist_drift = 0.1
-				supremacist_nationalist_acceptance = 85
+				ultranationalist_drift = 0.1
+				ultranationalist_acceptance = 85
 			}
 		}
 		
@@ -243,7 +243,7 @@ ideas = {
 				OR = {
 					AND = {
 						tag = GER
-						has_government = supremacist_nationalist
+						has_government = ultranationalist
 						SOV = {
 							has_government = vanguardist
 						}
@@ -252,7 +252,7 @@ ideas = {
 						tag = SOV
 						has_government = vanguardist
 						GER = {
-							has_government = supremacist_nationalist
+							has_government = ultranationalist
 						}
 					}
 				}
@@ -262,7 +262,7 @@ ideas = {
 			
 			modifier = {
 				vanguardist_acceptance = 100
-				supremacist_nationalist_acceptance = 100
+				ultranationalist_acceptance = 100
 			}
 		}
 		
@@ -314,15 +314,15 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = supremacist_nationalist
+				has_government = ultranationalist
 			}
 
 			removal_cost = -1
 
-			picture = generic_supremacist_nationalist_drift_bonus
+			picture = generic_ultranationalist_drift_bonus
 			
 			modifier = {
-				supremacist_nationalist_drift = 0.1
+				ultranationalist_drift = 0.1
 				experience_gain_army = 0.1
 			}
 		}
@@ -434,7 +434,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = supremacist_nationalist
+				has_government = ultranationalist
 			}
 			
 			removal_cost = -1
@@ -457,7 +457,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_government = vanguardist
-					has_government = supremacist_nationalist
+					has_government = ultranationalist
 				}
 			}
 			
@@ -480,7 +480,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_government = vanguardist
-					has_government = supremacist_nationalist
+					has_government = ultranationalist
 				}
 			}
 			
@@ -503,7 +503,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_government = vanguardist
-					has_government = supremacist_nationalist
+					has_government = ultranationalist
 				}
 			}
 			
@@ -703,9 +703,9 @@ ideas = {
 			}
 		}
 
-		supremacist_nationalist_banned = {
+		ultranationalist_banned = {
 
-			picture = generic_supremacist_nationalist_banned
+			picture = generic_ultranationalist_banned
 
 			allowed = {
 				always = no
@@ -713,12 +713,12 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = supremacist_nationalist
+					has_government = ultranationalist
 				}
 			}
 
 			modifier = {
-				supremacist_nationalist_drift = -0.05
+				ultranationalist_drift = -0.05
 			}
 		}
 
@@ -1214,7 +1214,7 @@ ideas = {
 	
 			do_effect = {
 				NOT = {
-					has_government = supremacist_nationalist
+					has_government = ultranationalist
 				}
 			}
 	

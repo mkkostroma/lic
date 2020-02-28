@@ -169,7 +169,7 @@ set_politics = {
 	elections_allowed = yes ##suspended through duration of war, which is handled via event
 }
 set_popularities = {
-	supremacist_nationalist = 7
+	ultranationalist = 7
 	despotist = 11
 	authoritarian = 22
 	conservative = 14
@@ -223,7 +223,7 @@ create_country_leader = {
 	desc = "POLITICS_OSWALD_MOSLEY_DESC"
 	picture = "Portrait_Britain_Oswald_Mosley.dds"
 	expire = "1965.1.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		champion_of_peace_1
 		economic_reformer

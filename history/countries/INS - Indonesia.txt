@@ -48,7 +48,7 @@ if = {
 set_convoys = 25
 set_popularities = {
 	liberal = 10
-	supremacist_nationalist = 10
+	ultranationalist = 10
 	toilerist = 30
 	authoritarian = 50
 }
@@ -89,9 +89,9 @@ create_country_leader = {
 create_country_leader = {
 	name = "Suharto"
 	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_supremacist_nationalist.dds"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_ultranationalist.dds"
 	expire = "1953.3.1"
-	ideology = supremacist_nationalist_ideology # except for no connection to catholicism, this party perfectly fits into supremacist_nationalist_ideology 
+	ideology = ultranationalist_ideology # except for no connection to catholicism, this party perfectly fits into ultranationalist_ideology 
 	traits = {
 		
 	}

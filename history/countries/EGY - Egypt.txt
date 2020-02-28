@@ -65,7 +65,7 @@ set_politics = {
 }
 set_popularities = {
 	liberal = 25
-	supremacist_nationalist = 20
+	ultranationalist = 20
 	toilerist = 5
 	authoritarian = 50
 }
@@ -84,7 +84,7 @@ create_country_leader = {
 	name = "Ahmed Husayn"
 	desc = ""
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		#
 	}

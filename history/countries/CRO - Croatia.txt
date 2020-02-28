@@ -42,14 +42,14 @@ set_convoys = 5
 
 
 set_politics = {
-	ruling_party = supremacist_nationalist
+	ruling_party = ultranationalist
 	last_election = "1935.6.9"
 	election_frequency = 12
 	elections_allowed = no # none after offset 1
 }
 
 set_popularities = {
-	supremacist_nationalist = 34
+	ultranationalist = 34
 	despotist = 2
 	authoritarian = 5
 	conservative = 9
@@ -64,7 +64,7 @@ create_country_leader = {
 	desc = "ANTUN_BAUER_DESC"
 	picture = "Antun_Bauer.dds"
 	expire = "1965.1.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		#
 	}

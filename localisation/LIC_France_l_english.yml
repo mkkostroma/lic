@@ -1,9 +1,9 @@
 ﻿l_english:
 
  # COUNTRY NAMES
- FRA_supremacist_nationalist:0 "National State of France"
- FRA_supremacist_nationalist_DEF:0 "The National State of France"
- FRA_supremacist_nationalist_ADJ:0 "French"
+ FRA_ultranationalist:0 "National State of France"
+ FRA_ultranationalist_DEF:0 "The National State of France"
+ FRA_ultranationalist_ADJ:0 "French"
  FRA_despotist:0 "Second French Empire"
  FRA_despotist_DEF:0 "The Second French Empire"
  FRA_despotist_ADJ:0 "French"
@@ -32,9 +32,9 @@
  FRA__DEF:0 "The National Union of France"
  FRA__ADJ:0 "French"
 
- FAF_supremacist_nationalist:0 "French African Administration"
- FAF_supremacist_nationalist_DEF:0 "The French African Administration"
- FAF_supremacist_nationalist_ADJ:0 "French African"
+ FAF_ultranationalist:0 "French African Administration"
+ FAF_ultranationalist_DEF:0 "The French African Administration"
+ FAF_ultranationalist_ADJ:0 "French African"
  FAF_despotist:0 "French African Administration"
  FAF_despotist_DEF:0 "The French African Administration"
  FAF_despotist_ADJ:0 "French African"
@@ -63,9 +63,9 @@
  FAF__DEF:0 "The French African Administration"
  FAF__ADJ:0 "French African"
 
- FID_supremacist_nationalist:0 "French Indochina"
- FID_supremacist_nationalist_DEF:0 "The French Indochina"
- FID_supremacist_nationalist_ADJ:0 "French Indochinese"
+ FID_ultranationalist:0 "French Indochina"
+ FID_ultranationalist_DEF:0 "The French Indochina"
+ FID_ultranationalist_ADJ:0 "French Indochinese"
  FID_despotist:0 "French Indochina"
  FID_despotist_DEF:0 "The French Indochina"
  FID_despotist_ADJ:0 "French Indochinese"
@@ -94,9 +94,9 @@
  FID__DEF:0 "The French Indochina"
  FID__ADJ:0 "French Indochinese"
 
- MOR_supremacist_nationalist:0 "Kingdom of Morocco"
- MOR_supremacist_nationalist_DEF:0 "The Kingdom of Morocco"
- MOR_supremacist_nationalist_ADJ:0 "Moroccan"
+ MOR_ultranationalist:0 "Kingdom of Morocco"
+ MOR_ultranationalist_DEF:0 "The Kingdom of Morocco"
+ MOR_ultranationalist_ADJ:0 "Moroccan"
  MOR_despotist:0 "Kingdom of Morocco"
  MOR_despotist_DEF:0 "The Kingdom of Morocco"
  MOR_despotist_ADJ:0 "Moroccan"
@@ -144,8 +144,8 @@
  FRA_authoritarian_party_long:0 "Triumvirat militaire pour le salut de l'État français"
  FRA_despotist_party:0 "Action française"
  FRA_despotist_party_long:0 "Action Française"
- FRA_supremacist_nationalist_party:0 "Croix-de-Feu"
- FRA_supremacist_nationalist_party_long:0 "Croix-de-Feu"
+ FRA_ultranationalist_party:0 "Croix-de-Feu"
+ FRA_ultranationalist_party_long:0 "Croix-de-Feu"
 
  #IDEAS
  FRA_Great_War_Legacy:0 "Legacy of the Great War"

@@ -48,7 +48,7 @@ set_politics = {
 }
 
 set_popularities = {
-	supremacist_nationalist = 34
+	ultranationalist = 34
 	despotist = 2
 	authoritarian = 5
 	conservative = 9

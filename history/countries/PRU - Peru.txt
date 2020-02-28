@@ -104,14 +104,14 @@ set_convoys = 5
 }
 
 set_politics = {
-	ruling_party = supremacist_nationalist
+	ruling_party = ultranationalist
 	last_election = "1931.10.11"
 	election_frequency = 96
 	elections_allowed = yes
 }
 set_popularities = {
 	liberal = 49
-	supremacist_nationalist = 51
+	ultranationalist = 51
 }
 
 create_country_leader = {
@@ -119,7 +119,7 @@ create_country_leader = {
 	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
 	picture = "GFX_Portrait_peru_oscar_benavides"
 	expire = "1965.1.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		#
 	}
@@ -131,7 +131,7 @@ create_country_leader = {
 		desc = "POLITICS_MANUEL_PRADO_UGARTECHE_DESC"
 		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
 		expire = "1965.1.1"
-		ideology = supremacist_nationalist_ideology
+		ideology = ultranationalist_ideology
 		traits = {
 			#
 		}

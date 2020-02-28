@@ -59,14 +59,14 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = supremacist_nationalist
+	ruling_party = ultranationalist
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	liberal = 5
-	supremacist_nationalist = 90
+	ultranationalist = 90
 	toilerist = 5
 }
 
@@ -75,7 +75,7 @@ create_country_leader = {
 	desc = "POLITICS_JOZEF_TISO_DESC"
 	picture = "Portrait_Slovakia_Jozef_Tiso.dds"
 	expire = "1965.1.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		#
 	}

@@ -219,7 +219,7 @@ set_politics = {
 }
 set_popularities = {
 	liberal = 20
-	supremacist_nationalist = 18
+	ultranationalist = 18
 	toilerist = 2
 	authoritarian = 60
 }
@@ -233,7 +233,7 @@ set_popularities = {
 	}
 	set_popularities = {
 		liberal = 20
-		supremacist_nationalist = 35
+		ultranationalist = 35
 		toilerist = 2
 		authoritarian = 43
 	}
@@ -277,7 +277,7 @@ create_country_leader = {
 	desc = "POLITICS_OCTAVIAN_GOGA_DESC"
 	picture = "Portrait_Romania_Octavian_Goga.dds"
 	expire = "1965.1.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		#
 	}
@@ -288,7 +288,7 @@ create_country_leader = {
 	desc = "POLITICS_ION_ANTONESCU_DESC"
 	picture = "Portrait_Romania_Ion_Antonescu.dds"
 	expire = "1965.1.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		#
 	}

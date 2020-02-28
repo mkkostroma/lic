@@ -884,26 +884,26 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				supremacist_nationalist_drift = -0.02
+				ultranationalist_drift = -0.02
 			}
 		}
 
 		HOL_volk_en_vaderland = {
 
-			picture = generic_supremacist_nationalist_drift_bonus
+			picture = generic_ultranationalist_drift_bonus
 
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = supremacist_nationalist
+				has_government = ultranationalist
 			}
 
 			removal_cost = -1
 
 			modifier = {
-				supremacist_nationalist_drift = 0.1
+				ultranationalist_drift = 0.1
 				war_support_weekly = 0.002
 			}
 		}
@@ -917,7 +917,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = supremacist_nationalist
+				has_government = ultranationalist
 			}
 
 			removal_cost = -1
@@ -937,7 +937,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = supremacist_nationalist
+				has_government = ultranationalist
 			}
 			
 			removal_cost = -1
@@ -963,14 +963,14 @@ ideas = {
 
 		HOL_implement_the_program = {
 
-			picture = generic_supremacist_nationalist_drift_2
+			picture = generic_ultranationalist_drift_2
 
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = supremacist_nationalist
+				has_government = ultranationalist
 			}
 
 			removal_cost = -1
@@ -989,7 +989,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = supremacist_nationalist
+				has_government = ultranationalist
 			}
 
 			removal_cost = -1
@@ -1228,7 +1228,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				supremacist_nationalist_drift = -0.02
+				ultranationalist_drift = -0.02
 				vanguardist_drift = -0.02
 				liberal_drift = 0.05
 				stability_weekly = 0.001
@@ -1331,7 +1331,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				supremacist_nationalist_drift = -0.02
+				ultranationalist_drift = -0.02
 				vanguardist_drift = -0.02
 			}
 		}
@@ -1927,7 +1927,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = supremacist_nationalist
+				has_government = ultranationalist
 			}
 			
 			removal_cost = -1
@@ -2036,7 +2036,7 @@ ideas = {
 			}
 
 			available = {
-				has_government = supremacist_nationalist
+				has_government = ultranationalist
 			}
 			
 			traits = { prince_of_terror }
@@ -2229,7 +2229,7 @@ ideas = {
 			}
 		
 			available = {
-				has_government = supremacist_nationalist
+				has_government = ultranationalist
 			}
 			
 			traits = { army_chief_offensive_2 }

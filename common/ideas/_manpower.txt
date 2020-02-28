@@ -133,7 +133,7 @@ ideas = {
 			available = {
 				#has_manpower_for_recruit_change_to = { value = 0.05 group = mobilization_laws }
 				OR = {
-					has_government = supremacist_nationalist
+					has_government = ultranationalist
 					has_government = vanguardist
 					AND = {
 						has_war = yes
@@ -226,7 +226,7 @@ ideas = {
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.1 group = mobilization_laws }
 				OR = {
-					has_government = supremacist_nationalist
+					has_government = ultranationalist
 					has_government = vanguardist
 					AND = {
 						has_war = yes

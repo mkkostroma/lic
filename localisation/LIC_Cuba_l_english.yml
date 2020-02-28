@@ -1,8 +1,8 @@
 ﻿l_english:
 
- CUB_free_republic_supremacist_nationalist:0 "Free Republic of Cuba"
- CUB_free_republic_supremacist_nationalist_DEF:0 "The Free Republic of Cuba"
- CUB_free_republic_supremacist_nationalist_ADJ:0 "Cuban"
+ CUB_free_republic_ultranationalist:0 "Free Republic of Cuba"
+ CUB_free_republic_ultranationalist_DEF:0 "The Free Republic of Cuba"
+ CUB_free_republic_ultranationalist_ADJ:0 "Cuban"
  CUB_free_republic_despotist:0 "Free Republic of Cuba"
  CUB_free_republic_despotist_DEF:0 "The Free Republic of Cuba"
  CUB_free_republic_despotist_ADJ:0 "Cuban"
@@ -31,9 +31,9 @@
  CUB_free_republic__DEF:0 "The Free Republic of Cuba"
  CUB_free_republic__ADJ:0 "Cuban"
  
- CUB_supremacist_nationalist:0 "Cuban Republic"
- CUB_supremacist_nationalist_DEF:0 "The Cuban Republic"
- CUB_supremacist_nationalist_ADJ:0 "Cuban"
+ CUB_ultranationalist:0 "Cuban Republic"
+ CUB_ultranationalist_DEF:0 "The Cuban Republic"
+ CUB_ultranationalist_ADJ:0 "Cuban"
  CUB_despotist:0 "Cuban Republic"
  CUB_despotist_DEF:0 "The Cuban Republic"
  CUB_despotist_ADJ:0 "Cuban"
@@ -62,7 +62,7 @@
  CUB__DEF:0 "The Cuban Republic"
  CUB__ADJ:0 "Cuban"
  
- #parties supremacist_nationalist
+ #parties ultranationalist
  CUB__party:0 ""
  CUB__party_long:0 ""
  CUB_toilerist_party:0 ""
@@ -81,5 +81,5 @@
  CUB_authoritarian_party_long:0 "Pershing Clique"
  CUB_despotist_party:0 ""
  CUB_despotist_party_long:0 ""
- CUB_supremacist_nationalist_party:0 ""
- CUB_supremacist_nationalist_party_long:0 ""
+ CUB_ultranationalist_party:0 ""
+ CUB_ultranationalist_party_long:0 ""

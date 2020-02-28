@@ -9,7 +9,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				 has_government = supremacist_nationalist
+				 has_government = ultranationalist
 			}
 
 			removal_cost = -1
@@ -17,7 +17,7 @@ ideas = {
 			picture = saf_ossewabrandwag
 
 			modifier = {
-				supremacist_nationalist_drift = 0.01
+				ultranationalist_drift = 0.01
 				industrial_capacity_factory = -0.10
 				industrial_capacity_dockyard = -0.10
 			}
@@ -29,7 +29,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				 has_government = supremacist_nationalist
+				 has_government = ultranationalist
 			}
 
 			removal_cost = -1
@@ -42,21 +42,21 @@ ideas = {
 			}
 		}
 
-		SAF_ossewabrandwag_supremacist_nationalist = {
+		SAF_ossewabrandwag_ultranationalist = {
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				 has_government = supremacist_nationalist
+				 has_government = ultranationalist
 			}
 
 			removal_cost = -1
 
-			picture = saf_ossewabrandwag_supremacist_nationalist
+			picture = saf_ossewabrandwag_ultranationalist
 
 			modifier = {
-				supremacist_nationalist_drift = 0.01
+				ultranationalist_drift = 0.01
 				enemy_partisan_effect = -0.1
 				foreign_subversive_activites = -0.4
 			}
@@ -120,23 +120,23 @@ ideas = {
 
 		}
 
-		SAF_abandon_westminster_supremacist_nationalist = {
+		SAF_abandon_westminster_ultranationalist = {
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				 has_government = supremacist_nationalist
+				 has_government = ultranationalist
 			}
 
 			removal_cost = -1
 
-			picture = ast_abandon_the_westminster_system_supremacist_nationalist
+			picture = ast_abandon_the_westminster_system_ultranationalist
 
 			modifier = {
 				autonomy_gain = 0.5
 				liberal_drift = -0.03
-				supremacist_nationalist_drift = 0.03
+				ultranationalist_drift = 0.03
 			}
 
 		}
@@ -254,7 +254,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				 has_government = supremacist_nationalist
+				 has_government = ultranationalist
 			}
 
 			removal_cost = -1
@@ -273,7 +273,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				 has_government = supremacist_nationalist
+				 has_government = ultranationalist
 			}
 
 			removal_cost = -1
@@ -431,7 +431,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = supremacist_nationalist
+				has_government = ultranationalist
 			}
 
 			removal_cost = -1
@@ -629,7 +629,7 @@ ideas = {
 		
 			do_effect = {
 				NOT = {
-					has_government = supremacist_nationalist
+					has_government = ultranationalist
 				}
 			}
 		

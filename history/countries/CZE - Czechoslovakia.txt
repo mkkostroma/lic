@@ -31,7 +31,7 @@ set_politics = {
 set_popularities = {
 	liberal = 65
 	authoritarian = 20
-	supremacist_nationalist = 5
+	ultranationalist = 5
 	toilerist = 10
 }
 
@@ -51,7 +51,7 @@ create_country_leader = {
 	desc = "POLITICS_JAROSLAV_KREJCI_DESC"
 	picture = "Portrait_Czech_Jaroslav_Krejci.dds"
 	expire = "1965.1.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		#
 	}

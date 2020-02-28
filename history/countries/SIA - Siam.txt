@@ -120,7 +120,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	supremacist_nationalist = 20
+	ultranationalist = 20
 	authoritarian = 80
 }
 
@@ -137,13 +137,13 @@ create_country_leader = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = supremacist_nationalist
+		ruling_party = ultranationalist
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	set_popularities = {
-		supremacist_nationalist = 100
+		ultranationalist = 100
 	}
 
 	create_country_leader = {
@@ -151,7 +151,7 @@ create_country_leader = {
 		desc = "POLITICS_PLAEK_PHIBUNSONGKHRAM_DESC"
 		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
 		expire = "1965.1.1"
-		ideology = supremacist_nationalist_ideology
+		ideology = ultranationalist_ideology
 		traits = {
 			#
 		}

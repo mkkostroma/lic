@@ -57,7 +57,7 @@ set_convoys = 5
 
 
 set_popularities = {
-	supremacist_nationalist = 7
+	ultranationalist = 7
 	despotist = 11
 	authoritarian = 22
 	conservative = 14
@@ -69,7 +69,7 @@ set_popularities = {
 }
 set_popularities = {
 	liberal = 40
-	supremacist_nationalist = 30
+	ultranationalist = 30
 	toilerist = 30
 }
 
@@ -87,7 +87,7 @@ create_country_leader = {
 	name = "Amin al-Husseini"
 	desc = ""
 	picture = "gfx/leaders/PAL/Portrait_Arabia_Generic_land_2.dds"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		#
 	}

@@ -133,7 +133,7 @@ set_politics = {
 }
 set_popularities = {
 	liberal = 96
-	supremacist_nationalist = 2
+	ultranationalist = 2
 	toilerist = 2
 }
 
@@ -146,7 +146,7 @@ set_popularities = {
 	}
 	set_popularities = {
 		liberal = 84
-		supremacist_nationalist = 2
+		ultranationalist = 2
 		toilerist = 2
 		authoritarian = 12
 	}
@@ -168,7 +168,7 @@ create_country_leader = {
 	desc = "POLITICS_VIDKUN_QUISLING_DESC"
 	picture = "Portrait_Norway_Vidkun_Quisling.dds"
 	expire = "1965.1.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		#
 	}

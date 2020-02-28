@@ -1,8 +1,8 @@
 ﻿l_english:
 
- SPR_supremacist_nationalist:0 "Kingdom of Spain"
- SPR_supremacist_nationalist_DEF:0 "The Kingdom of Spain"
- SPR_supremacist_nationalist_ADJ:0 "Spanish"
+ SPR_ultranationalist:0 "Kingdom of Spain"
+ SPR_ultranationalist_DEF:0 "The Kingdom of Spain"
+ SPR_ultranationalist_ADJ:0 "Spanish"
  SPR_despotist:0 "Kingdom of Spain"
  SPR_despotist_DEF:0 "The Kingdom of Spain"
  SPR_despotist_ADJ:0 "Spanish"
@@ -50,5 +50,5 @@
  SPR_authoritarian_party_long:0 "Spanish Patriotic Union"
  SPR_despotist_party:0 "House of Bourbon"
  SPR_despotist_party_long:0 "The House of Bourbon"
- SPR_supremacist_nationalist_party:0 "ARN - C"
- SPR_supremacist_nationalist_party_long:0 "Alliance for National Rebirth - Corporatist"
+ SPR_ultranationalist_party:0 "ARN - C"
+ SPR_ultranationalist_party_long:0 "Alliance for National Rebirth - Corporatist"

@@ -1659,7 +1659,7 @@ focus_tree = {
 		mutually_exclusive = { focus = liberty_ethos}
 		available = {
 			OR = {
-				has_government = supremacist_nationalist
+				has_government = ultranationalist
 				has_government = vanguardist
 				has_government = authoritarian
 			}
@@ -1693,12 +1693,12 @@ focus_tree = {
 
 	focus = {
 		id = nationalism_focus
-		icon = GFX_goal_support_supremacist_nationalist #icon = GFX_goal_tripartite_pact
+		icon = GFX_goal_support_ultranationalist #icon = GFX_goal_tripartite_pact
 		prerequisite = { focus = collectivist_ethos }
 		mutually_exclusive = { focus = internationalism_focus }
 		available = {
 			OR = {
-				has_government = supremacist_nationalist
+				has_government = ultranationalist
 				has_government = authoritarian
 			}
 		}
@@ -1716,14 +1716,14 @@ focus_tree = {
 				factor = 2
 				any_neighbor_country = {
 					is_major = yes
-					has_government = supremacist_nationalist
+					has_government = ultranationalist
 				}
 			}
 			modifier = {
 				factor = 0
 				AND = {
 					is_historical_focus_on = yes
-					NOT = { has_government = supremacist_nationalist }
+					NOT = { has_government = ultranationalist }
 				}
 			}
 		}
@@ -1814,7 +1814,7 @@ focus_tree = {
 					is_major = yes
 					OR = {
 						has_government = vanguardist
-						has_government = supremacist_nationalist
+						has_government = ultranationalist
 					}
 				}
 				NOT = {
@@ -1948,9 +1948,9 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = military_youth_focus
 			if = {
-				limit = { has_government = supremacist_nationalist }
+				limit = { has_government = ultranationalist }
 				add_popularity = {
-					ideology = supremacist_nationalist
+					ideology = ultranationalist
 					popularity = 0.2
 				}
 			}
@@ -2093,9 +2093,9 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = political_commissars_focus
 			if = {
-				limit = { has_government = supremacist_nationalist }
+				limit = { has_government = ultranationalist }
 				add_popularity = {
-					ideology = supremacist_nationalist
+					ideology = ultranationalist
 					popularity = 0.2
 				}
 			}

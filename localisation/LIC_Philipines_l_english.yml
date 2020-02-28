@@ -1,8 +1,8 @@
 ﻿l_english:
 
- PHI_supremacist_nationalist:0 "Filipino Republic"
- PHI_supremacist_nationalist_DEF:0 "The Filipino Republic"
- PHI_supremacist_nationalist_ADJ:0 "Filipino"
+ PHI_ultranationalist:0 "Filipino Republic"
+ PHI_ultranationalist_DEF:0 "The Filipino Republic"
+ PHI_ultranationalist_ADJ:0 "Filipino"
  PHI_despotist:0 "Filipino Republic"
  PHI_despotist_DEF:0 "The Filipino Republic"
  PHI_despotist_ADJ:0 "Filipino"
@@ -31,9 +31,9 @@
  PHI__DEF:0 "The Filipino Republic"
  PHI__ADJ:0 "Filipino"
  
- PHI_usa_supremacist_nationalist:0 "United States of America"
- PHI_usa_supremacist_nationalist_DEF:0 "The United States of America"
- PHI_usa_supremacist_nationalist_ADJ:0 "American"
+ PHI_usa_ultranationalist:0 "United States of America"
+ PHI_usa_ultranationalist_DEF:0 "The United States of America"
+ PHI_usa_ultranationalist_ADJ:0 "American"
  PHI_usa_despotist:0 "United States of America"
  PHI_usa_despotist_DEF:0 "The United States of America"
  PHI_usa_despotist_ADJ:0 "American"
@@ -81,5 +81,5 @@
  PHI_authoritarian_party_long:0 "United States Congress in Exile"
  PHI_despotist_party:0 "Local Rulers"
  PHI_despotist_party_long:0 "Local Rulers"
- PHI_supremacist_nationalist_party:0 "NR"
- PHI_supremacist_nationalist_party_long:0 "los Nacionalistas Radicales"
+ PHI_ultranationalist_party:0 "NR"
+ PHI_ultranationalist_party_long:0 "los Nacionalistas Radicales"

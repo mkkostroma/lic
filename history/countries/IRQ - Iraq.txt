@@ -75,7 +75,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	supremacist_nationalist = 20
+	ultranationalist = 20
 	authoritarian = 80
 }
 
@@ -93,9 +93,9 @@ create_country_leader = {
 create_country_leader = {
 	name = "Rashid Ali al-Gaylani"
 	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_supremacist_nationalist1.dds"
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_ultranationalist1.dds"
 	expire = "1965.1.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		#
 	}
@@ -120,7 +120,7 @@ create_country_leader = {
 		elections_allowed = no
 	}
 	set_popularities = {
-		supremacist_nationalist = 30
+		ultranationalist = 30
 		authoritarian = 70
 	}
 

@@ -56,13 +56,13 @@ set_convoys = 5
 }
 
 set_politics = {
-	ruling_party = supremacist_nationalist
+	ruling_party = ultranationalist
 	last_election = "1935.1.15"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	supremacist_nationalist = 100
+	ultranationalist = 100
 }
 
 create_country_leader = {
@@ -70,7 +70,7 @@ create_country_leader = {
 	desc = "POLITICS_MAXIMILIANO_HERNANDEZ_MARTINEZ_DESC"
 	picture = "GFX_portrait_el_salvador_maximiliano_hernandez_martinez"
 	expire = "1965.1.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		#
 	}
@@ -78,7 +78,7 @@ create_country_leader = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = supremacist_nationalist
+		ruling_party = ultranationalist
 		last_election = "1939.1.3"
 		election_frequency = 48
 		elections_allowed = yes

@@ -64,7 +64,7 @@ set_politics = {
 }
 set_popularities = {
 	liberal = 50
-	supremacist_nationalist = 10
+	ultranationalist = 10
 	toilerist = 10
 	authoritarian = 30
 }
@@ -83,7 +83,7 @@ create_country_leader = {
 	name = "Antun Saadeh"
 	desc = ""
 	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_land_3.dds"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		#
 	}

@@ -1,8 +1,8 @@
 ﻿l_english:
 
- SON_supremacist_nationalist:0 "Northern Government"
- SON_supremacist_nationalist_DEF:0 "The Northern Government"
- SON_supremacist_nationalist_ADJ:0 "Northern Mexican"
+ SON_ultranationalist:0 "Northern Government"
+ SON_ultranationalist_DEF:0 "The Northern Government"
+ SON_ultranationalist_ADJ:0 "Northern Mexican"
  SON_despotist:0 "Northern Government"
  SON_despotist_DEF:0 "The Northern Government"
  SON_despotist_ADJ:0 "Northern Mexican"
@@ -31,9 +31,9 @@
  SON__DEF:0 "The Northern Government"
  SON__ADJ:0 "Northern Mexican"
  
- SON_SUSoA_supremacist_nationalist:0 "Second United States of America"
- SON_SUSoA_supremacist_nationalist_DEF:0 "The Second United States of America"
- SON_SUSoA_supremacist_nationalist_ADJ:0 "American"
+ SON_SUSoA_ultranationalist:0 "Second United States of America"
+ SON_SUSoA_ultranationalist_DEF:0 "The Second United States of America"
+ SON_SUSoA_ultranationalist_ADJ:0 "American"
  SON_SUSoA_despotist:0 "Second United States of America"
  SON_SUSoA_despotist_DEF:0 "The Second United States of America"
  SON_SUSoA_despotist_ADJ:0 "American"
@@ -76,8 +76,8 @@
  
  #Parties
  
- SON_supremacist_nationalist_party:0 "Sinarquistas"
- SON_supremacist_nationalist_party_long:0 "Sinarquistas-Capítulo del Norte/Synarchists-Chapter of The North"
+ SON_ultranationalist_party:0 "Sinarquistas"
+ SON_ultranationalist_party_long:0 "Sinarquistas-Capítulo del Norte/Synarchists-Chapter of The North"
  SON_despotist_party:0 "Culto Carranza"
  SON_despotist_party_long:0 "Culto Carranza - Carranza Cult"
  SON_authoritarian_party:0 "Científicos"

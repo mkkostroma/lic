@@ -18,5 +18,5 @@ set_technology = {
 	early_submarine = 1
 }
 
-set_popularities = {	supremacist_nationalist = 33	authoritarian = 33	toilerist = 34
+set_popularities = {	ultranationalist = 33	authoritarian = 33	toilerist = 34
 }

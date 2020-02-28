@@ -239,7 +239,7 @@ create_country_leader = {
 	desc = "POLITICS_WANG_JINGWEI_DESC"
 	picture = "GFX_portrait_chi_wang_jingwei"
 	expire = "1965.1.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		#
 	}

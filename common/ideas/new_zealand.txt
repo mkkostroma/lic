@@ -261,16 +261,16 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = supremacist_nationalist
+				has_government = ultranationalist
 			}
 
 			removal_cost = -1
 
-			picture = generic_supremacist_nationalist_drift_bonus
+			picture = generic_ultranationalist_drift_bonus
 			
 			modifier = {
 				autonomy_gain = 1
-				supremacist_nationalist_drift = 0.01
+				ultranationalist_drift = 0.01
 				production_speed_buildings_factor = 0.1
 			}
 		}

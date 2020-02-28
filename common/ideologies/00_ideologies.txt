@@ -1,10 +1,10 @@
 ideologies = {
 	
-	supremacist_nationalist = {
+	ultranationalist = {
 		
 		types = {
 		
-			supremacist_nationalist_ideology = {	
+			ultranationalist_ideology = {	
 			}
 			
 		

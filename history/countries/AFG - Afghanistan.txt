@@ -65,7 +65,7 @@ set_politics = {
 }
 
 set_popularities = {
-	supremacist_nationalist = 15
+	ultranationalist = 15
 	toilerist = 10
 	authoritarian = 75
 }
@@ -90,7 +90,7 @@ create_country_leader = {
 		elections_allowed = no
 	}
 	set_popularities = {
-		supremacist_nationalist = 20
+		ultranationalist = 20
 		toilerist = 10
 		authoritarian = 70
 	}

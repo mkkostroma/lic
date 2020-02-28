@@ -61,7 +61,7 @@ if = {
 	}
 }
 
-set_popularities = {	supremacist_nationalist = 34
+set_popularities = {	ultranationalist = 34
 	liberal = 30
 	toilerist = 36
 }
@@ -71,7 +71,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1953.3.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		
 	}

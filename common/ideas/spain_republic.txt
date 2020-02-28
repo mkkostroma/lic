@@ -8,7 +8,7 @@ ideas = {
 			
 			allowed = {
 				original_tag = SPR
-				NOT = { has_government = supremacist_nationalist }
+				NOT = { has_government = ultranationalist }
 			}
 			
 			traits = { ideological_crusader }
@@ -20,7 +20,7 @@ ideas = {
 				
 			allowed = {
 				original_tag = SPR
-				NOT = { has_government = supremacist_nationalist }
+				NOT = { has_government = ultranationalist }
 			}
 			
 			traits = { captain_of_industry }
@@ -32,7 +32,7 @@ ideas = {
 				
 			allowed = {
 				original_tag = SPR				
-				NOT = { has_government = supremacist_nationalist }
+				NOT = { has_government = ultranationalist }
 			}
 			
 			available = {
@@ -51,7 +51,7 @@ ideas = {
 
 			allowed = {
 				original_tag = SPR
-				NOT = { has_government = supremacist_nationalist }
+				NOT = { has_government = ultranationalist }
 			}
 			
 			traits = { backroom_backstabber }
@@ -68,7 +68,7 @@ ideas = {
 					
 			allowed = {
 				original_tag = SPR
-				NOT = { has_government = supremacist_nationalist }
+				NOT = { has_government = ultranationalist }
 			}
 			
 			picture = generic_army_europe_3
@@ -85,7 +85,7 @@ ideas = {
 					
 			allowed = {
 				original_tag = SPR
-				NOT = { has_government = supremacist_nationalist }
+				NOT = { has_government = ultranationalist }
 			}
 			
 			picture = generic_navy_europe_1
@@ -106,7 +106,7 @@ ideas = {
 			
 			allowed = {
 				original_tag = SPR
-				NOT = { has_government = supremacist_nationalist }
+				NOT = { has_government = ultranationalist }
 			}
 			
 
@@ -125,7 +125,7 @@ ideas = {
 			
 			allowed = {
 				original_tag = SPR
-				NOT = { has_government = supremacist_nationalist }
+				NOT = { has_government = ultranationalist }
 			}
 			
 
@@ -149,7 +149,7 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = spr_franco_unavailable_tooltip
 					OR = {
-						has_government = supremacist_nationalist
+						has_government = ultranationalist
 						AND = {
 							NOT = { has_government = vanguardist }
 							NOT = {
@@ -158,7 +158,7 @@ ideas = {
 										tag = ROOT
 									}
 									original_tag = SPR
-									has_government = supremacist_nationalist
+									has_government = ultranationalist
 								}
 							}
 						}
@@ -183,7 +183,7 @@ ideas = {
 			
 			allowed = {
 				original_tag = SPR
-				NOT = { has_government = supremacist_nationalist }
+				NOT = { has_government = ultranationalist }
 			}
 			
 
@@ -201,7 +201,7 @@ ideas = {
 
 			allowed = {
 				original_tag = SPR
-				NOT = { has_government = supremacist_nationalist }
+				NOT = { has_government = ultranationalist }
 			}
 			
 
@@ -222,7 +222,7 @@ ideas = {
 
 			allowed = {
 				original_tag = SPR
-				NOT = { has_government = supremacist_nationalist }
+				NOT = { has_government = ultranationalist }
 			}
 			
 
@@ -240,7 +240,7 @@ ideas = {
 
 			allowed = {
 				original_tag = SPR
-				NOT = { has_government = supremacist_nationalist }
+				NOT = { has_government = ultranationalist }
 			}
 			
 			
@@ -261,7 +261,7 @@ ideas = {
 
 			allowed = {
 				original_tag = SPR
-				NOT = { has_government = supremacist_nationalist }
+				NOT = { has_government = ultranationalist }
 			}
 			
 
@@ -279,7 +279,7 @@ ideas = {
 
 			allowed = {
 				original_tag = SPR
-				NOT = { has_government = supremacist_nationalist }
+				NOT = { has_government = ultranationalist }
 			}
 			
 
@@ -297,7 +297,7 @@ ideas = {
 
 			allowed = {
 				original_tag = SPR
-				NOT = { has_government = supremacist_nationalist }
+				NOT = { has_government = ultranationalist }
 			}
 			
 
@@ -315,7 +315,7 @@ ideas = {
 
 			allowed = {
 				original_tag = SPR
-				NOT = { has_government = supremacist_nationalist }
+				NOT = { has_government = ultranationalist }
 			}
 			
 

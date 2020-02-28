@@ -74,7 +74,7 @@ set_politics = {
 }
 set_popularities = {
 	liberal = 96
-	supremacist_nationalist = 2
+	ultranationalist = 2
 	toilerist = 2
 }
 
@@ -82,7 +82,7 @@ set_popularities = {
 	#next election october 39
 	set_popularities = {
 		liberal = 95
-		supremacist_nationalist = 2
+		ultranationalist = 2
 		toilerist = 3
 	}
 }
@@ -121,7 +121,7 @@ create_country_leader = {
 	desc = "POLITICS_MAX_LEO_KELLER_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds" 
 	expire = "1965.1.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		#
 	}

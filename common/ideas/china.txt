@@ -31,7 +31,7 @@ ideas = {
 				NOT = {
 					OR = {
 						has_government = vanguardist
-						has_government = supremacist_nationalist
+						has_government = ultranationalist
 					}
 				}
 			}

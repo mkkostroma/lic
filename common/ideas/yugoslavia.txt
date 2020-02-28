@@ -4,7 +4,7 @@ ideas = {
 	
 		anti_german_military = {
 			
-			picture = generic_supremacist_nationalist_banned
+			picture = generic_ultranationalist_banned
 
 			allowed = {
 				always = no
@@ -12,7 +12,7 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = supremacist_nationalist
+					has_government = ultranationalist
 				}
 			}
 

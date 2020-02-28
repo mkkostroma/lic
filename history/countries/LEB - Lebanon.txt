@@ -64,7 +64,7 @@ set_politics = {
 }
 set_popularities = {
 	liberal = 50
-	supremacist_nationalist = 10
+	ultranationalist = 10
 	toilerist = 10
 	authoritarian = 30
 }
@@ -82,8 +82,8 @@ create_country_leader = {
 create_country_leader = {
 	name = "Pierre Gemayel"
 	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Europe_Generic_supremacist_nationalist1.dds"
-	ideology = supremacist_nationalist_ideology
+	picture = "gfx/leaders/SAU/Portrait_Europe_Generic_ultranationalist1.dds"
+	ideology = ultranationalist_ideology
 	traits = {
 		#
 	}

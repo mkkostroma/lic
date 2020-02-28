@@ -140,7 +140,7 @@ set_politics = {
 }
 set_popularities = {
 	liberal = 75
-	supremacist_nationalist = 20
+	ultranationalist = 20
 	toilerist = 5
 }
 
@@ -184,7 +184,7 @@ create_country_leader = {
 	desc = "POLITICS_DF_MALAN_DESC"
 	picture = "GFX_SAF_daniel_malan"
 	expire = "1965.1.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		#
 	}

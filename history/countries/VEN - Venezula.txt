@@ -62,14 +62,14 @@ set_country_flag = monroe_doctrine
 
 set_convoys = 10
 set_politics = {
-	ruling_party = supremacist_nationalist
+	ruling_party = ultranationalist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	liberal = 5
-	supremacist_nationalist = 80
+	ultranationalist = 80
 	toilerist = 15
 }
 
@@ -78,7 +78,7 @@ create_country_leader = {
 	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"
 	picture = "Portrait_Venezuela_Elezar_Lopez_Contreras.dds"
 	expire = "1965.1.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		#
 	}

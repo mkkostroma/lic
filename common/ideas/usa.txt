@@ -1080,37 +1080,37 @@ ideas = {
 			}			
 		}
 			# idea for the protect Amercians focus - USA fascist
-		american_influence_defence_supremacist_nationalist = {
+		american_influence_defence_ultranationalist = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = supremacist_nationalist
+				has_government = ultranationalist
 			}
 
 			removal_cost = -1
-			picture = generic_supremacist_nationalist_drift_bonus
+			picture = generic_ultranationalist_drift_bonus
 			modifier = {
 				drift_defence_factor = 0.5
 			}
 		}
-		american_influence_drift_supremacist_nationalist = {
+		american_influence_drift_ultranationalist = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = supremacist_nationalist
+				has_government = ultranationalist
 			}
 
 			removal_cost = -1
-			picture = generic_supremacist_nationalist_drift_bonus
+			picture = generic_ultranationalist_drift_bonus
 			modifier = {
-				supremacist_nationalist_drift = 0.05
+				ultranationalist_drift = 0.05
 			}
 		} 
-		american_protection_defence_supremacist_nationalist = {
+		american_protection_defence_ultranationalist = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = supremacist_nationalist
+				has_government = ultranationalist
 			}
 
 			removal_cost = -1
@@ -1119,17 +1119,17 @@ ideas = {
 				drift_defence_factor = 0.5
 			}
 		}
-		american_protection_drift_supremacist_nationalist = {
+		american_protection_drift_ultranationalist = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = supremacist_nationalist
+				has_government = ultranationalist
 			}
 
 			removal_cost = -1
 			picture = generic_intel_bonus
 			modifier = {
-				supremacist_nationalist_drift = 0.05
+				ultranationalist_drift = 0.05
 			}			
 		}
 		USA_world_police = {
@@ -1417,7 +1417,7 @@ ideas = {
 	
 			do_effect = {
 				NOT = {
-					has_government = supremacist_nationalist
+					has_government = ultranationalist
 				}
 			}
 			

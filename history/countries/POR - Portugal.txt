@@ -112,7 +112,7 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	supremacist_nationalist = 5
+	ultranationalist = 5
 	toilerist = 5
 	authoritarian = 90
 }
@@ -160,7 +160,7 @@ create_country_leader = {
 	desc = "POLITICS_FRANSISCO_BARCELOS_ROLAO_PRETO_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
 	expire = "1965.1.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		#
 	}

@@ -59,7 +59,7 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	supremacist_nationalist = 2
+	ultranationalist = 2
 	despotist = 20
 	authoritarian = 4
 	conservative = 20
@@ -93,7 +93,7 @@ create_country_leader = {
 	desc = "POLITICS_SVEN_OLOV_LINDHOLM_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		#
 	}

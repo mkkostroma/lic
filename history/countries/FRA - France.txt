@@ -119,7 +119,7 @@ FAF = {
     }
 
     set_popularities = {
-	supremacist_nationalist = 0
+	ultranationalist = 0
 	despotist = 0
 	authoritarian = 100
 	conservative = 0
@@ -140,7 +140,7 @@ FID = {
     }
 
     set_popularities = {
-	supremacist_nationalist = 0
+	ultranationalist = 0
 	despotist = 0
 	authoritarian = 100
 	conservative = 0
@@ -161,7 +161,7 @@ MOR = {
     }
 
     set_popularities = {
-	supremacist_nationalist = 0
+	ultranationalist = 0
 	despotist = 100
 	authoritarian = 0
 	conservative = 0
@@ -188,7 +188,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	supremacist_nationalist = 15
+	ultranationalist = 15
 	despotist = 9
 	authoritarian = 16
 	conservative = 25

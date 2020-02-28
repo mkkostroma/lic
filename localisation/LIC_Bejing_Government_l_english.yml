@@ -1,8 +1,8 @@
 ﻿l_english:
 
- CHI_supremacist_nationalist:0 "Beijing Government"
- CHI_supremacist_nationalist_DEF:0 "The Beijing Government"
- CHI_supremacist_nationalist_ADJ:0 "China"
+ CHI_ultranationalist:0 "Beijing Government"
+ CHI_ultranationalist_DEF:0 "The Beijing Government"
+ CHI_ultranationalist_ADJ:0 "China"
  CHI_despotist:0 "Beijing Government"
  CHI_despotist_DEF:0 "The Beijing Government"
  CHI_despotist_ADJ:0 "China"

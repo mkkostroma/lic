@@ -111,7 +111,7 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	supremacist_nationalist = 7
+	ultranationalist = 7
 	despotist = 11
 	authoritarian = 22
 	conservative = 14

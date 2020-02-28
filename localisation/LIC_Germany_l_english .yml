@@ -1,8 +1,8 @@
 ﻿l_english:
 
- GER_supremacist_nationalist:0 "Republic of Germany"
- GER_supremacist_nationalist_DEF:0 "The Republic of Germany"
- GER_supremacist_nationalist_ADJ:0 "German"
+ GER_ultranationalist:0 "Republic of Germany"
+ GER_ultranationalist_DEF:0 "The Republic of Germany"
+ GER_ultranationalist_ADJ:0 "German"
  GER_despotist:0 "Republic of Germany"
  GER_despotist_DEF:0 "The Republic Germany"
  GER_despotist_ADJ:0 "German"
@@ -31,7 +31,7 @@
  GER__DEF:0 "The Republic of Germany"
  GER__ADJ:0 "German"
  
- #parties supremacist_nationalist
+ #parties ultranationalist
  GER__party:0 "NBAP"
  GER__party_long:0 "National Bolshevik People's Party"
  GER_toilerist_party:0 "FAUD-RD"
@@ -50,5 +50,5 @@
  GER_authoritarian_party_long:0 "German Worker's Party"
  GER_despotist_party:0 "House of Hanover"
  GER_despotist_party_long:0 "House of Hanover"
- GER_supremacist_nationalist_party:0 "DSAP"
- GER_supremacist_nationalist_party_long:0 "German Socialist Worker's Party"
+ GER_ultranationalist_party:0 "DSAP"
+ GER_ultranationalist_party_long:0 "German Socialist Worker's Party"

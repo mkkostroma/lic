@@ -23,22 +23,22 @@ ideas = {
 			}
 		}
 
-		CZE_czech_supremacist_nationalist = {
+		CZE_czech_ultranationalist = {
 			
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = supremacist_nationalist
+				has_government = ultranationalist
 			}
 			
-			picture = generic_supremacist_nationalist_drift_bonus
+			picture = generic_ultranationalist_drift_bonus
 
 			removal_cost = -1
 			
 			modifier = {
-				supremacist_nationalist_drift = 0.05
+				ultranationalist_drift = 0.05
 				
 			}
 		}
@@ -94,7 +94,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_government = vanguardist
-					has_government = supremacist_nationalist
+					has_government = ultranationalist
 				}
 			}
 			
@@ -118,9 +118,9 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					AND = {
-						has_government = supremacist_nationalist
+						has_government = ultranationalist
 						GER = {
-							has_government = supremacist_nationalist
+							has_government = ultranationalist
 						}
 					}
 					AND = {
@@ -421,9 +421,9 @@ ideas = {
 		}		
 		
 		
-		CZE_czech_supremacist_nationalist_idea = {
+		CZE_czech_ultranationalist_idea = {
 		
-			picture = generic_supremacist_nationalist_drift_bonus
+			picture = generic_ultranationalist_drift_bonus
 
 			allowed = {
 				original_tag = CZE
@@ -442,9 +442,9 @@ ideas = {
 			}
 		}
 		
-		CZE_national_supremacist_nationalist_idea = {
+		CZE_national_ultranationalist_idea = {
 
-			picture = generic_supremacist_nationalist_drift_bonus
+			picture = generic_ultranationalist_drift_bonus
 		
 			allowed = {
 				original_tag = CZE

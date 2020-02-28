@@ -64,7 +64,7 @@ set_politics = {
 }
 set_popularities = {
 	liberal = 25
-	supremacist_nationalist = 20
+	ultranationalist = 20
 	toilerist = 5
 	authoritarian = 50
 }
@@ -82,8 +82,8 @@ create_country_leader = {
 create_country_leader = {
 	name = "Saeed Ahmadi"
 	desc = ""
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_supremacist_nationalist1.dds"
-	ideology = supremacist_nationalist_ideology
+	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_ultranationalist1.dds"
+	ideology = ultranationalist_ideology
 	traits = {
 		#
 	}

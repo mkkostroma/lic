@@ -1,8 +1,8 @@
 ﻿l_english:
 
- RIO_supremacist_nationalist:0 "Rio Grande Clique"
- RIO_supremacist_nationalist_DEF:0 "The Rio Grande Clique"
- RIO_supremacist_nationalist_ADJ:0 "Riograndense"
+ RIO_ultranationalist:0 "Rio Grande Clique"
+ RIO_ultranationalist_DEF:0 "The Rio Grande Clique"
+ RIO_ultranationalist_ADJ:0 "Riograndense"
  RIO_despotist:0 "Rio Grande Clique"
  RIO_despotist_DEF:0 "The Rio Grande Clique"
  RIO_despotist_ADJ:0 "Riograndense"

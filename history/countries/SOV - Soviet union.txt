@@ -258,7 +258,7 @@ set_politics = {
 }
 set_popularities = {
 	liberal = 10
-	supremacist_nationalist = 2
+	ultranationalist = 2
 	toilerist = 88
 }
 
@@ -289,7 +289,7 @@ create_country_leader = {
 	desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
 	picture = "Portrait_Soviet_Konstantin_Rodzaevsky.dds"
 	expire = "1953.3.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		
 	}

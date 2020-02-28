@@ -150,7 +150,7 @@ create_import = {
 	unlock_national_focus = GER_mol_rib_pact
 	every_other_country = {
 		limit = {
-			has_government = supremacist_nationalist 
+			has_government = ultranationalist 
 		}
 		add_opinion_modifier = { target = GER modifier = MR_pact_fascists }
 	}
@@ -288,7 +288,7 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	supremacist_nationalist = 5
+	ultranationalist = 5
 	despotist = 10
 	authoritarian = 12
 	conservative = 15
@@ -380,7 +380,7 @@ create_country_leader = {
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "reinhold_wulle.dds"
 	expire = "1965.1.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 	}
 }

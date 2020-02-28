@@ -113,5 +113,5 @@ create_country_leader = {
 	}
 }
 
-#couldnt find anything historical on supremacist_nationalist
+#couldnt find anything historical on ultranationalist
 

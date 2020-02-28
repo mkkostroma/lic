@@ -148,7 +148,7 @@ set_politics = {
 }
 set_popularities = {
 	liberal = 80
-	supremacist_nationalist = 10
+	ultranationalist = 10
 	toilerist = 10
 }
 
@@ -177,7 +177,7 @@ create_country_leader = {
 	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
 	picture = "Portrait_USA_William_Dudley_Pelley.dds"
 	expire = "1965.1.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		
 	}

@@ -1,8 +1,8 @@
 ﻿l_english:
 
- SER_supremacist_nationalist:0 "Kingdom of Serbia"
- SER_supremacist_nationalist_DEF:0 "The Kingdom of Serbia"
- SER_supremacist_nationalist_ADJ:0 "Serbian"
+ SER_ultranationalist:0 "Kingdom of Serbia"
+ SER_ultranationalist_DEF:0 "The Kingdom of Serbia"
+ SER_ultranationalist_ADJ:0 "Serbian"
  SER_despotist:0 "Kingdom of Serbia"
  SER_despotist_DEF:0 "The Kingdom of Serbia"
  SER_despotist_ADJ:0 "Serbian"

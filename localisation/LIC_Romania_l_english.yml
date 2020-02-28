@@ -1,8 +1,8 @@
 ﻿l_english:
 
- ROM_supremacist_nationalist:0 "Kingdom of Romania"
- ROM_supremacist_nationalist_DEF:0 "The Kingdom of Romania"
- ROM_supremacist_nationalist_ADJ:0 "Romanian"
+ ROM_ultranationalist:0 "Kingdom of Romania"
+ ROM_ultranationalist_DEF:0 "The Kingdom of Romania"
+ ROM_ultranationalist_ADJ:0 "Romanian"
  ROM_despotist:0 "Kingdom of Romania"
  ROM_despotist_DEF:0 "The Kingdom of Romania"
  ROM_despotist_ADJ:0 "Romanian"

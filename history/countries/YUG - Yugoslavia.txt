@@ -190,7 +190,7 @@ set_politics = {
 }
 set_popularities = {
 	liberal = 15
-	supremacist_nationalist = 10
+	ultranationalist = 10
 	toilerist = 15
 	authoritarian = 60
 }
@@ -204,7 +204,7 @@ set_popularities = {
 	}
 	set_popularities = {
 		liberal = 10
-		supremacist_nationalist = 20
+		ultranationalist = 20
 		toilerist = 10
 		authoritarian = 60
 	}
@@ -227,7 +227,7 @@ create_country_leader = {
 	desc = "POLITICS_MILAN_STOJADINOVIC_DESC"
 	picture = "gfx/leaders/YUG/Portrait_Yugoslavia_Milan_Stojadinovic.dds"
 	expire = "1965.1.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		#
 	}

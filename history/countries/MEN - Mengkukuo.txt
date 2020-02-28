@@ -54,13 +54,13 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = supremacist_nationalist
+	ruling_party = ultranationalist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	supremacist_nationalist = 80
+	ultranationalist = 80
 	authoritarian = 20
 }
 
@@ -69,7 +69,7 @@ create_country_leader = {
 	desc = "POLITICS_DEMCHUGDONGRUB_DESC"
 	picture = "GFX_portrait_men_demchugdongrub"
 	expire = "1965.1.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		spirit_of_genghis
 	}

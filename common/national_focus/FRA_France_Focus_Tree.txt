@@ -407,7 +407,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_popularity = {
-				ideology = supremacist_nationalist
+				ideology = ultranationalist
 				popularity = -1.0
 			}		
 		}
@@ -496,7 +496,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_popularity = {
-				ideology = supremacist_nationalist
+				ideology = ultranationalist
 				popularity = 0.1
 			}
 		}

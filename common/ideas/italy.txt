@@ -14,7 +14,7 @@ ideas = {
 				NOT = {
 					any_other_country = {
 						original_tag = ITA
-						has_government = supremacist_nationalist
+						has_government = ultranationalist
 					}
 				}
 			}
@@ -45,7 +45,7 @@ ideas = {
 			modifier = {
 				vanguardist_acceptance = -10
 				liberal_acceptance = -10
-				supremacist_nationalist_acceptance = 10
+				ultranationalist_acceptance = 10
 				ai_focus_aggressive_factor = 0.5
 				justify_war_goal_time = -0.05
 			}
@@ -62,9 +62,9 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					AND = {
-						has_government = supremacist_nationalist
+						has_government = ultranationalist
 						GER = {
-							has_government = supremacist_nationalist
+							has_government = ultranationalist
 						}
 					}
 					AND = {
@@ -166,7 +166,7 @@ ideas = {
 
 			do_effect = {
 				NOT = {
-					has_government = supremacist_nationalist
+					has_government = ultranationalist
 				}
 			}
 			

@@ -147,7 +147,7 @@ set_politics = {
 }
 set_popularities = {
 	liberal = 10
-	supremacist_nationalist = 23
+	ultranationalist = 23
 	toilerist = 2
 	authoritarian = 65
 }
@@ -192,7 +192,7 @@ create_country_leader = {
 	desc = "POLITICS_GEORGIOS_KOSMIDIS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1965.1.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		#
 	}

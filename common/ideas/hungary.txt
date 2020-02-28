@@ -99,15 +99,15 @@ ideas = {
 			}
 		}
 
-		HUN_hungarian_monarchy_supremacist_nationalist = {			
+		HUN_hungarian_monarchy_ultranationalist = {			
 
 			allowed_civil_war = {
-				has_government = supremacist_nationalist
+				has_government = ultranationalist
 			}
 
 			available = {
 				OR = {
-					has_government = supremacist_nationalist
+					has_government = ultranationalist
 					AND = {
 						has_government = authoritarian
 						NOT = { has_completed_focus = HUN_renounce_the_treaty_of_trianon }
@@ -116,7 +116,7 @@ ideas = {
 			}
 			
 			modifier = {
-				supremacist_nationalist_drift = 0.034
+				ultranationalist_drift = 0.034
 				stability_factor = 0.1
 			}
 		}
@@ -135,7 +135,7 @@ ideas = {
 			
 			modifier = {
 				liberal_drift = 0.02
-				supremacist_nationalist_drift = -0.01
+				ultranationalist_drift = -0.01
 				vanguardist_drift = -0.01
 				stability_factor = 0.1
 			}
@@ -185,10 +185,10 @@ ideas = {
 
 		HUN_strengthen_fascists = {
 
-			picture = generic_supremacist_nationalist_drift_2
+			picture = generic_ultranationalist_drift_2
 			
 			modifier = {
-				supremacist_nationalist_drift = 0.03
+				ultranationalist_drift = 0.03
 			}
 		}
 

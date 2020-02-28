@@ -89,7 +89,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	supremacist_nationalist = 20
+	ultranationalist = 20
 	authoritarian = 80
 }
 

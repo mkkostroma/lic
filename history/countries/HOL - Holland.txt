@@ -218,7 +218,7 @@ set_politics = {
 }
 set_popularities = {
 	liberal = 93
-	supremacist_nationalist = 4
+	ultranationalist = 4
 	toilerist = 3
 }
 
@@ -252,7 +252,7 @@ create_country_leader = {
 	desc = "POLITICS_ANTON_MUSSERT_DESC"
 	picture = "GFX_portrait_hol_anton_mussert"
 	expire = "1965.1.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		leider
 	}

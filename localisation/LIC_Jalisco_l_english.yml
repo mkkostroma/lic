@@ -1,8 +1,8 @@
 ﻿l_english:
 
- JAL_supremacist_nationalist:0 "Jalisco Clique"
- JAL_supremacist_nationalist_DEF:0 "The Jalisco Clique"
- JAL_supremacist_nationalist_ADJ:0 "Jalisciense"
+ JAL_ultranationalist:0 "Jalisco Clique"
+ JAL_ultranationalist_DEF:0 "The Jalisco Clique"
+ JAL_ultranationalist_ADJ:0 "Jalisciense"
  JAL_despotist:0 "Jalisco Clique"
  JAL_despotist_DEF:0 "The Jalisco Clique"
  JAL_despotist_ADJ:0 "Jalisciense"
@@ -31,9 +31,9 @@
  JAL__DEF:0 "The Jalisco Clique"
  JAL__ADJ:0 "Jalisciense"
  
- JAL_URoMS_supremacist_nationalist:0 "United Republic of Mexican States"
- JAL_URoMS_supremacist_nationalist_DEF:0 "The United Republic of Mexican States"
- JAL_URoMS_supremacist_nationalist_ADJ:0 "Mexican"
+ JAL_URoMS_ultranationalist:0 "United Republic of Mexican States"
+ JAL_URoMS_ultranationalist_DEF:0 "The United Republic of Mexican States"
+ JAL_URoMS_ultranationalist_ADJ:0 "Mexican"
  JAL_URoMS_despotist:0 "United Republic of Mexican States"
  JAL_URoMS_despotist_DEF:0 "The United Republic of Mexican States"
  JAL_URoMS_despotist_ADJ:0 "Mexican"

@@ -1,8 +1,8 @@
 ﻿l_english:
 
- MEX_supremacist_nationalist:0 "Central Government"
- MEX_supremacist_nationalist_DEF:0 "The Central Government"
- MEX_supremacist_nationalist_ADJ:0 "Central Mexican"
+ MEX_ultranationalist:0 "Central Government"
+ MEX_ultranationalist_DEF:0 "The Central Government"
+ MEX_ultranationalist_ADJ:0 "Central Mexican"
  MEX_despotist:0 "Central Government"
  MEX_despotist_DEF:0 "The Central Government"
  MEX_despotist_ADJ:0 "Central Mexican"
@@ -31,9 +31,9 @@
  MEX__DEF:0 "The Central Government"
  MEX__ADJ:0 "Central Mexican"
  
- MEX_hrm_supremacist_nationalist:0 "Holy Republic of Mexico"
- MEX_hrm_supremacist_nationalist_DEF:0 "The Holy Republic of Mexico"
- MEX_hrm_supremacist_nationalist_ADJ:0 "Mexican"
+ MEX_hrm_ultranationalist:0 "Holy Republic of Mexico"
+ MEX_hrm_ultranationalist_DEF:0 "The Holy Republic of Mexico"
+ MEX_hrm_ultranationalist_ADJ:0 "Mexican"
  MEX_hrm_despotist:0 "Holy Republic of Mexico"
  MEX_hrm_despotist_DEF:0 "The Holy Republic of Mexico"
  MEX_hrm_despotist_ADJ:0 "Mexican"
@@ -64,8 +64,8 @@
  
  #parties 
  
- MEX_supremacist_nationalist_party:0 "Sinarquista"
- MEX_supremacist_nationalist_party_long:0 "Sinarquista-Capítulo Central/Synarchist-Central Chapter"
+ MEX_ultranationalist_party:0 "Sinarquista"
+ MEX_ultranationalist_party_long:0 "Sinarquista-Capítulo Central/Synarchist-Central Chapter"
  MEX_despotist_party:0 "Coss Clique"
  MEX_despotist_party_long:0 "Coss Clique"
  MEX_authoritarian_party:0 "Ejército de Veracruz"

@@ -137,7 +137,7 @@ set_politics = {
 }
 set_popularities = {
 	liberal = 5
-	supremacist_nationalist = 5
+	ultranationalist = 5
 	toilerist = 12
 	authoritarian = 78
 }
@@ -163,7 +163,7 @@ create_country_leader = {
 
 	set_popularities = {
 		liberal = 5
-		supremacist_nationalist = 5
+		ultranationalist = 5
 		toilerist = 12
 		authoritarian = 78
 	}
@@ -186,7 +186,7 @@ create_country_leader = {
 	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		#
 	}

@@ -1,8 +1,8 @@
 ﻿l_english:
 
- BUL_supremacist_nationalist:0 "Tsardom Of Bulgaria"
- BUL_supremacist_nationalist_DEF:0 "The Tsardom Of Bulgaria"
- BUL_supremacist_nationalist_ADJ:0 "Bulgarian"
+ BUL_ultranationalist:0 "Tsardom Of Bulgaria"
+ BUL_ultranationalist_DEF:0 "The Tsardom Of Bulgaria"
+ BUL_ultranationalist_ADJ:0 "Bulgarian"
  BUL_despotist:0 "Tsardom Of Bulgaria"
  BUL_despotist_DEF:0 "The Tsardom Of Bulgaria"
  BUL_despotist_ADJ:0 "Bulgarian"
@@ -50,5 +50,5 @@
  BUL_authoritarian_party_long:0 "The Military Union"
  BUL_despotist_party:0 "Saxe-Coburg and Gotha"
  BUL_despotist_party_long:0 "House of Saxe-Coburg and Gotha"
- BUL_supremacist_nationalist_party:0 "SBP"
- BUL_supremacist_nationalist_party_long:0 "The Union of Bulgarian Patriots"
+ BUL_ultranationalist_party:0 "SBP"
+ BUL_ultranationalist_party_long:0 "The Union of Bulgarian Patriots"

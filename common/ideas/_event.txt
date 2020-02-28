@@ -7,12 +7,12 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = generic_supremacist_nationalist_drift_bonus
+			picture = generic_ultranationalist_drift_bonus
 			
 			modifier = {
 				stability_factor = -0.05
 				conscription = 0.002
-				supremacist_nationalist_drift = 0.05
+				ultranationalist_drift = 0.05
 			}
 	
 			ai_will_do = {
@@ -64,7 +64,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = generic_supremacist_nationalist_drift_bonus
+			picture = generic_ultranationalist_drift_bonus
 			
 			modifier = {
 				stability_factor = -0.1
@@ -102,7 +102,7 @@ ideas = {
 		}
 
 
-		supremacist_nationalist_defeated = {
+		ultranationalist_defeated = {
 			removal_cost = -1
 			
 			allowed = {
@@ -194,7 +194,7 @@ ideas = {
 			picture = generic_liberal_drift_bonus
 			
 			modifier = {
-				supremacist_nationalist_acceptance = -50
+				ultranationalist_acceptance = -50
 			}
 		}
 		

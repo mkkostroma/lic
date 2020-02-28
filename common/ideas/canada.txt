@@ -118,24 +118,24 @@ ideas = {
 			
 			modifier = {
 				vanguardist_drift = -0.01
-				supremacist_nationalist_drift = -0.01
+				ultranationalist_drift = -0.01
 				foreign_subversive_activites = -0.50
 			}
 		}
 
-		CAN_defence_of_canada_regulations_supremacist_nationalist = {
+		CAN_defence_of_canada_regulations_ultranationalist = {
 
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = supremacist_nationalist
+				has_government = ultranationalist
 			}
 
 			removal_cost = -1
 
-			picture = can_defence_of_canada_regulations_supremacist_nationalist
+			picture = can_defence_of_canada_regulations_ultranationalist
 			
 			modifier = {
 				liberal_drift = -0.01
@@ -160,7 +160,7 @@ ideas = {
 			
 			modifier = {
 				liberal_drift = -0.01
-				supremacist_nationalist_drift = -0.01
+				ultranationalist_drift = -0.01
 				foreign_subversive_activites = -0.50
 			}
 		}
@@ -385,16 +385,16 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				 has_government = supremacist_nationalist
+				 has_government = ultranationalist
 			}
 
 			removal_cost = -1
 
-			picture = generic_supremacist_nationalist_drift_bonus
+			picture = generic_ultranationalist_drift_bonus
 
 			modifier = {
 				liberal_drift = -0.1
-				supremacist_nationalist_drift = 0.2
+				ultranationalist_drift = 0.2
 			}
 		}
 
@@ -404,16 +404,16 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				 has_government = supremacist_nationalist
+				 has_government = ultranationalist
 			}
 
 			removal_cost = -1
 
-			picture = generic_supremacist_nationalist_drift_bonus
+			picture = generic_ultranationalist_drift_bonus
 
 			modifier = {
 				liberal_drift = -0.1
-				supremacist_nationalist_drift = 0.2
+				ultranationalist_drift = 0.2
 				war_support_factor = 0.05
 				conscription = 0.02
 			}
@@ -425,16 +425,16 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				 has_government = supremacist_nationalist
+				 has_government = ultranationalist
 			}
 
 			removal_cost = -1
 
-			picture = generic_supremacist_nationalist_drift_bonus
+			picture = generic_ultranationalist_drift_bonus
 
 			modifier = {
 				liberal_drift = -0.1
-				supremacist_nationalist_drift = 0.2
+				ultranationalist_drift = 0.2
 				war_support_factor = 0.05
 				conscription = 0.02
 				send_volunteer_divisions_required = -1
@@ -579,7 +579,7 @@ ideas = {
 
 			do_effect = {
 				NOT = {
-					has_government = supremacist_nationalist
+					has_government = ultranationalist
 				}
 			}
 			

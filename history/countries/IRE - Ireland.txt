@@ -68,7 +68,7 @@ set_politics = {
 }
 set_popularities = {
 	liberal = 98
-	supremacist_nationalist = 1
+	ultranationalist = 1
 	toilerist = 1
 }
 
@@ -96,7 +96,7 @@ create_country_leader = {
 	desc = "POLITICS_EOIN_ODUFFY_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		#
 	}

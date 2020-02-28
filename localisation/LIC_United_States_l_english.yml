@@ -1,8 +1,8 @@
 ﻿l_english:
 
- USA_supremacist_nationalist:0 "United Trade Councils of America"
- USA_supremacist_nationalist_DEF:0 "The United Trade Councils of America"
- USA_supremacist_nationalist_ADJ:0 "American"
+ USA_ultranationalist:0 "United Trade Councils of America"
+ USA_ultranationalist_DEF:0 "The United Trade Councils of America"
+ USA_ultranationalist_ADJ:0 "American"
  USA_despotist:0 "United Trade Councils of America"
  USA_despotist_DEF:0 "The United Trade Councils of America"
  USA_despotist_ADJ:0 "American"
@@ -31,7 +31,7 @@
  USA__DEF:0 "The United Trade Councils of America"
  USA__ADJ:0 "American"
  
- #parties supremacist_nationalist
+ #parties ultranationalist
  USA__party:0 "AFL-CIO"
  USA__party_long:0 "American Federation of Labor and Congress of Indusrial Organizations"
  USA_toilerist_party:0 "IWW-MD"
@@ -50,5 +50,5 @@
  USA_authoritarian_party_long:0 "Ku Klux Klan - Liberty Wing"
  USA_despotist_party:0 "KKK-Lc"
  USA_despotist_party_long:0 "Ku Klux Klan - Lincolnist Wing"
- USA_supremacist_nationalist_party:0 "KKK-O"
- USA_supremacist_nationalist_party_long:0 "Ku Klux Klan - Origin Wing"
+ USA_ultranationalist_party:0 "KKK-O"
+ USA_ultranationalist_party_long:0 "Ku Klux Klan - Origin Wing"

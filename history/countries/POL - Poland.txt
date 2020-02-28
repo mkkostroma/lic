@@ -182,7 +182,7 @@ set_politics = {
 }
 set_popularities = {
 	liberal = 18
-	supremacist_nationalist = 15
+	ultranationalist = 15
 	toilerist = 2
 	authoritarian = 65
 }
@@ -190,7 +190,7 @@ set_popularities = {
 1939.1.1 = {
 	set_popularities = {
 		liberal = 13
-		supremacist_nationalist = 7
+		ultranationalist = 7
 		toilerist = 2
 		authoritarian = 78
 	}
@@ -245,7 +245,7 @@ create_country_leader = {
 	desc = "POLITICS_BOLESLAW_PIASECKI_DESC"
 	picture = "GFX_POL_boleslaw_piasecki"
 	expire = "1965.1.1"
-	ideology = supremacist_nationalist_ideology
+	ideology = ultranationalist_ideology
 	traits = {
 		#
 	}

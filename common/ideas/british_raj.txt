@@ -52,7 +52,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				supremacist_nationalist_drift = 0.05
+				ultranationalist_drift = 0.05
 			}
 		}
 
@@ -131,7 +131,7 @@ ideas = {
 				NOT = {
 					OR = {
 						has_government = vanguardist
-						has_government = supremacist_nationalist
+						has_government = ultranationalist
 					}
 				}
 			}
@@ -179,7 +179,7 @@ ideas = {
 				NOT = {
 					OR = {
 						has_government = vanguardist
-						has_government = supremacist_nationalist
+						has_government = ultranationalist
 					}
 				}
 			}
@@ -203,7 +203,7 @@ ideas = {
 				NOT = {
 					OR = {
 						has_government = vanguardist
-						has_government = supremacist_nationalist
+						has_government = ultranationalist
 					}
 				}
 			}
@@ -227,7 +227,7 @@ ideas = {
 				NOT = {
 					OR = {
 						has_government = vanguardist
-						has_government = supremacist_nationalist
+						has_government = ultranationalist
 					}
 				}
 			}
@@ -252,7 +252,7 @@ ideas = {
 				NOT = {
 					OR = {
 						has_government = vanguardist
-						has_government = supremacist_nationalist
+						has_government = ultranationalist
 					}
 				}
 			}
@@ -278,7 +278,7 @@ ideas = {
 				NOT = {
 					OR = {
 						has_government = vanguardist
-						has_government = supremacist_nationalist
+						has_government = ultranationalist
 					}
 				}
 			}
@@ -302,7 +302,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_government = vanguardist
-					has_government = supremacist_nationalist
+					has_government = ultranationalist
 				}
 			}
 
@@ -314,16 +314,16 @@ ideas = {
 			}
 		}
 
-		RAJ_all_india_forward_bloc_supremacist_nationalist = {
+		RAJ_all_india_forward_bloc_ultranationalist = {
 
-			picture = raj_all_india_forward_bloc_supremacist_nationalist
+			picture = raj_all_india_forward_bloc_ultranationalist
 
 			allowed = {
 				original_tag = RAJ
 			}
 
 			allowed_civil_war = {
-				has_government = supremacist_nationalist
+				has_government = ultranationalist
 			}
 
 			removal_cost = -1
@@ -331,7 +331,7 @@ ideas = {
 			modifier = {
 				liberal_drift = -0.02
 				authoritarian_drift = -0.02
-				supremacist_nationalist_drift = 0.03
+				ultranationalist_drift = 0.03
 				autonomy_gain = 0.5
 			}
 		}
@@ -389,7 +389,7 @@ ideas = {
 				NOT = {
 					OR = {
 						has_government = vanguardist
-						has_government = supremacist_nationalist
+						has_government = ultranationalist
 					}
 				}
 			}
@@ -494,7 +494,7 @@ ideas = {
 				
 			do_effect = {
 				NOT = {
-					has_government = supremacist_nationalist
+					has_government = ultranationalist
 				}
 			}
 		

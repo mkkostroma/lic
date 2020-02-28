@@ -832,7 +832,7 @@ ideas = {
 	
 			do_effect = {
 				NOT = {
-					has_government = supremacist_nationalist
+					has_government = ultranationalist
 				}
 			}
 			

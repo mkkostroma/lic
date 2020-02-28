@@ -1,8 +1,8 @@
 ﻿l_english:
 
- RUS_supremacist_nationalist:0 "Russian Empire"
- RUS_supremacist_nationalist_DEF:0 "The Russian Empire"
- RUS_supremacist_nationalist_ADJ:0 "Russian"
+ RUS_ultranationalist:0 "Russian Empire"
+ RUS_ultranationalist_DEF:0 "The Russian Empire"
+ RUS_ultranationalist_ADJ:0 "Russian"
  RUS_despotist:0 "Russian Empire"
  RUS_despotist_DEF:0 "The Russian Empire"
  RUS_despotist_ADJ:0 "Russian"
@@ -49,5 +49,5 @@
  RUS_authoritarian_party_long:0 "League for the restoration of Russian stability"
  RUS_despotist_party:0 "House Romanov"
  RUS_despotist_party_long:0 "House Romanov"
- RUS_supremacist_nationalist_party:0 "Peoples Unionists"
- RUS_supremacist_nationalist_party_long:0 "Union of the Russian People"
+ RUS_ultranationalist_party:0 "Peoples Unionists"
+ RUS_ultranationalist_party_long:0 "Union of the Russian People"

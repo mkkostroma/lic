@@ -52,7 +52,7 @@ set_politics = {
 }
 set_popularities = {
 	liberal = 50
-	supremacist_nationalist = 8
+	ultranationalist = 8
 	toilerist = 15
 	authoritarian = 27
 }

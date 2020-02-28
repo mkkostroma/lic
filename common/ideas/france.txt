@@ -44,7 +44,7 @@ ideas = {
 				libertarian_socialist_drift = 0.01
 				vanguardist_drift = 0.01
 				authoritarian_drift = 0.01
-				supremacist_nationalist_drift = 0.01
+				ultranationalist_drift = 0.01
 			}
 		}
 

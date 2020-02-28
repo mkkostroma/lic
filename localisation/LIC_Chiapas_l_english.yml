@@ -1,8 +1,8 @@
 ﻿l_english:
 
- CHP_supremacist_nationalist:0 "Salazarista Army"
- CHP_supremacist_nationalist_DEF:0 "The Salazarista Army"
- CHP_supremacist_nationalist_ADJ:0 "Salazarista"
+ CHP_ultranationalist:0 "Salazarista Army"
+ CHP_ultranationalist_DEF:0 "The Salazarista Army"
+ CHP_ultranationalist_ADJ:0 "Salazarista"
  CHP_despotist:0 "Salazarista Army"
  CHP_despotist_DEF:0 "The Salazarista Army"
  CHP_despotist_ADJ:0 "Salazarista"
@@ -31,9 +31,9 @@
  CHP__DEF:0 "The Salazarista Army"
  CHP__ADJ:0 "Salazarista"
  
- CHP_MUoW_supremacist_nationalist:0 "Mexican Union of Workers"
- CHP_MUoW_supremacist_nationalist_DEF:0 "The Mexican Union of Workers"
- CHP_MUoW_supremacist_nationalist_ADJ:0 "Mexican"
+ CHP_MUoW_ultranationalist:0 "Mexican Union of Workers"
+ CHP_MUoW_ultranationalist_DEF:0 "The Mexican Union of Workers"
+ CHP_MUoW_ultranationalist_ADJ:0 "Mexican"
  CHP_MUoW_despotist:0 "Mexican Union of Workers"
  CHP_MUoW_despotist_DEF:0 "The Mexican Union of Workers"
  CHP_MUoW_despotist_ADJ:0 "Mexican"
@@ -62,9 +62,9 @@
  CHP_MUoW__DEF:0 "The Mexican Union of Workers"
  CHP_MUoW__ADJ:0 "Mexican"
  
- CALLES_supremacist_nationalist:0 "Land of Calles"
- CALLES_supremacist_nationalist_DEF:0 "The Land of Calles"
- CALLES_supremacist_nationalist_ADJ:0 "CALLES"
+ CALLES_ultranationalist:0 "Land of Calles"
+ CALLES_ultranationalist_DEF:0 "The Land of Calles"
+ CALLES_ultranationalist_ADJ:0 "CALLES"
  CALLES_despotist:0 "Land of Calles"
  CALLES_despotist_DEF:0 "The Land of Calles"
  CALLES_despotist_ADJ:0 "CALLES"
