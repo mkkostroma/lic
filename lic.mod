@@ -5,4 +5,4 @@ tags={
 }
 path="mod/lic"
 name="Liberty In Chains"
-supported_version="1.9.0"
+supported_version="1.7.1"
