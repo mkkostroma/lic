@@ -181,7 +181,6 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-<<<<<<< HEAD
 	ultranationalist = 4
 	despotist = 21
 	authoritarian = 8
@@ -204,8 +203,8 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Jan Kucharzewski"
-	desc = "POLITICS_Jan_Kanty_desc"
-	picture = "Portrait_Jan_Kanty.dds"
+	desc = "POLITICS_Jan_Kucharzewski_desc"
+	picture = "Portrait_Jan_Kucharzewski.dds"
 	expire = "1965.1.1"
 	ideology = despotist
 =======
