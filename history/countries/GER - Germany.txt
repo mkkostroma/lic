@@ -376,7 +376,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Reinhold Wulle"
+	name = "Wolfgang Kapp"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "reinhold_wulle.dds"
 	expire = "1965.1.1"
