@@ -282,7 +282,7 @@ create_import = {
 }
 
 set_politics = {
-	ruling_party = progressive
+	ruling_party = authoritarian
 	last_election = "1919.3.5"
 	election_frequency = 48
 	elections_allowed = yes
@@ -306,7 +306,7 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Interfraktioneller Ausschuss"
+	name = "Friedrich Ebert"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "ifa.dds"
 	expire = "1965.1.1"
@@ -366,9 +366,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Oskar Hergt"
+	name = "Interfraktioneller Ausschuss"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "oskar_hergt.dds"
+	picture = "ifa.dds"
 	expire = "1965.1.1"
 	ideology = authoritarian_ideology
 	traits = {
