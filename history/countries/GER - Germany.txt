@@ -340,7 +340,7 @@ create_country_leader = {
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "ifa.dds"
 	expire = "1965.1.1"
-	ideology = conservative_ideology
+	ideology = reactionary
 	traits = {
 	}
 }
@@ -378,7 +378,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Anton Drexler"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "ifa.dds"
+	picture = "anton_drexler.dds"
 	expire = "1965.1.1"
 	ideology = ultranationalist_ideology
 	traits = {
