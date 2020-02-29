@@ -28,16 +28,12 @@
  SPR_toilerist_DEF:0 "The Kingdom of Spain"
  SPR_toilerist_ADJ:0 "Spanish"
  SPR_:0 "Kingdom of Spain"
- SPR__DEF:0 "The Kingdom of Spain"
- SPR__ADJ:0 "Spanish"
  
  #parties 
- SPR__party:0 "ARN - S"
- SPR__party_long:0 "Alliance for National Rebirth - Syndicalist"
  SPR_toilerist_party:0 "PCE"
  SPR_toilerist_party_long:0 "Spanish Communist Party"
  SPR_vanguardist_party:0 "PSI"
- SPR_vanguardist_party_long:0 "Partido sindicalista ibérico"
+ SPR_vanguardist_party_long:0 "Partido Sindicalista Ibérico"
  SPR_libertarian_party:0 "CNT"
  SPR_libertarian_party_long:0 "National Confederation of Labour"
  SPR_progressive_party:0 "PSOE"
