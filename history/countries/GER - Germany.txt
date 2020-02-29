@@ -316,7 +316,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Karl Radek"
+	name = "Heinrich Laufenberg"
 	desc = "POLITICS_WILHELM_PIECK_DESC"
 	picture = "karl_radek.dds"
 	expire = "1965.1.1"

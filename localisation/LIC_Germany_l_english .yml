@@ -32,9 +32,9 @@
  GER__ADJ:0 "German"
  
  #parties ultranationalist
- GER_toilerist_party:0 "FAUD-RD"
- GER_toilerist_party_long:0 "Free Worker's Union of Germany - Radek Wing"
- GER_vanguardist_party:0 "FAUD-SP"
+ GER_toilerist_party:0 "FAUD-H"
+ GER_toilerist_party_long:0 "Free Worker's Union of Germany - Hamburg Wing"
+ GER_vanguardist_party:0 "FAUD-S"
  GER_vanguardist_party_long:0 "Free Worker's Union of Germany - Spartakus Wing"
  GER_libertarian_party:0 "FAUD-A"
  GER_libertarian_party_long:0 "Free Worker's Union of Germany - Anarchist Wing"
