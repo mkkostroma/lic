@@ -336,7 +336,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Interfraktioneller Ausschuss"
+	name = "Matthias Erzberger"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "ifa.dds"
 	expire = "1965.1.1"
@@ -346,7 +346,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Interfraktioneller Ausschuss"
+	name = "Friedrich von Payer"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "ifa.dds"
 	expire = "1965.1.1"
