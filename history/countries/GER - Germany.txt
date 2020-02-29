@@ -306,7 +306,7 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Hugo Hasse"
+	name = "Hugo Haase"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "hugo_hasse.dds"
 	expire = "1965.1.1"
@@ -356,9 +356,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ernest Augustus"
+	name = "Ernst Jünger"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "Ernest_Augustus.dds"
+	picture = "ernst_juenger.dds"
 	expire = "1965.1.1"
 	ideology = despotist_ideology
 	traits = {
