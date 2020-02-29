@@ -288,13 +288,13 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	ultranationalist = 18
-	despotist = 2
+	ultranationalist = 6
+	despotist = 12
 	authoritarian = 36
 	conservative = 13
 	liberal = 7
 	progressive = 16
-	libertarian = 8
+	libertarian = 10
 	vanguardist = 0
 	toilerist = 0
 }
@@ -356,9 +356,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ernst Jünger"
+	name = "Wolfgang Kapp"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "ernst_juenger.dds"
+	picture = "ifa.dds"
 	expire = "1965.1.1"
 	ideology = despotist_ideology
 	traits = {
@@ -376,7 +376,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Wolfgang Kapp"
+	name = "Anton Drexler"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "ifa.dds"
 	expire = "1965.1.1"
@@ -388,7 +388,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Karl Liebknecht"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "karl_liebknecht.dds"
+	picture = "ifa.dds"
 	expire = "1965.1.1"
 	ideology = vanguardist_ideology
 	traits = {
