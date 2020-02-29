@@ -175,17 +175,22 @@ if = {
 set_convoys = 10
 
 set_politics = {
-	ruling_party = authoritarian
+	ruling_party = despotist
 	last_election = "1935.9.8"
 	election_frequency = 36
 	elections_allowed = no
 }
 set_popularities = {
-	liberal = 18
-	ultranationalist = 15
-	toilerist = 2
-	authoritarian = 65
-}
+	ultranationalist = 4
+	despotist = 21
+	authoritarian = 8
+	conservative = 11
+	liberal = 14
+	progressive = 9
+	libertarian = 17
+	vanguardist = 10
+	toilerist = 6
+    }
 
 1939.1.1 = {
 	set_popularities = {
@@ -197,11 +202,30 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Władysław Sikorski"
-	desc = "POLITICS_WLADYSLAW_SIKORSKI_DESC"
-	picture = "Portrait_Poland_Wladyslaw_Sikorski.dds"
+	name = "Jan Kucharzewski"
+	desc = "POLITICS_Jan_Kucharzewski_desc"
+	picture = "Portrait_Jan_Kucharzewski.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_ideology
+	ideology = despotist
+=======
+	ultranationalist = 34
+	despotist = 2
+	authoritarian = 5
+	conservative = 9
+	liberal = 4
+	progressive = 13
+	libertarian = 13
+	vanguardist = 10
+	toilerist = 10
+}
+
+create_country_leader = {
+	name = "Jan Kanty"
+	desc = "POLITICS_WLADYSLAW_SIKORSKI_DESC"
+	picture = "Jan_Kanty.dds"
+	expire = "1965.1.1"
+	ideology = despotist_ideology
+>>>>>>> 49f76590ddcdc12bc5a6fe3f17f39ad1c50cd280
 	traits = {
 		#
 	}

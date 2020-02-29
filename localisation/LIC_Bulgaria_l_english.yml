@@ -27,13 +27,8 @@
  BUL_toilerist:0 "Tsardom Of Bulgaria"
  BUL_toilerist_DEF:0 "The Tsardom Of Bulgaria"
  BUL_toilerist_ADJ:0 "Bulgarian"
- BUL_:0 "Tsardom Of Bulgaria"
- BUL__DEF:0 "The Tsardom Of Bulgaria"
- BUL__ADJ:0 "Bulgarian"
  
  #parties 
- BUL__party:0 "OF"
- BUL__party_long:0 "Fatherland Front"
  BUL_toilerist_party:0 "BRP"
  BUL_toilerist_party_long:0 "Bulgarian Workers' Party"
  BUL_vanguardist_party:0 "BRP - K"
