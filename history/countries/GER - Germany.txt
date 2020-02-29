@@ -306,9 +306,9 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Hugo Haase"
+	name = "Interfraktioneller Ausschuss"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "hugo_hasse.dds"
+	picture = "ifa.dds"
 	expire = "1965.1.1"
 	ideology = progressive_ideology
 	traits = {
@@ -336,9 +336,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gustav Stresemann"
+	name = "Interfraktioneller Ausschuss"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "gustav_stresemann.dds"
+	picture = "ifa.dds"
 	expire = "1965.1.1"
 	ideology = conservative_ideology
 	traits = {
@@ -346,9 +346,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Carl Wilhelm Petersen"
+	name = "Interfraktioneller Ausschuss"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "Helene_Lange.dds"
+	picture = "ifa.dds"
 	expire = "1965.1.1"
 	ideology = centrist_ideology
 	traits = {
