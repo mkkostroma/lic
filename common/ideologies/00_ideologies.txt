@@ -58,7 +58,7 @@ ideologies = {
 			"FACTION_NAME_NATIONALIST_6"
 		}
 		
-		color = { 184 188 182 }
+		color = { 83 49 121 }
 		
 		war_impact_on_world_tension = 1
 		faction_impact_on_world_tension = 1
@@ -96,7 +96,7 @@ ideologies = {
 			"FACTION_NAME_MONARCHIST_6"
 		}
 		
-		color = { 83 49 121 }
+		color = { 184 188 182 }
 		
 		war_impact_on_world_tension = 1
 		faction_impact_on_world_tension = 1
@@ -175,7 +175,7 @@ ideologies = {
 			"FACTION_NAME_CENTRIST_6"
 		}
 		
-		color = { 203 113 38 }
+		color = { 240 235 103 }
 		
 		war_impact_on_world_tension = 1
 		faction_impact_on_world_tension = 1
@@ -214,7 +214,7 @@ ideologies = {
 			"FACTION_NAME_LIBERAL_6"
 		}
 		
-		color = { 240 235 103 }
+		color = { 254 80 119 }
 		
 		war_impact_on_world_tension = 1
 		faction_impact_on_world_tension = 1
@@ -251,7 +251,7 @@ ideologies = {
 			"FACTION_NAME_SOCIAL_DEMOCRAT_6"
 		}
 		
-		color = { 254 80 119 }
+		color = { 234 75 77 }
 		
 		war_impact_on_world_tension = 1
 		faction_impact_on_world_tension = 1
@@ -289,7 +289,7 @@ ideologies = {
 			"FACTION_NAME_SOCIALIST_6"
 		}
 		
-		color = { 234 75 77 }
+		color = { 155 18 20 }
 		
 		war_impact_on_world_tension = 1.95
 		faction_impact_on_world_tension = 1.95
@@ -328,7 +328,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_6"
 		}
 		
-		color = { 155 18 20  }
+		color = { 102 12 13 }
 		
 		war_impact_on_world_tension = 1
 		faction_impact_on_world_tension = 1
