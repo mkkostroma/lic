@@ -282,21 +282,21 @@ create_import = {
 }
 
 set_politics = {
-	ruling_party = progressive
+	ruling_party = authoritarian
 	last_election = "1919.3.5"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	ultranationalist = 5
-	despotist = 10
-	authoritarian = 12
-	conservative = 15
-	liberal = 15
-	progressive = 15
-	libertarian = 15
-	vanguardist = 5
-	toilerist = 8
+	ultranationalist = 6
+	despotist = 12
+	authoritarian = 36
+	conservative = 13
+	liberal = 7
+	progressive = 16
+	libertarian = 10
+	vanguardist = 0
+	toilerist = 0
 }
 
 add_ideas = {
@@ -306,9 +306,9 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Hugo Haase"
+	name = "Friedrich Ebert"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "hugo_hasse.dds"
+	picture = "ifa.dds"
 	expire = "1965.1.1"
 	ideology = progressive_ideology
 	traits = {
@@ -318,7 +318,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Heinrich Laufenberg"
 	desc = "POLITICS_WILHELM_PIECK_DESC"
-	picture = "karl_radek.dds"
+	picture = "ifa.dds"
 	expire = "1965.1.1"
 	ideology = toilerist_ideology
 	traits = {
@@ -326,9 +326,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ruth Fischer"
+	name = "Rudolf Rocker"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "ruth_fischer.dds"
+	picture = "ifa.dds"
 	expire = "1965.1.1"
 	ideology = libertarian_ideology
 	traits = {
@@ -336,19 +336,19 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gustav Stresemann"
+	name = "Matthias Erzberger"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "gustav_stresemann.dds"
+	picture = "ifa.dds"
 	expire = "1965.1.1"
-	ideology = conservative_ideology
+	ideology = reactionary
 	traits = {
 	}
 }
 
 create_country_leader = {
-	name = "Helene Lange"
+	name = "Friedrich von Payer"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "Helene_Lange.dds"
+	picture = "ifa.dds"
 	expire = "1965.1.1"
 	ideology = centrist_ideology
 	traits = {
@@ -356,9 +356,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ernst Jünger"
+	name = "Wolfgang Kapp"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "ernst_juenger.dds"
+	picture = "ifa.dds"
 	expire = "1965.1.1"
 	ideology = despotist_ideology
 	traits = {
@@ -366,9 +366,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Oskar Hergt"
+	name = "Interfraktioneller Ausschuss"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "oskar_hergt.dds"
+	picture = "ifa.dds"
 	expire = "1965.1.1"
 	ideology = authoritarian_ideology
 	traits = {
@@ -376,9 +376,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Reinhold Wulle"
+	name = "Anton Drexler"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "reinhold_wulle.dds"
+	picture = "anton_drexler.dds"
 	expire = "1965.1.1"
 	ideology = ultranationalist_ideology
 	traits = {
@@ -388,7 +388,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Karl Liebknecht"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "karl_liebknecht.dds"
+	picture = "ifa.dds"
 	expire = "1965.1.1"
 	ideology = vanguardist_ideology
 	traits = {

@@ -456,8 +456,8 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_goal_Generic_Reactionary"
-		texturefile = "gfx/interface/goals/Generic_Reactionary.dds"
+		name = "GFX_goal_Generic_conservative"
+		texturefile = "gfx/interface/goals/Generic_conservative.dds"
 	}
 
 	SpriteType = {
