@@ -203,41 +203,10 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Jan Kucharzewski"
-	desc = "POLITICS_Jan_Kucharzewski_desc"
-	picture = "Portrait_Jan_Kucharzewski.dds"
-	expire = "1965.1.1"
-	ideology = despotist
-=======
-	ultranationalist = 34
-	despotist = 2
-	authoritarian = 5
-	conservative = 9
-	liberal = 4
-	progressive = 13
-	libertarian = 13
-	vanguardist = 10
-	toilerist = 10
-}
-
-create_country_leader = {
-	name = "Jan Kanty"
-	desc = "POLITICS_WLADYSLAW_SIKORSKI_DESC"
-	picture = "Jan_Kanty.dds"
+	desc = "POLITICS_Jan_Kucharzewski_DESC"
+	picture = "Jan_Kucharzewski.dds"
 	expire = "1965.1.1"
 	ideology = despotist_ideology
->>>>>>> 49f76590ddcdc12bc5a6fe3f17f39ad1c50cd280
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Ignacy Mościcki"
-	desc = "POLITICS_IGNACY_MOSCICKI_DESC"
-	picture = "Portrait_Poland_Ignacy_Moscicki.dds"
-	expire = "1965.1.1"
-	ideology = authoritarian_ideology
-	traits = {
 		#
 	}
 }
