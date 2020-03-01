@@ -215,16 +215,21 @@ if = {
 set_convoys = 200
 
 set_politics = {
-	ruling_party = ultranationalist
+	ruling_party = authoritarian
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
 }
 set_popularities = {
-	liberal = 22
-	ultranationalist = 76
-	toilerist = 2
-}
+	ultranationalist = 4
+	despotist = 8
+	authoritarian = 21
+	conservative = 11
+	liberal = 14
+	progressive = 9
+	libertarian = 17
+	vanguardist = 10
+	toilerist = 6
 
 create_country_leader = {
 	name = "Victor Emmanuel III"
@@ -232,6 +237,17 @@ create_country_leader = {
 	picture = "Victor_Emmanuel.dds"
 	expire = "1965.1.1"
 	ideology = authoritarian_ideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "USI "
+	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
+	picture = "USI.dds"
+	expire = "1965.1.1"
+	ideology = libertarian_ideology
 	traits = {
 		
 	}
