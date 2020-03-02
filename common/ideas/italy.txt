@@ -25,6 +25,60 @@ ideas = {
 				stability_factor = 0.05				
 			}
 		}
+		
+		a_firm_stance = {
+			
+			
+			allowed = {
+				original_tag = "ITA"
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = vanguardist
+				}
+				NOT = {
+					any_other_country = {
+						original_tag = ITA
+						has_government = ultranationalist
+					}
+				}
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = 0.005				
+			}
+		}
+		
+		disgruntled_unions = {
+			
+			
+			allowed = {
+				original_tag = "ITA"
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = vanguardist
+				}
+				NOT = {
+					any_other_country = {
+						original_tag = ITA
+						has_government = ultranationalist
+					}
+				}
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.05
+				stability_weekly = -0.005
+			}
+		}
+		
 		vittoria_mutilata = {			
 			
 			allowed = {

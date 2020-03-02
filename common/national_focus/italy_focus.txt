@@ -22,7 +22,7 @@ focus_tree = {
         x = 10
         y = 0
 
-        cost = 10
+        cost = 5
         
         bypass = {
 
@@ -32,7 +32,8 @@ focus_tree = {
         continue_if_invalid = no
         available_if_capitulated = no
 
-        completion_reward = {
+        completion_reward = { 
+		add_stability = -0.15
             
         }
 		available = {
@@ -45,11 +46,11 @@ focus_tree = {
    }
    	focus = {
         id = ITA_weather_it
-        #icon = 
+        icon = GFX_goal_Generic_Conservatism
         x = 0
         y = 1
 
-        cost = 10
+        cost = 5
         
         bypass = {
 
@@ -63,7 +64,7 @@ focus_tree = {
         available_if_capitulated = no
 
         completion_reward = {
-            
+        add_political_power = 15
         }
 		available = {
 			ROOT = {
@@ -76,11 +77,11 @@ focus_tree = {
 	
 	focus = {
         id = ITA_close_the_banks
-        #icon = 
+        icon = GFX_goal_Generic_Bank
         x = 0
         y = 2
 
-        cost = 10
+        cost = 5
         
         bypass = {
 
@@ -98,7 +99,8 @@ focus_tree = {
         available_if_capitulated = no
 
         completion_reward = {
-            
+			add_political_power = 100
+			add_stability = -0.25
         }
 		available = {
 			ROOT = {
@@ -111,11 +113,11 @@ focus_tree = {
 	
 	focus = {
         id = ITA_armed_guards_outside
-        #icon = 
+        icon = GFX_goal_Generic_German_Soldiers
         x = 0
         y = 3
 
-        cost = 10
+        cost = 5
         
         bypass = {
 
@@ -133,8 +135,17 @@ focus_tree = {
         available_if_capitulated = no
 
         completion_reward = {
-            
-        }
+			add_manpower = -1000
+			add_political_power = 100
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}	
+		}
 		available = {
 			ROOT = {
 				is_subject = no
@@ -146,7 +157,7 @@ focus_tree = {
 	
 	focus = {
         id = ITA_bare_the_course
-        #icon = 
+        icon = GFX_goal_Generic_Railroads
         x = 0
         y = 4
 
@@ -168,7 +179,7 @@ focus_tree = {
         available_if_capitulated = no
 
         completion_reward = {
-            
+            add_ideas = a_firm_stance
         }
 		available = {
 			ROOT = {
@@ -181,7 +192,7 @@ focus_tree = {
 	
 	focus = {
         id = ITA_scold_the_unions
-        #icon = 
+        icon = GFX_goal_Generic_War_Propaganda
         x = 1
         y = 5
 
@@ -203,6 +214,7 @@ focus_tree = {
         available_if_capitulated = no
 
         completion_reward = {
+			add_ideas = disgruntled_unions
             
         }
 		available = {
@@ -216,7 +228,7 @@ focus_tree = {
 	
 	focus = {
         id = ITA_warn_the_socialists
-        #icon = 
+        icon = GFX_goal_Generic_Ministry_of_Truth
         x = -1
         y = 5
 
@@ -238,7 +250,8 @@ focus_tree = {
         available_if_capitulated = no
 
         completion_reward = {
-            
+            add_manpower = -75
+			add_political_power = 100
         }
 		available = {
 			ROOT = {
@@ -251,7 +264,7 @@ focus_tree = {
 	
 	focus = {
         id = ITA_hunt_them_both
-        #icon = 
+        icon = GFX_goal_Generic_Target_Liberty
         x = 0
         y = 6
 
@@ -276,6 +289,7 @@ focus_tree = {
         available_if_capitulated = no
 
         completion_reward = {
+		add_equipment_to_stockpile = -1000
             
         }
 		available = {
@@ -289,7 +303,7 @@ focus_tree = {
 	
 	focus = {
         id = ITA_austerity_as_an_umbrella
-        #icon = 
+        icon = GFX_goal_Generic_Protectionism
         x = 6
         y = 2
 
@@ -325,7 +339,7 @@ focus_tree = {
 	
 	focus = {
         id = ITA_the_states_path
-        #icon = 
+        icon = GFX_goal_Generic_Shadow_Government
         x = 6
         y = 3
 
@@ -357,7 +371,7 @@ focus_tree = {
 	
 	focus = {
         id = ITA_strong_promises
-        #icon = 
+        icon = GFX_goal_Generic_Pass_Legislation
         x = 6
         y = 4
 
@@ -367,7 +381,7 @@ focus_tree = {
 
         }
 		prerequisite = {
-			focus = ITA_the_state's_path
+			focus = ITA_the_states_path
 		}
 		
 		relative_position_id = ITA_the_coming_crash
@@ -389,7 +403,7 @@ focus_tree = {
 	
 	focus = {
         id = ITA_arm_the_police
-        #icon = 
+        icon = GFX_goal_Generic_Guns
         x = 5
         y = 5
 
@@ -421,7 +435,7 @@ focus_tree = {
 	
 	focus = {
         id = ITA_emergency_factory_quotas
-        #icon = 
+        icon = GFX_goal_Generic_Factory_Complex
         x = 7
         y = 5
 
@@ -454,7 +468,7 @@ focus_tree = {
 	
 	focus = {
         id = ITA_prepared_for_the_worst
-        #icon = 
+        icon = GFX_goal_Generic_Morale_Bonus_Focus
         x = 6
         y = 6
 
@@ -490,7 +504,7 @@ focus_tree = {
 	
 	focus = {
         id = ITA_cross_our_fingers_and_pray
-        #icon = 
+        icon = GFX_goal_Generic_Christianity
         x = 0
         y = 8
 
@@ -501,7 +515,7 @@ focus_tree = {
         }
 		prerequisite = {
 			focus = ITA_prepared_for_the_worst
-			focus = ITA_is_everyone_okay?
+			focus = ITA_is_everyone_okay
 			focus = ITA_hunt_them_both
 		}
 		
@@ -525,7 +539,7 @@ focus_tree = {
 	
 	focus = {
         id = ITA_emergency_welfare
-        #icon = 
+        icon = GFX_goal_Generic_Cash_and_Carry 
         x = -6
         y = 2
 
@@ -561,7 +575,7 @@ focus_tree = {
 	
 	focus = {
         id = ITA_listen_to_the_moderate_socialists
-        #icon = 
+        icon = GFX_goal_Generic_Social_Democracy
         x = -8
         y = 3
 
@@ -593,7 +607,7 @@ focus_tree = {
 	
 	focus = {
         id = ITA_take_the_blows
-        #icon = 
+        icon = GFX_goal_Generic_Protectionist_Economics
         x = -6
         y = 3
 
@@ -625,7 +639,7 @@ focus_tree = {
 	
 	focus = {
         id = ITA_guarantee_work
-        #icon = 
+        icon = GFX_goal_Generic_Working_Class_Family
         x = -8
         y = 4
 
@@ -657,7 +671,7 @@ focus_tree = {
 	
 	focus = {
         id = ITA_bail_out_unions
-        #icon = 
+        icon = GFX_goal_Generic_Liberatian_Socialism
         x = -8
         y = 5
 
@@ -689,7 +703,7 @@ focus_tree = {
 	
 	focus = {
         id = ITA_calm_the_public
-        #icon = 
+        icon = GFX_goal_Focus_Generic_Press_Liberalization
         x = -6
         y = 4
 
@@ -721,7 +735,7 @@ focus_tree = {
 	
 	focus = {
         id = ITA_promise_more_concessions
-        #icon = 
+        icon = GFX_goal_Generic_Capitalist_Systems
         x = -6
         y = 5
 
@@ -753,7 +767,7 @@ focus_tree = {
 	
 	focus = {
         id = ITA_keep_factories_open
-        #icon = 
+        icon = GFX_goal_Generic_Factory_Planning
         x = -4
         y = 3
 
@@ -785,7 +799,7 @@ focus_tree = {
 	
 	focus = {
         id = ITA_the_bare_minimum
-        #icon = 
+        icon = GFX_goal_Generic_Feed_the_People
         x = -4
         y = 4
 
@@ -817,7 +831,7 @@ focus_tree = {
 	
 	focus = {
         id = ITA_slow_and_steady_now
-        #icon = 
+        icon = GFX_goal_Focus_Generic_Train
         x = -4
         y = 5
 
@@ -848,8 +862,8 @@ focus_tree = {
 	}
 	
 	focus = {
-        id = ITA_is_everyone_okay?
-        #icon = 
+        id = ITA_is_everyone_okay
+        icon = GFX_goal_Generic_Population_Question
         x = -6
         y = 6
 

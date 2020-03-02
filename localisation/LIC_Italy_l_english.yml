@@ -54,8 +54,8 @@
  ITA_the_bare_minimum_desc:0 ""
  ITA_slow_and_steady_now:0 "Slow And Steady Now"
  ITA_slow_and_steady_now_desc: ""
- ITA_is_everyone_okay?:0 "Is Everyone Okay?"
- ITA_is_everyone_okay?_desc:0 ""
+ ITA_is_everyone_okay:0 "Is Everyone Okay?"
+ ITA_is_everyone_okay_desc:0 ""
  ITA_close_the_banks:0 "Close The Banks"
  ITA_close_the_banks_desc:0 ""
  ITA_armed_guards_outside:0 "Armed Guards Outside"
@@ -82,3 +82,10 @@
  ITA_prepared_for_the_worst_desc:0 ""
  ITA_cross_our_fingers_and_pray:0 "Cross Our Fingers And Pray"
  ITA_cross_our_fingers_and_pray_desc:0 ""
+ 
+ #ideas
+ 
+ a_firm_stance:0 "A Firm Stance"
+ a_firm_stance_desc:0 ""
+ disgruntled_unions:0 "Disgruntled Unions"
+ disgruntled_unions_desc:0 ""

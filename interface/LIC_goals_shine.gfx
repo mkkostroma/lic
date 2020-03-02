@@ -1633,7 +1633,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_goal_Generic_Target_Liberty"
+		name = "GFX_goal_Generic_Target_Liberty_shine"
 		texturefile = "gfx/interface/goals/Generic_Target_Liberty.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -2945,7 +2945,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_goal_Generic_Conservatism"
+		name = "GFX_goal_Generic_Conservatism_shine"
 		texturefile = "gfx/interface/goals/Generic_Conservatism.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -3553,7 +3553,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_goal_Generic_Protectionist_Economics"
+		name = "GFX_goal_Generic_Protectionist_Economics_shine"
 		texturefile = "gfx/interface/goals/Generic_Protectionist_Economics.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -3617,7 +3617,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_goal_Generic_Cash_and_Carry"
+		name = "GFX_goal_Generic_Cash_and_Carry_shine"
 		texturefile = "gfx/interface/goals/Generic_Cash_and_Carry.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -4129,7 +4129,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_goal_Generic_Capitalist_Systems"
+		name = "GFX_goal_Generic_Capitalist_Systems_shine"
 		texturefile = "gfx/interface/goals/Generic_Capitalist_Systems.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
