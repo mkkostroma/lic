@@ -1793,7 +1793,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_goal_Generic_Skull_Gear"
+		name = "GFX_goal_Generic_Skull_Gear_shine"
 		texturefile = "gfx/interface/goals/Generic_Skull_Gear.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
