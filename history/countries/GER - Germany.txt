@@ -291,11 +291,11 @@ set_popularities = {
 	ultranationalist = 6
 	despotist = 12
 	authoritarian = 36
-	conservative = 13
-	liberal = 7
+	conservative = 8
+	liberal = 12
 	progressive = 16
-	libertarian = 10
-	vanguardist = 0
+	libertarian = 8
+	vanguardist = 2
 	toilerist = 0
 }
 
