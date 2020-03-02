@@ -1,0 +1,496 @@
+focus_tree = {
+	id = Poland_focus_tree
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = POL
+		}
+
+		
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 1500 y = 100000 }
+	
+	focus = {
+        id = POL_the_kucharzewski_goverment
+        #icon = 
+        x = 10
+        y = 0
+
+        cost = 3.5
+        
+        bypass = {
+
+        }
+
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+    }
+	
+	focus = {
+        id = POL_please_the_nationalists
+        #icon = 
+        x = -2
+        y = 1
+
+        cost = 3.5
+        
+        bypass = {
+
+        }
+        
+		prerequisite = {
+		Focus= POL_the_kucharzewski_goverment
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            ROOT = {
+            is_subject = no
+            }
+        }
+
+        completion_reward = {
+            
+        }
+    }
+	
+		focus = {
+        id = POL_reassure_the_capitalists
+        icon = GFX_goal_Generic_Collaborate_with_Local_Elites
+        x = 0
+        y = 1
+
+        cost = 3.5
+        
+        bypass = {
+
+        }
+        
+		prerequisite = {
+		Focus= POL_the_kucharzewski_goverment
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            ROOT = {
+            is_subject = no
+            }
+        }
+
+        completion_reward = {
+            
+        }
+    }
+	
+	focus = {
+        id = POL_break_the_socialists
+        icon = GFX_goal_Backstab
+        x = 2
+        y = 1
+
+        cost = 3.5
+        
+        bypass = {
+
+        }
+        
+		prerequisite = {
+		Focus= POL_the_kucharzewski_goverment
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            ROOT = {
+            is_subject = no
+            }
+        }
+
+        completion_reward = {
+            
+        }
+    }
+	
+	focus = {
+        id = POL_crackdown_on_ukrainian_literature 
+        #icon = 
+        x = -2
+        y = 2
+
+        cost = 3.5
+        
+        bypass = {
+
+        }
+        
+		prerequisite = {
+		Focus= POL_please_the_nationalists
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            ROOT = {
+            is_subject = no
+            }
+        }
+
+        completion_reward = {
+            
+        }
+    }
+	
+	focus = {
+        id = POL_continue_privatization 
+        icon = GFX_goal_Generic_Money_Bags
+        x = 0
+        y = 2
+
+        cost = 3.5
+        
+        bypass = {
+
+        }
+        
+		prerequisite = {
+		Focus= POL_reassure_the_capitalists
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            ROOT = {
+            is_subject = no
+            }
+        }
+
+        completion_reward = {
+            
+        }
+    }
+
+	focus = {
+        id = POL_blacklist_the_social_democrats
+        icon = GFX_goal_Generic_Purge_Social_Democracy
+        x = 2
+        y = 2
+
+        cost = 3.5
+        
+        bypass = {
+
+        }
+        
+		prerequisite = {
+		Focus= POL_break_the_socialists
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            ROOT = {
+            is_subject = no
+            }
+        }
+
+        completion_reward = {
+            
+        }
+    }
+		
+		focus = {
+        id = POL_muzzle_dmowski 
+        #icon = 
+        x = -2
+        y = 3
+
+        cost = 3.5
+        
+        bypass = {
+
+        }
+        
+		prerequisite = {
+		Focus= POL_crackdown_on_ukrainian_literature
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            ROOT = {
+            is_subject = no
+            }
+        }
+
+        completion_reward = {
+            
+        }
+    }
+	focus = {
+        id = POL_Shake_hands_with_the_titans
+        icon = GFX_goal_Generic_Shady_Deal
+        x = 0
+        y = 3
+
+        cost = 3.5
+        
+        bypass = {
+
+        }
+        
+		prerequisite = {
+		Focus= POL_continue_privatization
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            ROOT = {
+            is_subject = no
+            }
+        }
+
+        completion_reward = {
+            
+        }
+    }
+	focus = {
+        id = POL_spies_in_the_cities
+        icon = GFX_goal_Generic_Lookout
+        x = 2
+        y = 3
+
+        cost = 3.5
+        
+        bypass = {
+
+        }
+        
+		prerequisite = {
+		Focus= POL_blacklist_the_social_democrats
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            ROOT = {
+            is_subject = no
+            }
+        }
+
+        completion_reward = {
+            
+        }
+    }
+		focus = {
+        id = POL_calm_the_people
+        icon = 
+        x = 0
+        y = 4
+
+        cost = 3.5
+        
+        bypass = {
+
+        }
+        
+		prerequisite = {
+        focus = POL_muzzle_dmowski 
+        }
+		prerequisite = {
+		focus = POL_Shake_hands_with_the_titans
+        }
+		prerequisite = {
+		focus = POL_spies_in_the_cities
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            ROOT = {
+            is_subject = no
+            }
+        }
+
+        completion_reward = {
+            
+        }
+    }
+	focus = {
+        id = POL_warszawa_spring
+        icon = GFX_goal_Generic_Revolution
+        x = 0
+        y = 6
+
+        cost = 5
+        
+        bypass = {
+
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            ROOT = {
+            is_subject = no
+            has_country_flag = POL_warsaw_spring
+			}
+        }
+
+        completion_reward = {
+            
+        }
+    }
+	focus = {
+        id = POL_gather_the_inner_circle
+        #icon = 
+        x = 0
+        y = 7
+
+        cost = 5
+        
+        bypass = {
+        }
+        
+		prerequisite = {
+		Focus = POL_warszawa_spring
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            ROOT = {
+            is_subject = no
+			}
+        }
+
+        completion_reward = {
+            
+        }
+    }
+	focus = {
+        id = POL_negotiate_with_moderates
+        #icon = 
+        x = -3
+        y = 8
+
+        cost = 3.5
+        
+        bypass = {
+
+        }
+						mutually_exclusive = {
+			focus = POL_no_compromise
+		}
+						mutually_exclusive = {
+			focus = POL_accept_romans_proposal
+		}
+		prerequisite = {
+		Focus = POL_gather_the_inner_circle
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+    }
+	focus = {
+        id = POL_no_compromise
+        #icon = 
+        x = 0
+        y = 8
+
+        cost = 3.5
+        
+        bypass = {
+
+        }
+				mutually_exclusive = {
+			focus = POL_negotiate_with_moderates
+		}
+						mutually_exclusive = {
+			focus = POL_accept_romans_proposal
+		}
+		prerequisite = {
+		Focus = POL_gather_the_inner_circle
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+    }
+		focus = {
+        id = POL_accept_romans_proposal
+        #icon = 
+        x = 3
+        y = 8
+
+        cost = 3.5
+        
+        bypass = {
+
+        }
+						mutually_exclusive = {
+			focus = POL_no_compromise
+		}
+						mutually_exclusive = {
+			focus = POL_negotiate_with_moderates
+		}
+		prerequisite = {
+		Focus = POL_gather_the_inner_circle
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+    }
+	
+	}
