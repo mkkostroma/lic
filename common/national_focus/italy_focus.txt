@@ -324,7 +324,7 @@ focus_tree = {
 	}
 	
 	focus = {
-        id = ITA_the_state's_path
+        id = ITA_the_states_path
         #icon = 
         x = 6
         y = 3
