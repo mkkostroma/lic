@@ -289,14 +289,14 @@ set_politics = {
 }
 set_popularities = {
 	ultranationalist = 6
-	despotist = 14
+	despotist = 12
 	authoritarian = 36
 	conservative = 8
 	liberal = 10
-	progressive = 16
-	libertarian = 6
-	vanguardist = 3
-	toilerist = 1
+	progressive = 14
+	libertarian = 8
+	vanguardist = 4
+	toilerist = 2
 }
 
 add_ideas = {
