@@ -336,7 +336,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Matthias Erzberger"
+	name = "Karl Trimborn"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "ifa.dds"
 	expire = "1965.1.1"
@@ -346,7 +346,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Friedrich von Payer"
+	name = "Carl Wilhelm Petersen"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "ifa.dds"
 	expire = "1965.1.1"
@@ -356,7 +356,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Wolfgang Kapp"
+	name = "Alfred von Tirpitz"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "wolfgang_kapp.dds"
 	expire = "1965.1.1"
