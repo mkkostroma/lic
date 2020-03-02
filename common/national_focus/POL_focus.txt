@@ -36,13 +36,13 @@ focus_tree = {
         }
 
         completion_reward = {
-            
+        add_political_power =50
         }
     }
 	
 	focus = {
         id = POL_please_the_nationalists
-        #icon = 
+        icon = GFX_goal_Generic_Ultranationalism2
         x = -2
         y = 1
 
@@ -66,8 +66,11 @@ focus_tree = {
         }
 
         completion_reward = {
-            
+		 add_popularity = {
+         ideology = ultranationalist
+         popularity = 0.1
         }
+	  }
     }
 	
 		focus = {
@@ -370,7 +373,7 @@ focus_tree = {
     }
 	focus = {
         id = POL_gather_the_inner_circle
-        #icon = 
+        icon = GFX_goal_Generic_Shadow_Government
         x = 0
         y = 7
 
@@ -398,11 +401,11 @@ focus_tree = {
     }
 	focus = {
         id = POL_negotiate_with_moderates
-        #icon = 
-        x = -3
+       icon = GFX_goal_Generic_Conservative
+        x = -5
         y = 8
 
-        cost = 3.5
+        cost = 5 
         
         bypass = {
 
@@ -430,11 +433,11 @@ focus_tree = {
     }
 	focus = {
         id = POL_no_compromise
-        #icon = 
+        icon = GFX_goal_Generic_Enough
         x = 0
         y = 8
 
-        cost = 3.5
+        cost = 5 
         
         bypass = {
 
@@ -462,11 +465,11 @@ focus_tree = {
     }
 		focus = {
         id = POL_accept_romans_proposal
-        #icon = 
-        x = 3
+       icon = GFX_goal_Generic_Ultranat_Eagle
+        x = 5
         y = 8
 
-        cost = 3.5
+        cost = 5 
         
         bypass = {
 
@@ -492,5 +495,135 @@ focus_tree = {
             
         }
     }
-	
+
+		focus = {
+        id = POL_church_mediation
+        icon = GFX_goal_Generic_Christianity
+        x = -5
+        y = 9
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		prerequisite = {
+		Focus = POL_negotiate_with_moderates
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+    }
+		focus = {
+        id = POL_isolate_roman
+        #icon = 
+        x = -7
+        y = 10
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		prerequisite = {
+		Focus = POL_church_mediation
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+    }
+		focus = {
+        id = POL_calm_the_rich
+        icon = GFX_goal_Generic_Capitalist_Systems
+        x = -3
+        y = 10
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		prerequisite = {
+		Focus = POL_church_mediation
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+    }
+				focus = {
+        id = POL_admit_to_some_wrong_doing
+        #icon = 
+        x = -5
+        y = 10
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		prerequisite = {
+		Focus = POL_church_mediation
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+    }
+			focus = {
+        id = POL_ferment_a_split
+        icon = GFX_goal_Generic_Tear_Paper
+        x = -7
+        y = 11
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		prerequisite = {
+		Focus = POL_isolate_roman
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+    }
 	}
