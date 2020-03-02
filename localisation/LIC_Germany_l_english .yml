@@ -32,12 +32,12 @@
  GER__ADJ:0 "German"
  
  #parties ultranationalist
- GER_toilerist_party:0 "FAUD-T"
- GER_toilerist_party_long:0 "Freie Arbeiter-Union Deutschlands - Toileristen"
- GER_vanguardist_party:0 "FAUD-S"
- GER_vanguardist_party_long:0 "Freie Arbeiter-Union Deutschlands - Spartakisten"
- GER_libertarian_party:0 "FAUD-AS"
- GER_libertarian_party_long:0 "Freie Arbeiter-Union Deutschlands - Anarchosyndikalisten"
+ GER_toilerist_party:0 "SAPD"
+ GER_toilerist_party_long:0 "Sozialistische Arbeitspartei Deutschlands"
+ GER_vanguardist_party:0 "SAP"
+ GER_vanguardist_party_long:0 "Sozialistische Arbeitspartei"
+ GER_libertarian_party:0 "FAUD"
+ GER_libertarian_party_long:0 "Freie Arbeiter-Union Deutschlands"
  GER_progressive_party:0 "SPD"
  GER_progressive_party_long:0 "Sozialdemokratische Partei Deutschlands"
  GER_liberal_party:0 "DDP"
