@@ -96,6 +96,7 @@ set_popularities = {
 	libertarian = 17
 	vanguardist = 10
 	toilerist = 6
+}
 
 create_country_leader = {
 	name = "Victor Emmanuel III"

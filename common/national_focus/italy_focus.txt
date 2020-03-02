@@ -1,0 +1,897 @@
+focus_tree = {
+    id = italy_focus_tree
+
+    country = {
+        factor = 0
+
+        modifier = {
+            add = 10
+            tag = ITA
+        }
+
+
+    }
+
+    default = no
+
+    continuous_focus_position = { x = 1500 y = 100000 }
+	
+	focus = {
+        id = ITA_the_coming_crash
+        #icon = 
+        x = 10
+        y = 0
+
+        cost = 10
+        
+        bypass = {
+
+        }
+
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+	
+		}
+	
+   }
+   	focus = {
+        id = ITA_weather_it
+        #icon = 
+        x = 0
+        y = 1
+
+        cost = 10
+        
+        bypass = {
+
+        }
+		prerequisite = {
+			focus = ITA_the_coming_crash
+		}
+		relative_position_id = ITA_the_coming_crash
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+	
+		}
+	
+	}
+	
+	focus = {
+        id = ITA_close_the_banks
+        #icon = 
+        x = 0
+        y = 2
+
+        cost = 10
+        
+        bypass = {
+
+        }
+		prerequisite = {
+			focus = ITA_weather_it
+		}
+		mutually_exclusive = {
+			focus = ITA_austerity_as_an_umbrella
+			focus = ITA_emergency_welfare
+		}
+		relative_position_id = ITA_the_coming_crash
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+	
+		}
+	
+	}
+	
+	focus = {
+        id = ITA_armed_guards_outside
+        #icon = 
+        x = 0
+        y = 3
+
+        cost = 10
+        
+        bypass = {
+
+        }
+		prerequisite = {
+			focus = ITA_close_the_banks
+		}
+		mutually_exclusive = {
+			focus = ITA_austerity_as_an_umbrella
+			focus = ITA_emergency_welfare
+		}
+		relative_position_id = ITA_the_coming_crash
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+	
+		}
+	
+	}
+	
+	focus = {
+        id = ITA_bare_the_course
+        #icon = 
+        x = 0
+        y = 4
+
+        cost = 10
+        
+        bypass = {
+
+        }
+		prerequisite = {
+			focus = ITA_armed_guards_outside
+		}
+		mutually_exclusive = {
+			focus = ITA_austerity_as_an_umbrella
+			focus = ITA_emergency_welfare
+		}
+		relative_position_id = ITA_the_coming_crash
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+	
+		}
+	
+	}
+	
+	focus = {
+        id = ITA_scold_the_unions
+        #icon = 
+        x = 1
+        y = 5
+
+        cost = 10
+        
+        bypass = {
+
+        }
+		prerequisite = {
+			focus = ITA_bare_the_course
+		}
+		mutually_exclusive = {
+			focus = ITA_austerity_as_an_umbrella
+			focus = ITA_emergency_welfare
+		}
+		relative_position_id = ITA_the_coming_crash
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+	
+		}
+	
+	}
+	
+	focus = {
+        id = ITA_warn_the_socialists
+        #icon = 
+        x = -1
+        y = 5
+
+        cost = 10
+        
+        bypass = {
+
+        }
+		prerequisite = {
+			focus = ITA_bare_the_course
+		}
+		mutually_exclusive = {
+			focus = ITA_austerity_as_an_umbrella
+			focus = ITA_emergency_welfare
+		}
+		relative_position_id = ITA_the_coming_crash
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+	
+		}
+	
+	}
+	
+	focus = {
+        id = ITA_hunt_them_both
+        #icon = 
+        x = 0
+        y = 6
+
+        cost = 10
+        
+        bypass = {
+
+        }
+		prerequisite = {
+			focus = ITA_scold_the_unions
+		}
+		prerequisite = {
+			focus = ITA_warn_the_socialists
+		}
+		mutually_exclusive = {
+			focus = ITA_austerity_as_an_umbrella
+			focus = ITA_emergency_welfare
+		}
+		relative_position_id = ITA_the_coming_crash
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+	
+		}
+	
+	}
+	
+	focus = {
+        id = ITA_austerity_as_an_umbrella
+        #icon = 
+        x = 6
+        y = 2
+
+        cost = 10
+        
+        bypass = {
+
+        }
+		prerequisite = {
+			focus = ITA_weather_it
+		}
+		mutually_exclusive = {
+			focus = ITA_close_the_banks
+			focus = ITA_emergency_welfare
+		}
+		
+		relative_position_id = ITA_the_coming_crash
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+	
+		}
+	
+	}
+	
+	focus = {
+        id = ITA_the_state's_path
+        #icon = 
+        x = 6
+        y = 3
+
+        cost = 10
+        
+        bypass = {
+
+        }
+		prerequisite = {
+			focus = ITA_austerity_as_an_umbrella
+		}
+		
+		relative_position_id = ITA_the_coming_crash
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+	
+		}
+	
+	}
+	
+	focus = {
+        id = ITA_strong_promises
+        #icon = 
+        x = 6
+        y = 4
+
+        cost = 10
+        
+        bypass = {
+
+        }
+		prerequisite = {
+			focus = ITA_the_state's_path
+		}
+		
+		relative_position_id = ITA_the_coming_crash
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+	
+		}
+	
+	}
+	
+	focus = {
+        id = ITA_arm_the_police
+        #icon = 
+        x = 5
+        y = 5
+
+        cost = 10
+        
+        bypass = {
+
+        }
+		prerequisite = {
+			focus = ITA_strong_promises
+		}
+		
+		relative_position_id = ITA_the_coming_crash
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+	
+		}
+	
+	}
+	
+	focus = {
+        id = ITA_emergency_factory_quotas
+        #icon = 
+        x = 7
+        y = 5
+
+        cost = 10
+        
+        bypass = {
+
+        }
+		prerequisite = {
+			focus = ITA_strong_promises
+		}
+		
+		relative_position_id = ITA_the_coming_crash
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+	
+		}
+	
+	}
+	
+	
+	focus = {
+        id = ITA_prepared_for_the_worst
+        #icon = 
+        x = 6
+        y = 6
+
+        cost = 10
+        
+        bypass = {
+
+        }
+		prerequisite = {
+			focus = ITA_arm_the_police
+		}
+		
+		prerequisite = {
+			focus = ITA_emergency_factory_quotas
+		}
+		
+		relative_position_id = ITA_the_coming_crash
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+	
+		}
+	
+	}
+	
+	focus = {
+        id = ITA_cross_our_fingers_and_pray
+        #icon = 
+        x = 0
+        y = 8
+
+        cost = 10
+        
+        bypass = {
+
+        }
+		prerequisite = {
+			focus = ITA_prepared_for_the_worst
+			focus = ITA_is_everyone_okay?
+			focus = ITA_hunt_them_both
+		}
+		
+		
+		relative_position_id = ITA_the_coming_crash
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+	
+		}
+	
+	}
+	
+	focus = {
+        id = ITA_emergency_welfare
+        #icon = 
+        x = -6
+        y = 2
+
+        cost = 10
+        
+        bypass = {
+
+        }
+		prerequisite = {
+			focus = ITA_weather_it
+		}
+		mutually_exclusive = {
+			focus = ITA_austerity_as_an_umbrella
+			focus = ITA_close_the_banks
+		}
+		
+		relative_position_id = ITA_the_coming_crash
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+	
+		}
+	
+	}
+	
+	focus = {
+        id = ITA_listen_to_the_moderate_socialists
+        #icon = 
+        x = -8
+        y = 3
+
+        cost = 10
+        
+        bypass = {
+
+        }
+		prerequisite = {
+			focus = ITA_emergency_welfare
+		}
+		
+		relative_position_id = ITA_the_coming_crash
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+	
+		}
+	
+	}
+	
+	focus = {
+        id = ITA_take_the_blows
+        #icon = 
+        x = -6
+        y = 3
+
+        cost = 10
+        
+        bypass = {
+
+        }
+		prerequisite = {
+			focus = ITA_emergency_welfare
+		}
+		
+		relative_position_id = ITA_the_coming_crash
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+	
+		}
+	
+	}
+	
+	focus = {
+        id = ITA_guarantee_work
+        #icon = 
+        x = -8
+        y = 4
+
+        cost = 10
+        
+        bypass = {
+
+        }
+		prerequisite = {
+			focus = ITA_listen_to_the_moderate_socialists
+		}
+		
+		relative_position_id = ITA_the_coming_crash
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+	
+		}
+	
+	}
+	
+	focus = {
+        id = ITA_bail_out_unions
+        #icon = 
+        x = -8
+        y = 5
+
+        cost = 10
+        
+        bypass = {
+
+        }
+		prerequisite = {
+			focus = ITA_guarantee_work
+		}
+		
+		relative_position_id = ITA_the_coming_crash
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+	
+		}
+	
+	}
+	
+	focus = {
+        id = ITA_calm_the_public
+        #icon = 
+        x = -6
+        y = 4
+
+        cost = 10
+        
+        bypass = {
+
+        }
+		prerequisite = {
+			focus = ITA_take_the_blows
+		}
+		
+		relative_position_id = ITA_the_coming_crash
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+	
+		}
+	
+	}
+	
+	focus = {
+        id = ITA_promise_more_concessions
+        #icon = 
+        x = -6
+        y = 5
+
+        cost = 10
+        
+        bypass = {
+
+        }
+		prerequisite = {
+			focus = ITA_calm_the_public
+		}
+		
+		relative_position_id = ITA_the_coming_crash
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+	
+		}
+	
+	}
+	
+	focus = {
+        id = ITA_keep_factories_open
+        #icon = 
+        x = -4
+        y = 3
+
+        cost = 10
+        
+        bypass = {
+
+        }
+		prerequisite = {
+			focus = ITA_emergency_welfare
+		}
+		
+		relative_position_id = ITA_the_coming_crash
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+	
+		}
+	
+	}
+	
+	focus = {
+        id = ITA_the_bare_minimum
+        #icon = 
+        x = -4
+        y = 4
+
+        cost = 10
+        
+        bypass = {
+
+        }
+		prerequisite = {
+			focus = ITA_keep_factories_open
+		}
+		
+		relative_position_id = ITA_the_coming_crash
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+	
+		}
+	
+	}
+	
+	focus = {
+        id = ITA_slow_and_steady_now
+        #icon = 
+        x = -4
+        y = 5
+
+        cost = 10
+        
+        bypass = {
+
+        }
+		prerequisite = {
+			focus = ITA_the_bare_minimum
+		}
+		
+		relative_position_id = ITA_the_coming_crash
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+	
+		}
+	
+	}
+	
+	focus = {
+        id = ITA_is_everyone_okay?
+        #icon = 
+        x = -6
+        y = 6
+
+        cost = 10
+        
+        bypass = {
+
+        }
+		prerequisite = {
+			focus = ITA_promise_more_concessions
+		}
+		prerequisite = {
+			focus = ITA_slow_and_steady_now
+		}
+		prerequisite = {
+			focus = ITA_bail_out_unions
+		}
+		mutually_exclusive = {
+			focus = ITA_austerity_as_an_umbrella
+			focus = ITA_close_the_banks
+		}
+		
+		relative_position_id = ITA_the_coming_crash
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+
+        completion_reward = {
+            
+        }
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+	
+		}
+	
+	}
+   
+   
+  }
+  
+
+	
+	
