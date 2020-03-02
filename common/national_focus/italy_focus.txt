@@ -251,7 +251,7 @@ focus_tree = {
 
         completion_reward = {
             add_manpower = -75
-			add_political_power = 
+			add_political_power = 100
         }
 		available = {
 			ROOT = {
@@ -289,7 +289,11 @@ focus_tree = {
         available_if_capitulated = no
 
         completion_reward = {
-            
+            add_equipment_to_stockpile = {
+				type = infantry_equipment
+					amount = -1000
+					producer = ITA
+			}
         }
 		available = {
 			ROOT = {
