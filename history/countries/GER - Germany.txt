@@ -282,18 +282,18 @@ create_import = {
 }
 
 set_politics = {
-	ruling_party = authoritarian
+	ruling_party = liberal
 	last_election = "1919.3.5"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	ultranationalist = 8
-	despotist = 14
-	authoritarian = 32
-	conservative = 8
-	liberal = 10
-	progressive = 14
+	ultranationalist = 2
+	despotist = 16
+	authoritarian = 4
+	conservative = 16
+	liberal = 20
+	progressive = 28
 	libertarian = 8
 	vanguardist = 4
 	toilerist = 2
@@ -306,7 +306,7 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Friedrich Ebert"
+	name = "Interfraktioneller Ausschuss"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "ifa.dds"
 	expire = "1965.1.1"
@@ -348,7 +348,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Carl Wilhelm Petersen"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "ifa.dds"
+	picture = "carl_wilhelm_petersen.dds"
 	expire = "1965.1.1"
 	ideology = centrist_ideology
 	traits = {
@@ -358,7 +358,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Alfred von Tirpitz"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "wolfgang_kapp.dds"
+	picture = "alfred_von_tirpitz.dds"
 	expire = "1965.1.1"
 	ideology = despotist_ideology
 	traits = {
@@ -366,7 +366,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Interfraktioneller Ausschuss"
+	name = "Wilhelm Rogge"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "ifa.dds"
 	expire = "1965.1.1"
@@ -376,7 +376,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Anton Drexler"
+	name = "Wilhelm Gellert"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "anton_drexler.dds"
 	expire = "1965.1.1"
