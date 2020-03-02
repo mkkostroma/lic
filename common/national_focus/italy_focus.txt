@@ -18,7 +18,7 @@ focus_tree = {
 	
 	focus = {
         id = ITA_the_coming_crash
-        #icon = 
+        icon = GFX_goal_Generic_Skull_Gear
         x = 10
         y = 0
 
