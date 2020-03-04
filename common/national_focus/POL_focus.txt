@@ -18,7 +18,7 @@ focus_tree = {
 	
 	focus = {
         id = POL_the_kucharzewski_goverment
-        #icon = 
+        icon = GFX_Kucharzewski_Government
         x = 10
         y = 0
 
@@ -707,7 +707,7 @@ focus_tree = {
     }
 		focus = {
         id = POL_talk_with_the_unions
-        icon = GFX_goal_Generic_Liberatian_Socialism
+        #icon = 
         x = -6
         y = 12
 

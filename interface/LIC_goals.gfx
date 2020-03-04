@@ -2892,7 +2892,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/Focus_FRA_Clem_Government.dds"
 	}
 	
-	  SpriteType = {
-        name = "GFX_goal_PPS_Generic"
-        texturefile = "gfx/interface/goals/GFX_goal_PPS_Generic.dds"
-    }
+	SpriteType = {
+		name = "GFX_PPS_generic"
+		texturefile = "gfx/interface/goals/GFX_PPS_generic.dds"			
+		effectFile = "gfx/FX/buttonstate.lua"
+		
+	}
+		SpriteType = {
+		name = "GFX_Kucharzewski_Government"
+		texturefile = "gfx/interface/goals/GFX_Kucharzewski_Government.dds"			
+		effectFile = "gfx/FX/buttonstate.lua"
+		
+	}
