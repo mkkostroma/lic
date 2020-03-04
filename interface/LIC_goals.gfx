@@ -2891,3 +2891,8 @@ spriteTypes = {
 		name = "GFX_goal_Focus_FRA_Clem_Government"
 		texturefile = "gfx/interface/goals/Focus_FRA_Clem_Government.dds"
 	}
+	
+	  SpriteType = {
+        name = "GFX_goal_PPS_Generic"
+        texturefile = "gfx/interface/goals/GFX_goal_PPS_Generic.dds"
+    }

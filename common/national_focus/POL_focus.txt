@@ -402,7 +402,7 @@ focus_tree = {
 	focus = {
         id = POL_negotiate_with_moderates
        icon = GFX_goal_Generic_Conservative
-        x = -5
+        x = -6
         y = 8
 
         cost = 5 
@@ -499,7 +499,7 @@ focus_tree = {
 		focus = {
         id = POL_church_mediation
         icon = GFX_goal_Generic_Christianity
-        x = -5
+        x = -6
         y = 9
 
         cost = 5 
@@ -525,7 +525,7 @@ focus_tree = {
 		focus = {
         id = POL_isolate_roman
         #icon = 
-        x = -7
+        x = -8
         y = 10
 
         cost = 5 
@@ -551,7 +551,7 @@ focus_tree = {
 		focus = {
         id = POL_calm_the_rich
         icon = GFX_goal_Generic_Capitalist_Systems
-        x = -3
+        x = -4
         y = 10
 
         cost = 5 
@@ -577,7 +577,7 @@ focus_tree = {
 				focus = {
         id = POL_admit_to_some_wrong_doing
         #icon = 
-        x = -5
+        x = -6
         y = 10
 
         cost = 5 
@@ -603,7 +603,7 @@ focus_tree = {
 			focus = {
         id = POL_ferment_a_split
         icon = GFX_goal_Generic_Tear_Paper
-        x = -7
+        x = -8
         y = 11
 
         cost = 5 
@@ -613,6 +613,217 @@ focus_tree = {
         }
 		prerequisite = {
 		Focus = POL_isolate_roman
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+    }
+				focus = {
+        id = POL_malice_towards_none
+        #icon =
+        x = -6
+        y = 11
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		prerequisite = {
+		Focus = POL_admit_to_some_wrong_doing
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+    }
+	    focus = {
+        id = POL_its_all_going_to_plan
+        #icon =
+        x = -4
+        y = 11
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		prerequisite = {
+		Focus = POL_calm_the_rich
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+    }
+	
+	    focus = {
+        id = POL_close_down_nationalist_meeting_spots
+        #icon =
+        x = -8
+        y = 12
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		prerequisite = {
+		Focus = POL_ferment_a_split
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+    }
+		focus = {
+        id = POL_talk_with_the_unions
+        icon = GFX_goal_Generic_Liberatian_Socialism
+        x = -6
+        y = 12
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		prerequisite = {
+		Focus = POL_malice_towards_none
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+      }
+	  	    focus = {
+        id = POL_its_all_going_to_plan
+        #icon =
+        x = -4
+        y = 11
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		prerequisite = {
+		Focus = POL_calm_the_rich
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+    }
+		    focus = {
+        id = POL_ignore_the_naysayers
+        #icon =
+        x = -4
+        y = 12
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		prerequisite = {
+		Focus = POL_its_all_going_to_plan
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+    }
+		    focus = {
+        id = POL_goodnight_sweet_prince
+        #icon =
+        x = -8
+        y = 13
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		prerequisite = {
+		Focus = POL_close_down_nationalist_meeting_spots
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+    }
+			    focus = {
+        id = POL_i_love_the_republic
+        #icon =
+        x = -6
+        y = 14
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		prerequisite = {
+        focus = POL_goodnight_sweet_prince
+        }
+		prerequisite = {
+		focus = POL_ignore_the_naysayers
+        }
+		prerequisite = {
+		focus = POL_talk_with_the_unions
 		}
         relative_position_id = POL_the_kucharzewski_goverment
         cancel_if_invalid = yes
