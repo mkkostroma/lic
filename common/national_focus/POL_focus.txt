@@ -18,7 +18,7 @@ focus_tree = {
 	
 	focus = {
         id = POL_the_kucharzewski_goverment
-        #icon = 
+        icon = GFX_Kucharzewski_Government
         x = 10
         y = 0
 
@@ -105,7 +105,7 @@ focus_tree = {
 	
 	focus = {
         id = POL_break_the_socialists
-        icon = GFX_goal_Backstab
+        icon = GFX_goal_Generic_Political_Purge
         x = 2
         y = 1
 
@@ -129,8 +129,11 @@ focus_tree = {
         }
 
         completion_reward = {
-            
-        }
+		add_popularity = {
+         ideology = libertarian
+         popularity = -0.05
+		}
+       }
     }
 	
 	focus = {
@@ -219,7 +222,10 @@ focus_tree = {
         }
 
         completion_reward = {
-            
+		add_popularity = {
+         ideology = progressive
+         popularity = -0.05
+		}
         }
     }
 		
@@ -402,7 +408,7 @@ focus_tree = {
 	focus = {
         id = POL_negotiate_with_moderates
        icon = GFX_goal_Generic_Conservative
-        x = -5
+        x = -7
         y = 8
 
         cost = 5 
@@ -466,7 +472,7 @@ focus_tree = {
 		focus = {
         id = POL_accept_romans_proposal
        icon = GFX_goal_Generic_Ultranat_Eagle
-        x = 5
+        x = 7
         y = 8
 
         cost = 5 
@@ -499,7 +505,7 @@ focus_tree = {
 		focus = {
         id = POL_church_mediation
         icon = GFX_goal_Generic_Christianity
-        x = -5
+        x = -7
         y = 9
 
         cost = 5 
@@ -525,7 +531,7 @@ focus_tree = {
 		focus = {
         id = POL_isolate_roman
         #icon = 
-        x = -7
+        x = -9
         y = 10
 
         cost = 5 
@@ -551,7 +557,7 @@ focus_tree = {
 		focus = {
         id = POL_calm_the_rich
         icon = GFX_goal_Generic_Capitalist_Systems
-        x = -3
+        x = -5
         y = 10
 
         cost = 5 
@@ -577,7 +583,7 @@ focus_tree = {
 				focus = {
         id = POL_admit_to_some_wrong_doing
         #icon = 
-        x = -5
+        x = -7
         y = 10
 
         cost = 5 
@@ -603,7 +609,7 @@ focus_tree = {
 			focus = {
         id = POL_ferment_a_split
         icon = GFX_goal_Generic_Tear_Paper
-        x = -7
+        x = -9
         y = 11
 
         cost = 5 
@@ -626,4 +632,466 @@ focus_tree = {
             
         }
     }
+				focus = {
+        id = POL_malice_towards_none
+        #icon =
+        x = -7
+        y = 11
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		prerequisite = {
+		Focus = POL_admit_to_some_wrong_doing
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+    }
+	    focus = {
+        id = POL_its_all_going_to_plan
+        #icon =
+        x = -5
+        y = 11
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		prerequisite = {
+		Focus = POL_calm_the_rich
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+    }
+	
+	    focus = {
+        id = POL_close_down_nationalist_meeting_spots
+        #icon =
+        x = -9
+        y = 12
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		prerequisite = {
+		Focus = POL_ferment_a_split
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+    }
+		focus = {
+        id = POL_talk_with_the_unions
+        #icon = 
+        x = -7
+        y = 12
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		prerequisite = {
+		Focus = POL_malice_towards_none
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+      }
+	  	    focus = {
+        id = POL_its_all_going_to_plan
+        #icon =
+        x = -5
+        y = 11
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		prerequisite = {
+		Focus = POL_calm_the_rich
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+    }
+		    focus = {
+        id = POL_ignore_the_naysayers
+        #icon =
+        x = -5
+        y = 12
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		prerequisite = {
+		Focus = POL_its_all_going_to_plan
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+    }
+		    focus = {
+        id = POL_goodnight_sweet_prince
+        icon = GFX_goal_Generic_Backstab
+        x = -9
+        y = 13
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		prerequisite = {
+		Focus = POL_close_down_nationalist_meeting_spots
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+    }
+			    focus = {
+        id = POL_i_love_the_republic
+        #icon =
+        x = -7
+        y = 14
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		prerequisite = {
+        focus = POL_goodnight_sweet_prince
+        }
+		prerequisite = {
+		focus = POL_ignore_the_naysayers
+        }
+		prerequisite = {
+		focus = POL_talk_with_the_unions
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+    }
+		focus = {
+        id = POL_keep_your_friends_close
+        #icon = 
+        x = -3
+        y = 9
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		prerequisite = {
+		Focus = POL_no_compromise
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+		}
+		focus = {
+        id = POL_shut_down_the_press
+        icon = GFX_goal_Focus_Generic_Press_Censorship
+        x = 0
+        y = 9
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		prerequisite = {
+		Focus = POL_no_compromise
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+		}
+		focus = {
+        id = POL_dissolve_the_sejm_indefinitely 
+        #icon = 
+        x = 3
+        y = 9
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		prerequisite = {
+		
+		Focus = POL_no_compromise
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+		} 
+		focus = {
+        id = POL_and_your_enemies_closer
+        #icon = 
+        x = -3
+        y = 10
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		prerequisite = {
+		
+		Focus = POL_keep_your_friends_close
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+		}
+		focus = {
+        id = POL_keep_the_people_in_the_dark
+        #icon = 
+        x = 0
+        y = 10
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		prerequisite = {
+		
+		Focus = POL_shut_down_the_press
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+		}
+		focus = {
+        id = POL_expand_police_budget
+        icon = GFX_goal_Generic_Policeman
+        x = 3
+        y = 10
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		prerequisite = {
+		Focus = POL_dissolve_the_sejm_indefinitely 
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+		}
+		focus = {
+        id = POL_plead_with_the_generals
+        #icon = 
+        x = -2
+        y = 11
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		mutually_exclusive = {
+		focus = POL_promise_the_moon
+		}
+		prerequisite = {
+		Focus = POL_and_your_enemies_closer
+		}
+		prerequisite = {
+        focus = POL_keep_the_people_in_the_dark
+        }
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+		}
+		focus = {
+        id = POL_promise_the_moon
+        #icon = 
+        x = 2
+        y = 11
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		mutually_exclusive = {
+		focus = POL_plead_with_the_generals
+		}
+		prerequisite = {
+		Focus = POL_keep_the_people_in_the_dark
+		}
+		prerequisite = {
+        focus = POL_expand_police_budget
+        }
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+		}
+		focus = {
+        id = POL_the_warsaw_address
+        #icon = 
+        x = 0
+        y = 12
+
+        cost = 5 
+        
+        bypass = {
+
+        }
+		prerequisite = {
+		Focus = POL_promise_the_moon
+		Focus = POL_plead_with_the_generals
+		}
+		
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            is_puppet = no
+        }
+
+        completion_reward = {
+            
+        }
+		}
 	}
