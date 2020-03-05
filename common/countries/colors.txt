@@ -1,7 +1,7 @@
 #reload countrycolors
 
 GER = {
-	color = HSV { 0.1 0.15 0.4 }
+	color = rgb { 150 145 135 }
 	color_ui = rgb { 150 145 135 }
 }
 ENG = {
