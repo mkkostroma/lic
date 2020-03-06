@@ -77,65 +77,116 @@ set_technology = {
 
 
 set_politics = {
-	ruling_party = liberal
-	last_election = "1932.11.27"
+	ruling_party = progressive
+	last_election = "1919.3.5"
 	election_frequency = 48
 	elections_allowed = yes
 }
-
 set_popularities = {
-	liberal = 83
-	ultranationalist = 11
-	toilerist = 6
+	ultranationalist = 0
+	despotist = 5
+	authoritarian = 0
+	conservative = 30
+	liberal = 20
+	progressive = 40
+	libertarian = 5
+	vanguardist = 0
+	toilerist = 0
 }
 
-1939.1.1 = {
-	set_politics = {
-		ruling_party = liberal
-		last_election = "1939.4.2"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		liberal = 87
-		ultranationalist = 8
-		toilerist = 5
-	}
+add_ideas = {
+	limited_exports
+	limited_conscription
+	partial_economic_mobilisation
 }
-
-set_convoys = 80
-set_stability = 0.75
 
 create_country_leader = {
-	name = "Hubert Pierlot"
-	desc = "POLITICS_HUBERT_PIERLOT_DESC"
-	picture = "Portrait_Belgium_Hubert_Pierlot.dds"
+	name = "Joseph Van Roosbroeck"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "ifa.dds"
 	expire = "1965.1.1"
-	ideology = right_libertarian
+	ideology = progressive_ideology
 	traits = {
-		#
 	}
 }
 
 create_country_leader = {
-	name = "Joseph Jacquemotte"
-	desc = "POLITICS_JOSEPH_JACQUEMOTTE_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	name = "Heinrich Laufenberg"
+	desc = "POLITICS_WILHELM_PIECK_DESC"
+	picture = "ifa.dds"
 	expire = "1965.1.1"
-	ideology = anarchist_toilerist
+	ideology = toilerist_ideology
 	traits = {
-		#
 	}
 }
 
 create_country_leader = {
-	name = "Léon Degrelle"
-	desc = "POLITICS_LEON_DEGRELLE_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	name = "---"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "ifa.dds"
+	expire = "1965.1.1"
+	ideology = libertarian_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Léon Delacroix"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "ifa.dds"
+	expire = "1965.1.1"
+	ideology = reactionary
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Albert Mechelynck"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "ifa.dds"
+	expire = "1965.1.1"
+	ideology = centrist_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Albert I."
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "ifa.dds"
+	expire = "1965.1.1"
+	ideology = despotist_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Wilhelm Rogge"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "ifa.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "---"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "ifa.dds"
 	expire = "1965.1.1"
 	ideology = ultranationalist_ideology
 	traits = {
-		#
+	}
+}
+
+create_country_leader = {
+	name = "---"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "ifa.dds"
+	expire = "1965.1.1"
+	ideology = vanguardist_ideology
+	traits = {
 	}
 }
 

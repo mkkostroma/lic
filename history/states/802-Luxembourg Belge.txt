@@ -1,0 +1,31 @@
+
+state={
+	id=802
+	name="Luxembourg Belge"
+	manpower = 1127100
+	resources={
+	}
+	
+	state_category = rural
+
+	history={
+		owner = BEL
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 6
+		}
+		add_core_of = BEL
+
+		1939.1.1 = {
+			buildings = {
+				air_base = 10
+			}
+		}
+	}
+
+	provinces={
+     11407 9418 
+	}
+}
