@@ -1,7 +1,7 @@
 
 state={
 	id=801
-	name="Baden"
+	name="STATE_792"
 	manpower = 2679413
 	resources={
 	}
