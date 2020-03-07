@@ -92,7 +92,9 @@ if = {
 	complete_national_focus = production_effort
 
 	add_ideas = {
-        POL_wartorn_nation
+		#laws
+		limited_conscription
+		partial_economic_mobilisation
 	}
 
 	oob = "POL_1939"
