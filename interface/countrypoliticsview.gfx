@@ -648,8 +648,4 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}
 	
-	spriteType = {
-		name = "GFX_BEL_Republic_By_Nescessity"
-		texturefile = "gfx/interface/ideas/generic.dds"
-	}
 }
