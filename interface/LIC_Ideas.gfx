@@ -22,3 +22,8 @@ spriteTypes = {
 		name = "GFX_idea_FRA_Street_Fighting"
 		texturefile = "gfx/interface/ideas/FRA_Street_Fighting.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_BEL_Republic_By_Necessity"
+		texturefile = "gfx/interface/ideas/generic.dds"
+	}
