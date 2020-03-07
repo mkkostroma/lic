@@ -1,0 +1,31 @@
+
+state={
+	id=803
+	name="STATE_794"
+	manpower = 1127100
+	resources={
+	}
+	
+	state_category = rural
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 1
+		}
+		add_core_of = GER
+
+		1939.1.1 = {
+			buildings = {
+				air_base = 10
+			}
+		}
+	}
+
+	provinces={
+     317  
+	}
+}
