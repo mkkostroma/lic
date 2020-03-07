@@ -74,7 +74,6 @@ add_ideas = {
 	}
 }
 
-
 set_politics = {
 	ruling_party = progressive
 	last_election = "1919.3.5"
