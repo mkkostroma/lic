@@ -19,9 +19,8 @@ set_technology = {
 	fuel_refining = 1
 }
 
-1939.1.1 = {
-	add_ideas = {
-		limited_conscription
+add_ideas = {
+		BEL_Republic_By_Necessity
 	}
 
 	add_political_power = 1198
