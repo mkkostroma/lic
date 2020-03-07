@@ -27,3 +27,8 @@ spriteTypes = {
 		name = "GFX_idea_BEL_Republic_By_Necessity"
 		texturefile = "gfx/interface/ideas/generic.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_POL_wartorn_nation"
+		texturefile = "gfx/interface/ideas/generic.dds"
+	}
