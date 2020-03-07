@@ -18,8 +18,8 @@ ideas = {
 			picture =  {
 			
 			modifier = {
-                                political_power_gain = -0.5
 				progressive_drift = -0.01 
+                                libertarian_drift = -0.01
 			}
 		}
 	}
