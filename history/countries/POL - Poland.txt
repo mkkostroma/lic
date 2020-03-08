@@ -221,7 +221,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Józef Piłsudski"
-	gfx = "Józef_Piłsudski.dds"
+	gfx = "Jozef_Pilsudski.dds"
 	traits = { desert_fox  }
 	skill = 4
 	attack_skill = 4
