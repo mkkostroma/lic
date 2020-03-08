@@ -12,8 +12,6 @@ if = {
 set_research_slots = 3
 
 add_ideas = {
-	POL_nationalist_influence
-	POL_popular_discontent
 	POL_wartorn_nation
 }
 
