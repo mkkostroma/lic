@@ -162,7 +162,7 @@ focus_tree = {
         }
 
         completion_reward = {
-            
+            add_ideas = POL_nationalist_influence
         }
     }
 	
@@ -360,7 +360,7 @@ focus_tree = {
         cost = 5
         
         bypass = {
-
+        has_country_flag = POL_warsaw_spring
 		}
         relative_position_id = POL_the_kucharzewski_goverment
         cancel_if_invalid = yes

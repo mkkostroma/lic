@@ -27,3 +27,5 @@ spriteTypes = {
 		name = "GFX_idea_BEL_Republic_By_Necessity"
 		texturefile = "gfx/interface/ideas/generic.dds"
 	}
+	
+	}

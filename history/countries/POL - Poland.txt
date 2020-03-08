@@ -11,6 +11,10 @@ if = {
 
 set_research_slots = 3
 
+add_ideas = {
+	POL_wartorn_nation
+}
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -91,11 +95,7 @@ if = {
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 
-	add_ideas = {
-		#laws
-		limited_conscription
-		partial_economic_mobilisation
-	}
+
 
 	oob = "POL_1939"
 	if = {
@@ -209,49 +209,24 @@ create_country_leader = {
 	ideology = despotist_ideology
 		#
 	}
-}
 
 create_country_leader = {
-	name = "Władysław Gomułka"
-	desc = "POLITICS_WLADYSLAW_GOMULKA_DESC"
-	picture = "Portrait_Poland_Wladyslaw_Gomulka.dds"
+	name = "Ignacy Jan Paderewski"
+	desc = "POLITICS_Ignacy_Jan_Paderewski_DESC"
+	picture = "Ignacy_Jan_Paderewski.dds"
 	expire = "1965.1.1"
-	ideology = vanguardist_ideology
-	traits = {
+	ideology = liberal_ideology
 		#
 	}
-}
-
-create_country_leader = {
-	name = "Wincenty Witos"
-	desc = "POLITICS_WINCENTY_WITOS_DESC"
-	picture = "GFX_POL_wincenty_witos"
-	expire = "1965.1.1"
-	ideology = right_libertarian
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Bolesław Piasecki"
-	desc = "POLITICS_BOLESLAW_PIASECKI_DESC"
-	picture = "GFX_POL_boleslaw_piasecki"
-	expire = "1965.1.1"
-	ideology = ultranationalist_ideology
-	traits = {
-		#
-	}
-}
 
 create_field_marshal = {
 	name = "Józef Piłsudski"
-	picture = "Józef_Piłsudski.dds"
-	traits = { defensive_doctrine }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 3
+	picture = "Jozef_Pilsudski.dds"
+	traits = { war_hero old_guard cavalry_leader }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 1
 }
 }
