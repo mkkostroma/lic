@@ -180,6 +180,7 @@ set_politics = {
 	election_frequency = 36
 	elections_allowed = no
 }
+
 set_popularities = {
 	ultranationalist = 4
 	despotist = 21
@@ -190,7 +191,7 @@ set_popularities = {
 	libertarian = 17
 	vanguardist = 10
 	toilerist = 6
-    }
+}
 
 create_country_leader = {
 	name = "Jan Kucharzewski"
@@ -198,8 +199,7 @@ create_country_leader = {
 	picture = "Jan_Kucharzewski.dds"
 	expire = "1965.1.1"
 	ideology = despotist_ideology
-		#
-	}
+}
 
 create_country_leader = {
 	name = "Ignacy Jan Paderewski"
@@ -207,17 +207,15 @@ create_country_leader = {
 	picture = "Ignacy_Jan_Paderewski.dds"
 	expire = "1965.1.1"
 	ideology = liberal_ideology
-		#
-	}
+}
 
 create_corps_commander = {
 	name = "Józef Piłsudski"
 	portrait_path = "gfx/leaders/POL/Jozef_Pilsudski.dds"
-	traits = { desert_fox  }
+	traits = { old_guard war_hero cavalry_officer }
 	skill = 4
-	attack_skill = 4
-	defense_skill = 4
+	attack_skill = 3
+	defense_skill = 2
 	planning_skill = 4
 	logistics_skill = 1
-}
 }

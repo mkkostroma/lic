@@ -615,3 +615,7 @@ NJG = {
 	color = rgb { 13 25 158 }
 	color_ui = rgb { 13 25 158 }
 }
+CFA = {
+	color = rgb { 155 15 15 }
+	color_ui = rgb { 150 17 59 }
+}
