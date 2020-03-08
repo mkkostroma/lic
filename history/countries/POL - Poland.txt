@@ -210,6 +210,15 @@ create_country_leader = {
 		#
 	}
 
+create_country_leader = {
+	name = "Ignacy Jan Paderewski"
+	desc = "POLITICS_Ignacy_Jan_Paderewski_DESC"
+	picture = "Ignacy_Jan_Paderewski.dds"
+	expire = "1965.1.1"
+	ideology = liberal_ideology
+		#
+	}
+
 create_corps_commander = {
 	name = "Józef Piłsudski"
 	gfx = "Józef_Piłsudski.dds"
