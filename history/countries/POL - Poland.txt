@@ -219,13 +219,13 @@ create_country_leader = {
 		#
 	}
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "Józef Piłsudski"
-	gfx = "Józef_Piłsudski.dds"
-	traits = { desert_fox  }
+	picture = "Jozef_Pilsudski.dds"
+	traits = { war_hero old_guard cavalry_leader }
 	skill = 4
-	attack_skill = 4
-	defense_skill = 4
+	attack_skill = 3
+	defense_skill = 2
 	planning_skill = 4
 	logistics_skill = 1
 }
