@@ -22,7 +22,7 @@ focus_tree = {
 		x = 7
 		y = 0
 
-		cost = 8
+		cost = 2
 		
 		bypass = {
 
@@ -43,7 +43,7 @@ focus_tree = {
 		x = 5
 		y = 1
 
-		cost = 8
+		cost = 2
 		
 		bypass = {
 
@@ -68,7 +68,7 @@ focus_tree = {
 		x = 7
 		y = 1
 
-		cost = 8
+		cost = 2
 		
 		bypass = {
 
@@ -96,7 +96,7 @@ focus_tree = {
 		x = 9
 		y = 1
 
-		cost = 8
+		cost = 2
 		
 		bypass = {
 
@@ -121,7 +121,7 @@ focus_tree = {
 		x = 6
 		y = 2
 
-		cost = 8
+		cost = 2
 
 		available = {
 			FRA = {
@@ -171,7 +171,7 @@ focus_tree = {
 		x = 8
 		y = 2
 
-		cost = 8
+		cost = 2
 
 		available = {
 			FRA = {
@@ -221,7 +221,7 @@ focus_tree = {
 		x = 6
 		y = 3
 
-		cost = 8
+		cost = 2
 
 		bypass = {
 
@@ -250,7 +250,7 @@ focus_tree = {
 		x = 4
 		y = 3
 
-		cost = 8
+		cost = 2
 
 		bypass = {
 
@@ -275,7 +275,7 @@ focus_tree = {
 		x = 6
 		y = 4
 
-		cost = 8
+		cost = 2
 
 		bypass = {
 
@@ -303,7 +303,7 @@ focus_tree = {
 		x = 4
 		y = 4
 
-		cost = 8
+		cost = 2
 
 		bypass = {
 
@@ -331,7 +331,7 @@ focus_tree = {
 		x = 2
 		y = 4
 
-		cost = 8
+		cost = 2
 
 		bypass = {
 
@@ -358,7 +358,7 @@ focus_tree = {
 		x = 5
 		y = 5
 
-		cost = 8
+		cost = 2
 
 		bypass = {
 
@@ -387,7 +387,7 @@ focus_tree = {
 		x = 3
 		y = 5
 
-		cost = 8
+		cost = 2
 
 		bypass = {
 
@@ -419,7 +419,7 @@ focus_tree = {
 		x = 4
 		y = 6
 
-		cost = 8
+		cost = 2
 
 		bypass = {
 
@@ -451,7 +451,7 @@ focus_tree = {
 		x = 8
 		y = 3
 
-		cost = 8
+		cost = 2
 
 		bypass = {
 
@@ -480,7 +480,7 @@ focus_tree = {
 		x = 10
 		y = 3
 
-		cost = 8
+		cost = 2
 
 		bypass = {
 
@@ -508,7 +508,7 @@ focus_tree = {
 		x = 8
 		y = 4
 
-		cost = 8
+		cost = 2
 
 		bypass = {
 
@@ -533,7 +533,7 @@ focus_tree = {
 		x = 10
 		y = 4
 
-		cost = 8
+		cost = 2
 
 		bypass = {
 
@@ -558,7 +558,7 @@ focus_tree = {
 		x = 12
 		y = 4
 
-		cost = 8
+		cost = 2
 
 		bypass = {
 
@@ -583,7 +583,7 @@ focus_tree = {
 		x = 9
 		y = 5
 
-		cost = 8
+		cost = 2
 
 		bypass = {
 
@@ -615,7 +615,7 @@ focus_tree = {
 		x = 11
 		y = 5
 
-		cost = 8
+		cost = 2
 
 		bypass = {
 
@@ -647,7 +647,7 @@ focus_tree = {
 		x = 10
 		y = 6
 
-		cost = 8
+		cost = 2
 
 		bypass = {
 
@@ -667,5 +667,215 @@ focus_tree = {
 
 		completion_reward = {
 
+		}
+	}
+
+	focus = {
+		id = FRA_Nationalist_France
+		icon = GFX_goal_Focus_Generic_Girondists
+		x = 20
+		y = 0
+
+		cost = 8
+		
+		available = {
+			tag = FRA
+
+			ROOT = {
+				has_war_with = CFA
+			}
+		}
+
+		bypass = {
+			ROOT = {
+				has_war_with = CFA
+			}
+		}
+
+		mutually_exclusive = {
+			focus = FRA_Revolutionary_France
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = FRA_Control_Parliament
+		icon = GFX_goal_Generic_AuthDem
+		x = 20
+		y = 1
+
+		cost = 8
+		
+		available = {
+			tag = FRA
+
+			ROOT = {
+				has_war_with = CFA
+			}
+		}
+
+		bypass = {
+			ROOT = {
+				has_war_with = CFA
+			}
+		}
+
+		prerequisite = {
+			focus = FRA_Nationalist_France
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = FRA_White_Terror
+		icon = GFX_goal_Generic_Political_Killing
+		x = 18
+		y = 2
+
+		cost = 8
+		
+		available = {
+			tag = FRA
+
+			ROOT = {
+				has_war_with = CFA
+			}
+		}
+
+		bypass = {
+			ROOT = {
+				has_war_with = CFA
+			}
+		}
+
+		prerequisite = {
+			focus = FRA_Control_Parliament
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = FRA_Industrial_Nationalization
+		icon = GFX_goal_Generic_Factory_Complex
+		x = 20
+		y = 2
+
+		cost = 8
+		
+		available = {
+			tag = FRA
+
+			ROOT = {
+				has_war_with = CFA
+			}
+		}
+
+		bypass = {
+			ROOT = {
+				has_war_with = CFA
+			}
+		}
+
+		prerequisite = {
+			focus = FRA_Control_Parliament
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = FRA_Control_Railways
+		icon = GFX_goal_Focus_Generic_Train
+		x = 22
+		y = 2
+
+		cost = 8
+		
+		available = {
+			tag = FRA
+
+			ROOT = {
+				has_war_with = CFA
+			}
+		}
+
+		bypass = {
+			ROOT = {
+				has_war_with = CFA
+			}
+		}
+
+		prerequisite = {
+			focus = FRA_Control_Parliament
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = FRA_Purge_Rightists
+		icon = GFX_focus_focus_fra_fascist_threat
+		x = 17
+		y = 3
+
+		cost = 8
+		
+		available = {
+			tag = FRA
+
+			ROOT = {
+				has_war_with = CFA
+			}
+		}
+
+		bypass = {
+			ROOT = {
+				has_war_with = CFA
+			}
+		}
+
+		prerequisite = {
+			focus = FRA_White_Terror
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
 		}
 	}

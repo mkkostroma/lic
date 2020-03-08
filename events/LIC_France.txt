@@ -6,7 +6,7 @@
 
 add_namespace = france
 
-# The End of Parliament
+# Revolution Test Event
 country_event = {
 	id = france.1
 	title = france.1.t
@@ -17,6 +17,21 @@ country_event = {
 	
 	option = { # This is a good thing, yes?
 		name = france.1.o1
+
+		CFA = {
+			transfer_state = 16
+			transfer_state = 24
+			transfer_state = 27
+			transfer_state = 15
+			transfer_state = 785
+			transfer_state = 29
+			transfer_state = 18
+			transfer_state = 17
+		}
+
+		FRA = {
+			set_cosmetic_tag = FRA_Nationalist
+		}
 		
 	}
 
