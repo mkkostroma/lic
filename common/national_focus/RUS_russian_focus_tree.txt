@@ -249,7 +249,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = RUS_approach_kerensky
+		id = RUS_approach_krasin #Leonid Krasin
 		#icon = 
 		x = 3
 		y = 3
@@ -259,7 +259,7 @@ focus_tree = {
 			focus = RUS_a_new_prime_minister
 		}
 		mutually_exclusive = {
-			focus = RUS_approach_rasputin
+			focus = RUS_approach_purishkevich
 		}
 		cost = 10
 		
@@ -279,7 +279,7 @@ focus_tree = {
 	
 	
 	focus = {
-		id = RUS_approach_rasputin
+		id = RUS_approach_purishkevich #Vladimir Purishkevich
 		#icon = 
 		x = 5
 		y = 3
@@ -289,7 +289,7 @@ focus_tree = {
 			focus = RUS_a_new_prime_minister
 		}
 		mutually_exclusive = {
-			focus = RUS_approach_kerensky
+			focus = RUS_approach_krasin
 		}
 		cost = 10
 		
@@ -314,8 +314,8 @@ focus_tree = {
 		relative_position_id = RUS_address_the_duma
 		
 		prerequisite = {
-			focus = RUS_approach_kerensky
-			focus = RUS_approach_rasputin
+			focus = RUS_approach_krasin
+			focus = RUS_approach_purishkevich
 		}
 		cost = 10
 		
@@ -342,7 +342,7 @@ focus_tree = {
 		relative_position_id = RUS_address_the_duma
 		
 		prerequisite = {
-			focus = RUS_approach_rasputin
+			focus = RUS_approach_purishkevich
 		}
 		cost = 10
 		
@@ -369,7 +369,7 @@ focus_tree = {
 		relative_position_id = RUS_address_the_duma
 		
 		prerequisite = {
-			focus = RUS_approach_kerensky
+			focus = RUS_approach_krasin
 		}
 		cost = 10
 		

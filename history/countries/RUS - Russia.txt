@@ -87,7 +87,27 @@ set_popularities = {
 	toilerist = 16
 }
 
+create_country_leader = {
+	name = "Vladimir Dmitrievich Kosmin"
+	desc = "POLITICS_VLADIMIR_KOSMIN_DESC"
+	picture = "Portrait_Vladimir_Dmitrievich_Kosmin.dds"
+	expire = "1953.3.1"
+	ideology = ultranationalist_ideology
+	traits = {
+		
+	}
+}
 
+create_country_leader = {
+	name = "Ivan Ilyin"
+	desc = "POLITICS_IVAN_ILYIN_DESC"
+	picture = "Portrait_Ivan_Ilyin.dds"
+	expire = "1953.3.1"
+	ideology = authoritarian_ideology
+	traits = {
+		
+	}
+}
 
 create_country_leader = {
 	name = "Pavel Milyukov"
@@ -101,22 +121,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Alexander Kerensky"
-	desc = "POLITICS_ALEXANDER_KERENSKY_DESC"
-	picture = "Portrait_Alexander_Kerensky.dds"
+	name = "Leonid Krasin"
+	desc = "POLITICS_LEONID_KRASIN_DESC"
+	picture = "Portrait_Leonid_Krasin.dds"
 	expire = "1953.3.1"
 	ideology = vanguardist_ideology
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Grigori Rasputin"
-	desc = "POLITICS_PAVEL_MILYUKOV_DESC"
-	picture = "Portrait_Grigori_Rasputin.dds"
-	expire = "1953.3.1"
-	ideology = _ideology
 	traits = {
 		
 	}
