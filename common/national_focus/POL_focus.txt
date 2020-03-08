@@ -1036,7 +1036,7 @@ focus_tree = {
 		}
 		focus = {
         id = POL_promise_the_moon
-        #icon = 
+        icon = GFX_promise_the_moon
         x = 2
         y = 11
 

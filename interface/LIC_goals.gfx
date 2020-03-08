@@ -2912,3 +2912,10 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		
 	}
+	
+		SpriteType = {
+		name = "GFX_promise_the_moon"
+		texturefile = "gfx/interface/goals/promise_the_moon.dds"			
+		effectFile = "gfx/FX/buttonstate.lua"
+		
+	}
