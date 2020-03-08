@@ -86,6 +86,17 @@ bookmarks = {
 			}
 		}
 		
+		"POL"={
+			minor = yes
+			history = "POL_LIBERTY_IN_CHAINS_DESC"
+			ideology = despotist
+			ideas = {
+			}
+			focuses = {
+				
+			}
+		}
+		
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

@@ -11,6 +11,12 @@ if = {
 
 set_research_slots = 3
 
+add_ideas = {
+	POL_nationalist_influence
+	POL_popular_discontent
+	POL_wartorn_nation
+}
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -91,11 +97,7 @@ if = {
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 
-	add_ideas = {
-		#laws
-		limited_conscription
-		partial_economic_mobilisation
-	}
+
 
 	oob = "POL_1939"
 	if = {

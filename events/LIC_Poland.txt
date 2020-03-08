@@ -1,0 +1,19 @@
+#Poland
+
+add_namespace = poland
+
+# Warsawa Spring
+country_event = {
+	id = poland.1
+	title = poland.1.t
+	desc = poland.1.d
+	picture = GFX_report_event_generic_riot
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = poland.1.a
+        set_country_flag = POL_warsaw_spring
+		add_ideas = POL_popular_discontent
+	}
+}
