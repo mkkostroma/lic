@@ -2904,3 +2904,11 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		
 	}
+	
+	}
+		SpriteType = {
+		name = "GFX_goal_austerity_an_an_umbrella"
+		texturefile = "gfx/interface/goals/austerity_an_an_umbrella.dds"			
+		effectFile = "gfx/FX/buttonstate.lua"
+		
+	}

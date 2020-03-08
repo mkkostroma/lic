@@ -306,7 +306,7 @@ focus_tree = {
 	
 	focus = {
         id = ITA_austerity_as_an_umbrella
-        icon = GFX_goal_austerity_as_an_umbrella
+        icon = GFX_goal_austerity_an_an_umbrella
         x = 6
         y = 2
 
