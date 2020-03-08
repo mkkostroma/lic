@@ -192,15 +192,6 @@ set_popularities = {
 	toilerist = 6
     }
 
-1939.1.1 = {
-	set_popularities = {
-		liberal = 13
-		ultranationalist = 7
-		toilerist = 2
-		authoritarian = 78
-	}
-}
-
 create_country_leader = {
 	name = "Jan Kucharzewski"
 	desc = "POLITICS_Jan_Kucharzewski_DESC"
@@ -221,7 +212,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Józef Piłsudski"
-	gfx = "Jozef_Pilsudski.dds"
+	portrait_path = "gfx/leaders/POL/Jozef_Pilsudski.dds"
 	traits = { desert_fox  }
 	skill = 4
 	attack_skill = 4
