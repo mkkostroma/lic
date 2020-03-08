@@ -28,4 +28,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/generic.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_GER_Uncertain_Peace"
+		texturefile = "gfx/interface/ideas/GER_Uncertain_Peace.dds"
+	}
+	
 	}
