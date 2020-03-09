@@ -300,7 +300,9 @@ set_popularities = {
 }
 
 add_ideas = {
-	GER_Uncertain_Peace
+	limited_exports
+	limited_conscription
+	partial_economic_mobilisation
 }
 
 create_country_leader = {
