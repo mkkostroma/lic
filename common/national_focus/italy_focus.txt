@@ -306,7 +306,7 @@ focus_tree = {
 	
 	focus = {
         id = ITA_austerity_as_an_umbrella
-        icon = GFX_goal_austerity_an_an_umbrella
+        icon = GFX_goal_austerity_as_an_umbrella
         x = 6
         y = 2
 
@@ -342,7 +342,7 @@ focus_tree = {
 	
 	focus = {
         id = ITA_the_states_path
-        icon = GFX_goal_Generic_Shadow_Government
+        icon = GFX_goal_the_states_path
         x = 6
         y = 3
 
@@ -471,7 +471,7 @@ focus_tree = {
 	
 	focus = {
         id = ITA_prepared_for_the_worst
-        icon = GFX_goal_Generic_Morale_Bonus_Focus
+        icon = GFX_goal_prepared_for_the_worst
         x = 6
         y = 6
 
@@ -542,7 +542,7 @@ focus_tree = {
 	
 	focus = {
         id = ITA_emergency_welfare
-        icon = GFX_goal_Generic_Cash_and_Carry 
+        icon = GFX_goal_emergency_welfare 
         x = -6
         y = 2
 
@@ -610,7 +610,7 @@ focus_tree = {
 	
 	focus = {
         id = ITA_take_the_blows
-        icon = GFX_goal_Generic_Protectionist_Economics
+        icon = GFX_goal_take_the_blows
         x = -6
         y = 3
 
@@ -674,7 +674,7 @@ focus_tree = {
 	
 	focus = {
         id = ITA_bail_out_unions
-        icon = GFX_goal_Generic_Liberatian_Socialism
+        icon = bail_out_unions
         x = -8
         y = 5
 
