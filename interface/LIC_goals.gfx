@@ -2904,18 +2904,43 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		
 	}
-	
-	}
-		SpriteType = {
-		name = "GFX_goal_austerity_an_an_umbrella"
-		texturefile = "gfx/interface/goals/austerity_an_an_umbrella.dds"			
+	SpriteType = {
+		name = "GFX_goal_austerity_as_an_umbrella"
+		texturefile = "gfx/interface/goals/austerity_as_an_umbrella.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		
 	}
+	SpriteType = {
+		name = "GFX_goal_the_states_path"
+		texturefile = "gfx/interface/goals/the_states_path.dds"			
+		effectFile = "gfx/FX/buttonstate.lua"
+		
+	}
+	SpriteType = {
+		name = "GFX_goal_prepared_for_the_worst"
+		texturefile = "gfx/interface/goals/prepared_for_the_worst.dds"			
+		effectFile = "gfx/FX/buttonstate.lua"
+		
+	}
+<<<<<<< HEAD
+	SpriteType = {
+		name = "GFX_goal_emergency_welfare"
+		texturefile = "gfx/interface/goals/emergency_welfare.dds"			
+		effectFile = "gfx/FX/buttonstate.lua"
+		
+	}
+	SpriteType = {
+		name = "GFX_goal_take_the_blows"
+		texturefile = "gfx/interface/goals/take_the_blows.dds"			
+		effectFile = "gfx/FX/buttonstate.lua"
+		
+	}
+=======
 	
 		SpriteType = {
 		name = "GFX_promise_the_moon"
 		texturefile = "gfx/interface/goals/promise_the_moon.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		
+>>>>>>> 4830c1e8439273c206495543ffae1c437058121b
 	}
