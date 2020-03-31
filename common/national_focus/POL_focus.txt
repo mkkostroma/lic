@@ -351,6 +351,37 @@ focus_tree = {
             
         }
     }
+		focus = {
+        id = POL_reform_the_army
+        #icon = 
+        x = 13
+        y = 0
+
+        cost = 5
+        
+        bypass = {
+
+        }
+        
+		prerequisite = {
+		}
+        relative_position_id = POL_the_kucharzewski_goverment
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        available = {
+            ROOT = {
+            is_subject = no
+			has_country_flag = POL_stable_goverment
+            }
+        }
+
+        completion_reward = {
+		
+		}
+       }
+    }
+	
 	focus = {
         id = POL_warszawa_spring
         icon = GFX_goal_Generic_Revolution
@@ -1036,7 +1067,7 @@ focus_tree = {
 		}
 		focus = {
         id = POL_promise_the_moon
-        #icon = 
+        icon = GFX_promise_the_moon
         x = 2
         y = 11
 
