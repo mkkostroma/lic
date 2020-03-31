@@ -18302,11 +18302,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_Kucharzewski_Government_shine"
-		texturefile = "gfx/interface/goals/GFX_Kucharzewski_Government.dds"			
+		name = "GFX_goal_the_states_path_shine"
+		texturefile = "gfx/interface/goals/the_states_path.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_Kucharzewski_Government.dds"			
+			animationmaskfile = "gfx/interface/goals/the_states_path.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no 
@@ -18319,7 +18319,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_Kucharzewski_Government.dds"			
+			animationmaskfile = "gfx/interface/goals/the_states_path.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no 
@@ -18331,13 +18331,14 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		legacy_lazy_load = no
+	
 	}
 	SpriteType = {
-		name = "GFX_goal_austerity_an_an_umbrella_shine"
-		texturefile = "gfx/interface/goals/GFX_austerity_an_an_umbrella.dds"			
+		name = "GFX_goal_austerity_as_an_umbrella_shine"
+		texturefile = "gfx/interface/goals/austerity_as_an_umbrellac.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_austerity_an_an_umbrella.dds"			
+			animationmaskfile = "gfx/interface/goals/austerity_as_an_umbrella.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no 
@@ -18348,9 +18349,9 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-
+		
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_austerity_an_an_umbrella.dds"			
+			animationmaskfile = "gfx/interface/goals/austerity_as_an_umbrella.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no 
@@ -18362,7 +18363,16 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		legacy_lazy_load = no
+	
 	}
+<<<<<<< HEAD
+	SpriteType = {
+		name = "GFX_goal_prepared_for_the_worst_shine"
+		texturefile = "gfx/interface/goals/prepared_for_the_worst.dds"			
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/prepared_for_the_worst.dds"			
+=======
 
 	SpriteType = {
 		name = "GFX_promise_the_moon_shine"
@@ -18370,6 +18380,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/GFX_promise_the_moon.dds"			
+>>>>>>> 4830c1e8439273c206495543ffae1c437058121b
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no 
@@ -18380,9 +18391,15 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
+<<<<<<< HEAD
+		
+		animation = {
+			animationmaskfile = "gfx/interface/goals/prepared_for_the_worst.dds"			
+=======
 
 		animation = {
 			animationmaskfile = "gfx/interface/goals/GFX_promise_the_moon.dds"			
+>>>>>>> 4830c1e8439273c206495543ffae1c437058121b
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no 
@@ -18394,5 +18411,74 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		legacy_lazy_load = no
+<<<<<<< HEAD
+=======
 	}
+>>>>>>> 4830c1e8439273c206495543ffae1c437058121b
 	
+	}
+	SpriteType = {
+		name = "GFX_goal_emergency_welfare_shine"
+		texturefile = "gfx/interface/goals/emergency_welfare.dds"			
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/emergency_welfare.dds"			
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no 
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		
+		animation = {
+			animationmaskfile = "gfx/interface/goals/emergency_welfare.dds"			
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no 
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	
+	}
+	SpriteType = {
+		name = "GFX_goal_take_the_blows_shine"
+		texturefile = "gfx/interface/goals/take_the_blows.dds"			
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/take_the_blows.dds"			
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no 
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		
+		animation = {
+			animationmaskfile = "gfx/interface/goals/take_the_blows.dds"			
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no 
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	
+	}
+	}

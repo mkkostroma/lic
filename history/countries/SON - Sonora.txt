@@ -37,8 +37,8 @@ if = {
 set_country_flag = monroe_doctrine
 
 set_convoys = 45
-set_stability = 0.2
-set_war_support = 0.1
+set_stability = 0.6
+set_war_support = 1.0
 
 add_ideas = {
 	north_gov_poor_industry
