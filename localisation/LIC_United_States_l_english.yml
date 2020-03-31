@@ -27,8 +27,13 @@
  USA_toilerist:0 "United Trade Councils of America"
  USA_toilerist_DEF:0 "The United Trade Councils of America"
  USA_toilerist_ADJ:0 "American"
+ USA_:0 "United Trade Councils of America"
+ USA__DEF:0 "The United Trade Councils of America"
+ USA__ADJ:0 "American"
  
- #parties 
+ #parties ultranationalist
+ USA__party:0 "AFL-CIO"
+ USA__party_long:0 "American Federation of Labor and Congress of Indusrial Organizations"
  USA_toilerist_party:0 "IWW-MD"
  USA_toilerist_party_long:0 "Industrial Workers of The World - Marxist-De Leonist Wing"
  USA_vanguardist_party:0 "IWW-D"
