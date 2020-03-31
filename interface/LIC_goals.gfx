@@ -2922,6 +2922,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		
 	}
+<<<<<<< HEAD
 	SpriteType = {
 		name = "GFX_goal_emergency_welfare"
 		texturefile = "gfx/interface/goals/emergency_welfare.dds"			
@@ -2934,4 +2935,12 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		
 	}
+=======
+	
+		SpriteType = {
+		name = "GFX_promise_the_moon"
+		texturefile = "gfx/interface/goals/promise_the_moon.dds"			
+		effectFile = "gfx/FX/buttonstate.lua"
+		
+>>>>>>> 4830c1e8439273c206495543ffae1c437058121b
 	}
