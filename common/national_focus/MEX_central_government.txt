@@ -979,7 +979,7 @@ focus_tree = {
 	focus = {
 		id = MEX_vet_the_clique_for_disloyal
 		#icon = 
-		x = -1
+		x = 1
 		y = 2
 		relative_position_id = MEX_a_midwinter_nights_dream
 
