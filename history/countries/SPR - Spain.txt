@@ -49,37 +49,112 @@ if = {
 	}
 }
 
+add_ideas = {
+	SPR_industrial_agitation
+	SPR_agrarian_economy
+	SPR_war_in_the_rif
+	SPR_humiliated_empire
+}
+
 set_politics = {
-	ruling_party = despotist
+	ruling_party = conservative
 	last_election = "1910.2.16"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	ultranationalist = 2
-	despotist = 18
-	authoritarian = 6
-	conservative = 20
-	liberal = 20
-	progressive = 18
-	libertarian = 8
-	vanguardist = 1
-	toilerist = 2
-	 = 5
+	ultranationalist = 1
+	despotist = 5
+	authoritarian = 15
+	conservative = 24
+	liberal = 23
+	progressive = 10
+	libertarian = 9
+	vanguardist = 12
+	toilerist = 1
 	}
 
 set_convoys = 150
 set_stability = 0.5
 
-
 create_country_leader = {
 	name = "Alfonso Fernando"
-	desc = "POLITICS_MANUEL_AZANA_DESC"
+	desc = "POLITICS_ALFONSO_FERNANDO_DESC"
+	picture = "Alfonso_Fernando.dds"
+	expire = "1965.1.1"
+	ideology = ultranationalist_ideology
+	traits = {
+	
+	}
+}
+create_country_leader = {
+	name = "Alfonso Fernando"
+	desc = "POLITICS_ALFONSO_FERNANDO_DESC"
 	picture = "Alfonso_Fernando.dds"
 	expire = "1965.1.1"
 	ideology = despotist_ideology
 	traits = {
-		#
+	
+	}
+}
+create_country_leader = {
+	name = "Alfonso Fernando"
+	desc = "POLITICS_ALFONSO_FERNANDO_DESC"
+	picture = "Alfonso_Fernando.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_ideology
+	traits = {
+	
+	}
+}
+create_country_leader = {
+	name = "Alfonso Fernando"
+	desc = "POLITICS_ALFONSO_FERNANDO_DESC"
+	picture = "Alfonso_Fernando.dds"
+	expire = "1965.1.1"
+	ideology = conservative_ideology
+	traits = {
+	
+	}
+}
+create_country_leader = {
+	name = "Alfonso Fernando"
+	desc = "POLITICS_ALFONSO_FERNANDO_DESC"
+	picture = "Alfonso_Fernando.dds"
+	expire = "1965.1.1"
+	ideology = centrist_ideology
+	traits = {
+	
+	}
+}
+create_country_leader = {
+	name = "Francisco Largo Caballero"
+	desc = "POLITICS_FRANCISCO_LARGO_DESC"
+	picture = "Francisco_Largo.dds"
+	expire = "1965.1.1"
+	ideology = progressive_ideology
+	traits = {
+	
+	}
+}
+create_country_leader = {
+	name = "Confederación Nacional del Trabajo"
+	desc = "POLITICS_CNT_DESC"
+	picture = "CNT.dds"
+	expire = "1965.1.1"
+	ideology = libertarian_ideology
+	traits = {
+	
+	}
+}
+create_country_leader = {
+	name = "Pablo Iglesias"
+	desc = "POLITICS_PABLO_IGLESIAS_DESC"
+	picture = "Pablo_Iglesias.dds"
+	expire = "1965.1.1"
+	ideology = vanguardist_ideology
+	traits = {
+	
 	}
 }

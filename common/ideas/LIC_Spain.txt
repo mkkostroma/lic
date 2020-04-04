@@ -1,0 +1,71 @@
+ideas = {
+
+	country = {
+		
+		SPR_industrial_agitation = { 
+			
+			#picture = 
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_political_support
+			
+			modifier = {
+				political_power_factor = -0.25
+				stability_factor = -0.20
+				consumer_goods_factor = 0.15
+			}
+		}
+		
+		SPR_agrarian_economy = { 
+			
+			#picture = 
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_political_support
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_factory_max_efficiency_factor = -0.2
+				industrial_capacity_factory = -0.2
+				local_resources_factor -0.5
+				
+			}
+		}
+		
+		SPR_war_in_the_rif = { 
+			
+			#picture = 
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_political_support
+			
+			modifier = {
+            	non_core_manpower = -0.2
+				stability_factor = -0.05
+			}
+		}
+		SPR_humiliated_empire = { 
+			
+			#picture = 
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_political_support
+			
+			modifier = {
+            	conscription_factor = -0.05
+				stability_factor = -0.05
+				war_support_factor = -0.30
+			}
+		}

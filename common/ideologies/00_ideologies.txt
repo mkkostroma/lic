@@ -122,9 +122,10 @@ ideologies = {
 			reactionary = {
 			}
 			
-			right_libertarian = {
+			conservative_ideology = {
 			}
 			
+
 		}
 		
 		dynamic_faction_names = {

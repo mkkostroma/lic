@@ -1,0 +1,368 @@
+focus_tree = {
+	id = SPR_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SPR
+		}
+
+		
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 1500 y = 100000 }
+	
+	focus = {
+		id = SPR_the_interim_goverment
+		icon = GFX_goal_Generic_Parliament
+		x = 2
+		y = 0
+
+		cost = 0
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+		prerequisite = {
+		
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+			}
+		}
+	
+	focus = {
+		id = SPR_rally_the_party
+		#icon = 
+		x = 3
+		y = 1
+
+		cost = 4.4
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = SPR_the_interim_goverment
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+			}
+		}
+	focus = {
+		id = SPR_call_for_national_unity
+		#icon = 
+		x = 1
+		y = 1
+
+		cost = 4.4
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = SPR_the_interim_goverment
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+			}
+		}
+	focus = {
+		id = SPR_Expand_the_police
+		icon = GFX_goal_Generic_Secret_Police
+		x = 0
+		y = 2
+
+		cost = 4.4
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = SPR_call_for_national_unity
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+			}
+		}
+	focus = {
+		id = SPR_demonize_the_republicans
+		#icon = 
+		x = 2
+		y = 2
+
+		cost = 4.4
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = SPR_call_for_national_unity
+		}
+		prerequisite = {
+			focus = SPR_rally_the_party
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+	focus = {
+		id = SPR_calm_the_rumors
+		#icon = 
+		x = 4
+		y = 2
+
+		cost = 4.4
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = SPR_rally_the_party
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+      }
+	 focus = {
+		id = SPR_deal_with_the_rif
+		icon = GFX_goal_Generic_Colonial_Soldiers
+		x = 2
+		y = 3
+
+		cost = 4.4
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = SPR_demonize_the_republicans
+		}
+		prerequisite = {
+			focus = SPR_calm_the_rumors
+		}
+		prerequisite = {
+			focus = SPR_Expand_the_police
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+	focus = {
+		id = SPR_expand_the_army_of_africa
+		#icon = 
+		x = 3
+		y = 4
+
+		cost = 4.4
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = SPR_deal_with_the_rif
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+	focus = {
+		id = SPR_fortress_ceuta
+		#icon = 
+		x = 1
+		y = 4
+
+		cost = 4.4
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = SPR_deal_with_the_rif
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+	focus = {
+		id = SPR_cooperate_with_the_french
+		#icon = 
+		x = 1
+		y = 5
+
+		cost = 4.4
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = SPR_fortress_ceuta
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+	focus = {
+		id = SPR_call_up_the_reserves
+		#icon = 
+		x = 3
+		y = 5
+
+		cost = 4.4
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = SPR_expand_the_army_of_africa
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+	focus = {
+		id = SPR_december_election_arrives
+		#icon = 
+		x = 2
+		y = 6
+
+		cost = 4.4
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = SPR_call_up_the_reserves
+		}
+		prerequisite = {
+			focus = SPR_cooperate_with_the_french
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+	
+	
+	}
