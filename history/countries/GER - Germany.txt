@@ -285,18 +285,18 @@ set_politics = {
 	ruling_party = liberal
 	last_election = "1919.3.5"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	ultranationalist = 2
-	despotist = 16
-	authoritarian = 4
-	conservative = 16
-	liberal = 20
-	progressive = 28
-	libertarian = 8
-	vanguardist = 4
-	toilerist = 2
+	ultranationalist = 11.1
+	despotist = 11.1
+	authoritarian = 11.1
+	conservative = 11.1
+	liberal = 11.1
+	progressive = 11.1
+	libertarian = 11.1
+	vanguardist = 11.1
+	toilerist = 11.1
 }
 
 add_ideas = {
@@ -306,9 +306,9 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Interfraktioneller Ausschuss"
+	name = "Matthias Erzberger"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "ifa.dds"
+	picture = "matthias_erzberger.dds"
 	expire = "1965.1.1"
 	ideology = progressive_ideology
 	traits = {
@@ -330,15 +330,15 @@ create_country_leader = {
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "ifa.dds"
 	expire = "1965.1.1"
-	ideology = libertarian_ideology
+	ideology = anarcho_syndicalism
 	traits = {
 	}
 }
 
 create_country_leader = {
-	name = "Karl Trimborn"
+	name = "Matthias Erzberger"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "ifa.dds"
+	picture = "matthias_erzberger.dds"
 	expire = "1965.1.1"
 	ideology = reactionary
 	traits = {
@@ -346,9 +346,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Carl Wilhelm Petersen"
+	name = "Matthias Erzberger"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "carl_wilhelm_petersen.dds"
+	picture = "matthias_erzberger.dds"
 	expire = "1965.1.1"
 	ideology = centrist_ideology
 	traits = {
@@ -356,9 +356,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Alfred von Tirpitz"
+	name = "Wilhelm II."
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "alfred_von_tirpitz.dds"
+	picture = "wilhelm_II.dds"
 	expire = "1965.1.1"
 	ideology = despotist_ideology
 	traits = {
@@ -366,7 +366,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Wilhelm Rogge"
+	name = "Funny man #1"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "ifa.dds"
 	expire = "1965.1.1"
@@ -376,9 +376,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Wilhelm Gellert"
+	name = "Funny man #2"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "anton_drexler.dds"
+	picture = "ifa.dds"
 	expire = "1965.1.1"
 	ideology = ultranationalist_ideology
 	traits = {
@@ -390,7 +390,7 @@ create_country_leader = {
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "ifa.dds"
 	expire = "1965.1.1"
-	ideology = vanguardist_ideology
+	ideology = de_leonism
 	traits = {
 	}
 }
