@@ -70,21 +70,21 @@ if = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = liberal
+	ruling_party = conservative
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	ultranationalist = 4
-	despotist = 4
-	authoritarian = 3
-	conservative = 19
-	liberal = 21
-	progressive = 5
-	libertarian = 19
-	vanguardist = 9
-	toilerist = 16
+	ultranationalist = 11.1
+	despotist = 11.1
+	authoritarian = 11.1
+	conservative = 11.1
+	liberal = 11.1
+	progressive = 11.1
+	libertarian = 11.1
+	vanguardist = 11.1
+	toilerist = 11.1
 }
 
 create_country_leader = {
@@ -110,9 +110,20 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Pavel Milyukov"
+	name = "Kirill I."
 	desc = "POLITICS_PAVEL_MILYUKOV_DESC"
-	picture = "Portrait_Pavel_Milyukov.dds"
+	picture = "kirill_I.dds"
+	expire = "1953.3.1"
+	ideology = reactionary
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Kirill I."
+	desc = "POLITICS_PAVEL_MILYUKOV_DESC"
+	picture = "kirill_I.dds"
 	expire = "1953.3.1"
 	ideology = centrist_ideology
 	traits = {
@@ -121,11 +132,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Leonid Krasin"
+	name = "Vladimir Lenin"
 	desc = "POLITICS_LEONID_KRASIN_DESC"
-	picture = "Portrait_Leonid_Krasin.dds"
+	picture = "kirill_I.dds"
 	expire = "1953.3.1"
-	ideology = vanguardist_ideology
+	ideology = de_leonism
 	traits = {
 		
 	}
