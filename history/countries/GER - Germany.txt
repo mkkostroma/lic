@@ -288,15 +288,15 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	ultranationalist = 11.1
-	despotist = 11.1
-	authoritarian = 11.1
-	conservative = 11.1
-	liberal = 11.1
-	progressive = 11.1
-	libertarian = 11.1
-	vanguardist = 11.1
-	toilerist = 11.1
+	ultranationalist = 11
+	despotist = 11
+	authoritarian = 11
+	conservative = 11
+	liberal = 12
+	progressive = 11
+	libertarian = 11
+	vanguardist = 11
+	toilerist = 11
 }
 
 add_ideas = {

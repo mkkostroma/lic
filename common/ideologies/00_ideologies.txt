@@ -238,10 +238,14 @@ ideologies = {
 		
 		types = {
 		
+		
 			anarcho_syndicalism = {
 			}
 			
 			anarcho_communism = {
+			}
+			
+			libertarian_ideology = {
 			}
 			
 		}
@@ -282,6 +286,9 @@ ideologies = {
 			}
 			
 			democratic_socialism = {
+			}
+			
+			vanguardist_ideology = {
 			}
 			
 		}
