@@ -47,3 +47,10 @@
  SPR_despotist_party_long:0 "Casa de Borbón"
  SPR_ultranationalist_party:0 "PCM"
  SPR_ultranationalist_party_long:0 "Partido Católico Nacional"
+ 
+ #focus
+ 
+ #events
+ spain.1.t:0 "Spain in 1920"
+ spain.1.d:0 "WIP"
+ spain.1.a:0 "Gloria a la Patria!"

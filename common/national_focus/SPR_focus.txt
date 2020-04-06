@@ -69,7 +69,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-         
+        add_popularity = {
+        ideology = conservative
+        popularity = 0.05
+        }
 			}
 		}
 	focus = {
@@ -97,7 +100,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-         
+         add_stability = 0.05
 			}
 		}
 	focus = {
@@ -161,7 +164,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SPR_calm_the_rumors
-		#icon = 
+		icon = GFX_goal_Focus_Generic_Press_Censorship
 		x = 4
 		y = 2
 
@@ -221,8 +224,8 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = SPR_expand_the_army_of_africa
-		#icon = 
+		id = SPR_expand_the_policia_indigena
+		icon = GFX_goal_Generic_Colonial_Soldier
 		x = 3
 		y = 4
 
@@ -250,7 +253,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SPR_fortress_ceuta
-		#icon = 
+		icon = GFX_goal_Fortification_Effort
 		x = 1
 		y = 4
 
@@ -278,7 +281,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SPR_cooperate_with_the_french
-		#icon = 
+		icon = GFX_goal_Generic_French_Volunteers
 		x = 1
 		y = 5
 
@@ -306,7 +309,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SPR_call_up_the_reserves
-		#icon = 
+		icon = GFX_goal_Generic_Colonial_Army
 		x = 3
 		y = 5
 
@@ -321,7 +324,7 @@ focus_tree = {
 		}
 
 		prerequisite = {
-			focus = SPR_expand_the_army_of_africa
+			focus = SPR_expand_the_policia_indigena
 		}
 
 		cancel_if_invalid = yes
@@ -334,7 +337,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SPR_december_election_arrives
-		#icon = 
+		icon = GFX_goal_Generic_Elections
 		x = 2
 		y = 6
 
@@ -363,6 +366,668 @@ focus_tree = {
          
 		}
 	}
-	
-	
+	focus = {
+		id = SPR_PM_Maura
+		#icon = 
+		x = 10
+		y = 0
+
+		cost = 0
+
+		available = {
+		has_country_flag = SPR_PM_Maura
+		}
+		
+		bypass = {
+
+		}
+
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+	focus = {
+		id = SPR_formalize_the_coalition
+		icon = GFX_goal_Generic_Meeting
+		x = 7
+		y = 1
+
+		cost = 5
+
+		available = {
+		has_country_flag = SPR_PM_Maura
+		}
+		
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = SPR_PM_Maura
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+	focus = {
+		id = SPR_expel_autonomists
+		icon = GFX_goal_Generic_Enough
+		x = 10
+		y = 1
+
+		cost = 5
+
+		available = {
+		has_country_flag = SPR_PM_Maura
+		}
+		
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = SPR_PM_Maura
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+	focus = {
+		id = SPR_raise_the_tariffs
+		icon = GFX_goal_Generic_Protectionist_Economics
+		x = 14
+		y = 1
+
+		cost = 5
+
+		available = {
+		has_country_flag = SPR_PM_Maura
+		}
+		
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = SPR_PM_Maura
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+	focus = {
+		id = SPR_embrace_maurismo
+		#icon = 
+		x = 6
+		y = 2
+
+		cost = 5
+
+		available = {
+		has_country_flag = SPR_PM_Maura
+		}
+		mutually_exclusive = {
+			focus = SPR_maura_the_moderate
+		}		
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = SPR_formalize_the_coalition
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+	focus = {
+		id = SPR_maura_the_moderate
+		#icon = 
+		x = 8
+		y = 2
+
+		cost = 5
+
+		available = {
+		has_country_flag = SPR_PM_Maura
+		}
+		mutually_exclusive = {
+			focus = SPR_embrace_maurismo
+		}		
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = SPR_formalize_the_coalition
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+	focus = {
+		id = SPR_control_the_streets
+		#icon = 
+		x = 6
+		y = 3
+
+		cost = 5
+
+		available = {
+		has_country_flag = SPR_PM_Maura
+		}
+
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = SPR_embrace_maurismo
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+	focus = {
+		id = SPR_expel_the_radical_mauristas
+		#icon = GFX_goal_Generic_Political_Purge
+		x = 8
+		y = 3
+
+		cost = 5
+
+		available = {
+		has_country_flag = SPR_PM_Maura
+		}
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = SPR_maura_the_moderate
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+	focus = {
+		id = SPR_grow_working_class_support
+		x = 8
+		y = 4
+
+		cost = 5
+
+		available = {
+		has_country_flag = SPR_PM_Maura
+		}
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = SPR_expel_the_radical_mauristas
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+	focus = {
+		id = SPR_friends_in_high_society
+		icon = GFX_goal_Generic_Collaborate_with_Local_Elites
+		x = 6
+		y = 4
+
+		cost = 5
+
+		available = {
+		has_country_flag = SPR_PM_Maura
+		}
+
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = SPR_control_the_streets
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+	focus = {
+		id = SPR_strong_and_stable
+		#icon = 
+		x = 7
+		y = 5
+
+		cost = 5
+
+		available = {
+		has_country_flag = SPR_PM_Maura
+		}
+		
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = SPR_grow_working_class_support
+		}
+		prerequisite = {
+			focus = SPR_friends_in_high_society
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+	focus = {
+		id = SPR_shut_down_the_Confederación
+		icon = GFX_goal_Generic_Political_Oppression
+		x = 10
+		y = 2
+
+		cost = 5
+
+		available = {
+		has_country_flag = SPR_PM_Maura
+		}
+		
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = SPR_expel_autonomists
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+	focus = {
+		id = SPR_open_channels_with_the_church
+		icon = GFX_goal_Generic_Christianity
+		x = 12
+		y = 2
+
+		cost = 5
+
+		available = {
+		has_country_flag = SPR_PM_Maura
+		}
+		
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = SPR_expel_autonomists
+			focus = SPR_raise_the_tariffs
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+	focus = {
+		id = SPR_silence_left_wing_priests
+		#icon = 
+		x = 12
+		y = 3
+
+		cost = 5
+
+		available = {
+		has_country_flag = SPR_PM_Maura
+		}
+		
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = SPR_open_channels_with_the_church
+			
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+	focus = {
+		id = SPR_police_on_every_corner
+		icon = GFX_goal_Generic_Policeman
+		x = 10
+		y = 3
+
+		cost = 5
+
+		available = {
+		has_country_flag = SPR_PM_Maura
+		}
+		
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = SPR_shut_down_the_Confederación
+			
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+	focus = {
+		id = SPR_law_and_order
+		#icon = GFX_goal_Generic_Roundup
+		x = 10
+		y = 4
+
+		cost = 5
+
+		available = {
+		has_country_flag = SPR_PM_Maura
+		}
+		
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = SPR_police_on_every_corner
+			
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+	focus = {
+		id = SPR_electrify_the_heartland
+		icon = GFX_goal_Generic_Electrification
+		x = 14
+		y = 3
+
+		cost = 5
+
+		available = {
+		has_country_flag = SPR_PM_Maura
+		}
+		
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = SPR_economic_nationalism
+			
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+	focus = {
+		id = SPR_subsidize_the_railways
+		icon = GFX_goal_Generic_Railroads
+		x = 14
+		y = 4
+
+		cost = 5
+
+		available = {
+		has_country_flag = SPR_PM_Maura
+		}
+		
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = SPR_electrify_the_heartland
+			
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+
+	focus = {
+		id = SPR_a_christian_nation
+		#icon = 
+		x = 12
+		y = 4
+
+		cost = 5
+
+		available = {
+		has_country_flag = SPR_PM_Maura
+		}
+		
+		bypass = {
+
+		}
+
+		prerequisite = {
+			focus = SPR_silence_left_wing_priests
+			
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+
+
+
+
+
+	focus = {
+		id = SPR_spain_is_indivisible
+		#icon = 
+		x = 12
+		y = 5
+
+		cost = 5
+
+		available = {
+		has_country_flag = SPR_PM_Maura
+		}
+		
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = SPR_law_and_order
+			focus = SPR_subsidize_the_railways
+		}
+		prerequisite = {
+			focus = SPR_a_christian_nation
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+	focus = {
+		id = SPR_economic_nationalism
+		icon = GFX_goal_Generic_Corporatism
+		x = 14
+		y = 2
+
+		cost = 5
+
+		available = {
+		has_country_flag = SPR_PM_Maura
+		}
+		
+		bypass = {
+
+		}
+		prerequisite = {
+			focus = SPR_raise_the_tariffs
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+
+
+	focus = {
+		id = SPR_PM_Manuel
+		#icon = 
+		x = 20
+		y = 0
+
+		cost = 4.4
+
+		available = {
+		has_country_flag = SPR_PM_Manuel
+		}
+		
+		bypass = {
+
+		}
+
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+	focus = {
+		id = SPR_PM_Álvaro
+		#icon = 
+		x = 30
+		y = 0
+
+		cost = 4.4
+
+		available = {
+		has_country_flag = SPR_PM_Álvaro
+		}
+		
+		bypass = {
+
+		}
+
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+	focus = {
+		id = SPR_PM_Eduardo
+		#icon = 
+		x = 40
+		y = 0
+
+		cost = 4.4
+
+		available = {
+		has_country_flag = SPR_PM_Eduardo
+		}
+		
+		bypass = {
+
+		}
+
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+		}
+	}
+
 	}
