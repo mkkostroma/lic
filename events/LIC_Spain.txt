@@ -17,3 +17,30 @@ country_event = {
 	}
 }
 
+# election
+country_event = {
+	id = spain.2
+	title = spain.2.t
+	desc = spain.2.d
+	picture = GFX_report_event_generic_riot
+	
+	is_triggered_only = yes
+	
+	option = { # This is a good thing, yes?
+		name = spain.2.o1
+		set_country_flag = SPR_PM_Maura
+	}
+	option = { # This is a good thing, yes?
+		name = spain.3.o1
+		set_country_flag = SPR_PM_Manuel
+	}
+	option = { # This is a good thing, yes?
+		name = spain.4.o1
+		set_country_flag = SPR_PM_Álvaro
+	}
+	option = { # This is a good thing, yes?
+		name = spain.5.o1
+		set_country_flag = SPR_PM_Eduardo
+	}
+}
+

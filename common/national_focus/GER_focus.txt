@@ -1,0 +1,182 @@
+focus_tree = {
+	id = GER_focus
+	
+	focus = {
+		id = GER_ratification_of_the_constitution
+		#icon = 
+		x = 5
+		y = 0
+
+		cost = 5
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+		prerequisite = {
+		
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+			}
+		}
+	focus = {
+		id = GER_sovereignty_for_luxembourg
+		#icon = 
+		x = -1
+		y = 1
+
+		cost = 5
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+		prerequisite = {
+		focus = GER_ratification_of_the_constitution
+		}
+		mutually_exclusive = {
+		focus = GER_statehood_for_luxembourg
+		}		
+        relative_position_id = GER_ratification_of_the_constitution
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+			}
+		}
+	focus = {
+		id = GER_statehood_for_luxembourg
+		#icon = 
+		x = 1
+		y = 1
+
+		cost = 5
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+		prerequisite = {
+		focus = GER_ratification_of_the_constitution
+		}
+		mutually_exclusive = {
+		focus = GER_sovereignty_for_luxembourg
+		}		
+        relative_position_id = GER_ratification_of_the_constitution
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+			}
+		}
+	focus = {
+		id = GER_honoring_the_constitution
+		#icon = 
+		x = -1
+		y = 2
+
+		cost = 5
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+		prerequisite = {
+		focus = GER_sovereignty_for_luxembourg
+		focus = GER_statehood_for_luxembourg
+		}
+		mutually_exclusive = {
+		focus = GER_honoring_the_veterans
+		}
+        relative_position_id = GER_ratification_of_the_constitution
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+			}
+		}
+	focus = {
+		id = GER_honoring_the_veterans
+		#icon = 
+		x = 1
+		y = 2
+
+		cost = 5
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+		prerequisite = {
+		focus = GER_sovereignty_for_luxembourg
+		focus = GER_statehood_for_luxembourg
+		}
+		mutually_exclusive = {
+		focus = GER_honoring_the_constitution
+		}
+        relative_position_id = GER_ratification_of_the_constitution
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+			}
+		}
+	focus = {
+		id = GER_first_reichstag_elections
+		#icon = 
+		x = 0
+		y = 3
+
+		cost = 5
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+		prerequisite = {
+        focus = GER_honoring_the_constitution
+		}
+		prerequisite = {
+        focus = GER_honoring_the_veterans
+		}
+        relative_position_id = GER_ratification_of_the_constitution
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+         
+			}
+		}
