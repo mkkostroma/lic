@@ -1,7 +1,7 @@
 
 state={
 	id=796
-	name="Saarland"
+	name="STATE_800"
 	manpower = 812000
 	
 	state_category = metropolis
@@ -20,6 +20,6 @@ state={
 	}
 
 	provinces={
-		11531
+		587
 	}
 }
