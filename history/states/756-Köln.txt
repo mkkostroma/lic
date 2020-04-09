@@ -4,7 +4,7 @@ state={
 	name="STATE_800"
 	manpower = 684074
 	
-	state_category = metropolis
+	state_category = rural
 	
 	
 

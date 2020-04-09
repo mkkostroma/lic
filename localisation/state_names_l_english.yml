@@ -49,7 +49,7 @@
  STATE_48:0 "Sofiya"
  STATE_49:0 "Engürü"
  STATE_50:0 "Württemberg"
- STATE_51:0 "Aachen"
+ STATE_51:0 "Nordrhein"
  STATE_52:0 "Oberbayern"
  STATE_53:0 "Niederbayern"
  STATE_54:0 "Franken"
@@ -800,3 +800,4 @@
  STATE_798:0 "Transmeusian Wallonia"
  STATE_799:0 "Pfalz"
  STATE_800:0 "Köln"
+ STATE_801:0 "Rheinhessen"

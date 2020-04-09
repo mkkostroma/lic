@@ -3,7 +3,7 @@ state={
 	name="STATE_789" # Verdun-Nancy
 	manpower = 118000
 	
-	state_category = city
+	state_category = rural
 
 	history={
 		
