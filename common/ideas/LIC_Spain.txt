@@ -18,7 +18,6 @@ ideas = {
 				consumer_goods_factor = 0.15
 			}
 		}
-		
 		SPR_agrarian_economy = { 
 			
 			
@@ -36,7 +35,6 @@ ideas = {
 				
 			}
 		}
-		
 		SPR_war_in_the_rif = { 
 			
 			#picture = 
@@ -54,6 +52,20 @@ ideas = {
 		}
 		SPR_humiliated_empire = { 
 			
+			picture = SPR_Humiliated_Empire
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+		
+			modifier = {
+            	conscription_factor = -0.05
+				stability_factor = -0.05
+				war_support_factor = -0.30
+			}
+		}
+		SPR_lessened_bureaucratic_expenses = { 
+			
 			#picture = 
 			
 			allowed = {
@@ -63,8 +75,21 @@ ideas = {
 			picture = generic_political_support
 			
 			modifier = {
-            	conscription_factor = -0.05
+				political_power_factor = 0.25
+			}
+		}
+		SPR_war_in_the_rif_ = { 
+			
+			#picture = 
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_political_support
+			
+			modifier = {
+            	non_core_manpower = -0.15
 				stability_factor = -0.05
-				war_support_factor = -0.30
 			}
 		}

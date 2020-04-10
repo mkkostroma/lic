@@ -36,5 +36,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/SPR_Agrarian_Economy.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_SPR_Humiliated_Empire"
+		texturefile = "gfx/interface/ideas/SPR_Humiliated_Empire.dds"
+	}
+	
 	
 	}

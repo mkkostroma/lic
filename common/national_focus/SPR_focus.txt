@@ -132,7 +132,7 @@ focus_tree = {
 			}
 		}
 	focus = {
-		id = SPR_demonize_the_republicans
+		id = SPR_cut_red_tape
 		#icon = 
 		x = 2
 		y = 2
@@ -159,7 +159,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-         
+        add_timed_idea = {
+         idea = SPR_lessened_bureaucratic_expenses
+         days = 100
+}
 		}
 	}
 	focus = {
@@ -186,7 +189,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-         
+         add_stability = 0.03
 		}
       }
 	 focus = {
@@ -206,7 +209,7 @@ focus_tree = {
 		}
 
 		prerequisite = {
-			focus = SPR_demonize_the_republicans
+			focus = SPR_cut_red_tape
 		}
 		prerequisite = {
 			focus = SPR_calm_the_rumors
@@ -248,7 +251,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-         
+         swap_ideas = {
+          remove_idea = SPR_war_in_the_rif
+          add_idea = SPR_war_in_the_rif_
+}
 		}
 	}
 	focus = {
@@ -276,8 +282,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-         
-		}
+	 }
 	}
 	focus = {
 		id = SPR_cooperate_with_the_french
@@ -681,8 +686,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-         
+        add_popularity = {
+        ideology = libertarian
+        popularity = -0.05         
 		}
+	}
 	}
 	focus = {
 		id = SPR_open_channels_with_the_church
