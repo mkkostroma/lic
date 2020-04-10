@@ -2,11 +2,11 @@
 state={
 	id=805
 	name="STATE_796"
-	manpower = 1127100
+	manpower = 71840
 	resources={
 	}
 	
-	state_category = rural
+	state_category = exclave
 
 	history={
 		owner = GER

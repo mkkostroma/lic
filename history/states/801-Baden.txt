@@ -2,7 +2,7 @@
 state={
 	id=801
 	name="STATE_792"
-	manpower = 2679413
+	manpower = 2312462
 	resources={
 	}
 	
