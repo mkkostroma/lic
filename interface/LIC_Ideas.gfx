@@ -28,4 +28,13 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/generic.dds"
 	}
 	
+	
+	### SPAIM ###
+
+	spriteType = {
+		name = "GFX_idea_SPR_Agrarian_Economy"
+		texturefile = "gfx/interface/ideas/SPR_Agrarian_Economy.dds"
+	}
+	
+	
 	}

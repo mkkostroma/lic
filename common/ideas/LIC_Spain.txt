@@ -21,13 +21,12 @@ ideas = {
 		
 		SPR_agrarian_economy = { 
 			
-			#picture = 
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = generic_political_support
+			picture = SPR_Agrarian_Economy
 			
 			modifier = {
 				consumer_goods_factor = 0.05
