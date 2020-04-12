@@ -15,7 +15,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic
+			picture = 
 			
 			modifier = {
 			    production_speed_buildings_factor = -0.25
