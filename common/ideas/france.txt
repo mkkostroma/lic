@@ -189,7 +189,7 @@ ideas = {
 			picture = generic_morale_bonus
 			
 			modifier = {
-				production_speed_buildings_factor = -0.1
+				production_speed_industrial_complex_factor = -2.5
 				consumer_goods_factor = 0.1
 			}
 		}
