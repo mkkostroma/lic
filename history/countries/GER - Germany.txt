@@ -300,6 +300,7 @@ set_popularities = {
 }
 
 add_ideas = {
+	GER_Armistice
 	GER_Hyperinflation
 }
 
