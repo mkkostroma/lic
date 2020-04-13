@@ -2,5 +2,7 @@
  GER_Hyperinflation:0 "Hyperinflation"
  GER_Hyperinflation_desc:0 "Since 1913, increasing levels of inflation have plagued the German economy. As war bonds heavily indebted the state and failed to finance the increasingly costly war effort, the Reichsbank simply took to printing more paper currency. Today, the term "paper currency" may be more descriptive than ever before. Fathers are seen dragging entire handcarts full of worthless bills through the streets on their way to acquire the elusive loaf of bread. Their wives and children stay at home, plastering over moldy spots of wallpaper or playfully constructing pyramids with the likeness of Germania. And while every single party has come to agree that hyperinflation is the very first obstacle on the path to Germany's place in the sun, how to overcome it remains a more divisive matter."
  GER_Armistice:0 "Not a Peace, but an Armistice"
+ GER_Divided_Army:0 "Divided Army"
  BEL_Republic_By_Necessity:0 "Republic By Necessity"
  BEL_Republic_By_Necessity_desc:0 "The Belgians are baby and only declared a republic to escape the perfidious g*rman."
+ divided_army:0 "This national spirit will receive custom modifiers."

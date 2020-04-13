@@ -302,6 +302,7 @@ set_popularities = {
 add_ideas = {
 	GER_Armistice
 	GER_Hyperinflation
+	GER_Divided_Army
 }
 
 create_country_leader = {

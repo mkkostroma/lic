@@ -44,5 +44,25 @@ ideas = {
 			    political_power_cost= +0.25	    
 			}
         }
+		
+		GER_Divided_Army = {
+			
+			allowed = {
+				original_tag = GER
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic
+			
+			modifier = {
+			
+			}
+        }
 	}
 }
