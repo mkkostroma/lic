@@ -52,5 +52,10 @@ spriteTypes = {
 		name = "GFX_idea_GER_Armistice"
 		texturefile = "gfx/interface/ideas/GER_Armistice.dds"
 	}
-
+		
+		spriteType = {
+		name = "GFX_idea_GER_Divided_Army"
+		texturefile = "gfx/interface/ideas/GER_Divided_Army.dds"
+	}
+	
 	}

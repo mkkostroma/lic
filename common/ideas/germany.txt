@@ -58,7 +58,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic
+			picture = GER_Divided_Army
 			
 			modifier = {
 			
