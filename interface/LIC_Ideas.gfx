@@ -43,4 +43,9 @@ spriteTypes = {
 	
 	### GERMANY ###
 	
+		spriteType = {
+		name = "GFX_idea_GER_Hyperinflation"
+		texturefile = "gfx/interface/ideas/GER_Hyperinflation.dds"
+	}
+
 	}
