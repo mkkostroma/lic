@@ -10,6 +10,7 @@ state={
 
 	history={
 		owner = GER
+		victory_points = { 3558 1 }
 		buildings = {
 			infrastructure = 7
 			arms_factory = 0
